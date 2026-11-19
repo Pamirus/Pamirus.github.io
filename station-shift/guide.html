@@ -43,6 +43,17 @@
 <li><b>Power monitor</b> (PWR, in the Generator Room): the generator and its fuel, the sun and the time to the next shadow, the battery, the load, and which rooms have power.</li>
 <li><b>Atmos alerts</b> (AIR, in the Life Support): every room with a hull breach, less than 80 kPa of air on average, or its vents stopped for want of power.</li>
 </ul>
+<h2>Supply</h2>
+<p>The station starts every shift with <b>40 supply points</b>. The supply console (SUP, in the Cargo Bay) shows how many are left, on its face too, so whoever sees it knows.</p><ul>
+<li><b>Request</b>: anyone at the supply console can request an item. The request waits in the console's list (up to 5 at once), and Logistics hears about it on the headset.</li>
+<li><b>Approve</b>: approving a request spends its cost and takes 6 s of work (3 s for Logistics). The order lands on the delivery pad (PAD) 40 s later, 20 s when Logistics approved it, one order at a time. It stays marked for whoever asked until someone picks it up; they and Logistics hear when it lands.</li>
+<li><b>Export</b>: <i>Ship the pad</i> at the console sends away what lies on the pad: a crate brings 5 points, anything else 1. Order forms, belts and backpacks stay, and so do deliveries nobody has picked up yet. 6 crates wait in the storage of the Cargo Bay.</li>
+<li><b>Paperwork</b>: every approved order prints an order form at the console. Stamp it with the cargo stamp (Logistics carries it) and file it in the filing cabinet (FIL, in the Cargo Bay): 2 points.</li>
+</ul><table><tr><th>Order</th><th>Cost</th></tr>
+<tr><td>Hull plate</td><td>5 points</td></tr>
+<tr><td>Fuel cell</td><td>10 points</td></tr>
+<tr><td>First aid kit</td><td>5 points</td></tr>
+</table>
 <h2>Work that takes time</h2>
 <p>Stand still until the bar is full: a step, switching hands or using the belt stops the work.</p>
 <table><tr><th>Work</th><th>Takes</th><th>Faster for</th></tr>
@@ -54,10 +65,12 @@
 <tr><td>Refuel the generator</td><td>6 s</td><td>Engineer: 3 s</td></tr>
 <tr><td>Revive someone</td><td>6 s</td><td>Medic: 3 s</td></tr>
 <tr><td>Take something out of the backpack</td><td>1 s</td><td>—</td></tr>
+<tr><td>Approve a supply order</td><td>6 s</td><td>Logistics: 3 s</td></tr>
+<tr><td>Stamp an order form</td><td>1 s</td><td>—</td></tr>
 </table>
 <h2>Lost connection</h2>
 <p>If the app drops out (a call, the phone locked), your body sleeps where it stood for 3 minutes. Open the app again and you are back in it.</p>
 </main>
-<footer>Made from the game's own rules and map, version 0.14.0, on 2026-11-20.</footer>
+<footer>Made from the game's own rules and map, version 0.15.0, on 2026-11-20.</footer>
 </body>
 </html>

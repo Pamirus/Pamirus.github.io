@@ -670,8 +670,9 @@
 <rect x="491" y="383" width="8" height="8" fill="#58d68d"/>
 <rect x="347" y="473" width="8" height="8" fill="#58d68d"/>
 <text class="device" x="189" y="193">GEN</text>
-<text class="device" x="567" y="265">SUP</text>
+<text class="device" x="423" y="283">SUP</text>
 <text class="device" x="567" y="337">PAD</text>
+<text class="device" x="441" y="265">FIL</text>
 <text class="device" x="441" y="229">MON</text>
 <text class="device" x="261" y="157">PWR</text>
 <text class="device" x="261" y="265">AIR</text>
@@ -713,6 +714,18 @@
 <text class="item" x="189" y="373">T</text>
 <rect x="525" y="201" width="12" height="12" rx="2" fill="#a3e4d7"/>
 <text class="item" x="531" y="211">M</text>
+<rect x="525" y="255" width="12" height="12" rx="2" fill="#d4ac6e"/>
+<text class="item" x="531" y="265">#</text>
+<rect x="543" y="255" width="12" height="12" rx="2" fill="#d4ac6e"/>
+<text class="item" x="549" y="265">#</text>
+<rect x="561" y="255" width="12" height="12" rx="2" fill="#d4ac6e"/>
+<text class="item" x="567" y="265">#</text>
+<rect x="525" y="273" width="12" height="12" rx="2" fill="#d4ac6e"/>
+<text class="item" x="531" y="283">#</text>
+<rect x="543" y="273" width="12" height="12" rx="2" fill="#d4ac6e"/>
+<text class="item" x="549" y="283">#</text>
+<rect x="561" y="273" width="12" height="12" rx="2" fill="#d4ac6e"/>
+<text class="item" x="567" y="283">#</text>
 <text class="room" x="360" y="85">Bridge</text>
 <text class="room" x="360" y="283">Main Hallway</text>
 <text class="room" x="225" y="175">Generator Room</text>
@@ -723,7 +736,12 @@
 <text class="room" x="495" y="409">Crew Quarters</text>
 <text class="room" x="360" y="481">Airlock</text>
 </svg>
-<p class="legend"><span class="key gen">GEN</span> generator <span class="key sup">SUP</span> supply console <span class="key pad">PAD</span> delivery pad <span class="key mon">MON</span> crew monitor <span class="key pwr">PWR</span> power monitor <span class="key air">AIR</span> atmos alerts <span class="key panel"></span> power panel <span class="key cable"></span> cable; letters are items (see <a href="items.html">Items</a>).</p>
+<p class="legend"><span class="key gen">GEN</span> generator <span class="key sup">SUP</span> supply console <span class="key pad">PAD</span> delivery pad <span class="key fil">FIL</span> filing cabinet <span class="key mon">MON</span> crew monitor <span class="key pwr">PWR</span> power monitor <span class="key air">AIR</span> atmos alerts <span class="key panel"></span> power panel <span class="key cable"></span> cable; letters are items (see <a href="items.html">Items</a>).</p>
+<ul>
+<li><b>Supply console</b> (in the Cargo Bay): Shows the station's supply points. Anyone can request an item here; the request waits in its list until someone approves it, which spends the item's cost. Shipping the pad here sends away what lies on the delivery pad for supply points.</li>
+<li><b>Delivery pad</b> (in the Cargo Bay): Orders land here, marked for whoever asked until someone picks them up. What lies here can be shipped from the supply console.</li>
+<li><b>Filing cabinet</b> (in the Cargo Bay): Where stamped order forms are filed: 2 supply points each.</li>
+</ul>
 <table><tr><th>Room</th><th>What is there</th></tr>
 <tr><td>Bridge</td><td>—</td></tr>
 <tr><td>Main Hallway</td><td>—</td></tr>
@@ -731,11 +749,11 @@
 <tr><td>Life Support</td><td>the atmos alert console</td></tr>
 <tr><td>Workshop</td><td>where engineer starts</td></tr>
 <tr><td>Medbay</td><td>the crew monitor, where medic starts</td></tr>
-<tr><td>Cargo Bay</td><td>the supply console, the delivery pad, where logistics start</td></tr>
+<tr><td>Cargo Bay</td><td>the supply console, the delivery pad, the filing cabinet, where logistics start</td></tr>
 <tr><td>Crew Quarters</td><td>where the crew sleeps</td></tr>
 <tr><td>Airlock</td><td>—</td></tr>
 </table>
 </main>
-<footer>Made from the game's own rules and map, version 0.14.0, on 2026-11-20.</footer>
+<footer>Made from the game's own rules and map, version 0.15.0, on 2026-11-20.</footer>
 </body>
 </html>
