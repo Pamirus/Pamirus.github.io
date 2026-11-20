@@ -64,6 +64,7 @@ th { color: var(--muted); font-weight: 600; }
 .key.bench { background: #c8423c; }
 .key.window { background: #7fc4ea; }
 .key.solar { background: #2a4582; }
+.key.rail { background: #e6c45c; width: 14px; min-width: 14px; height: 3px; }
 footer { max-width: 900px; margin: 0 auto; padding: 16px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
 @media (max-width: 600px) {
   body { font-size: 16px; }
