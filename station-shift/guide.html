@@ -20,16 +20,19 @@
 <li><b>Move</b>: put your left thumb anywhere on the left half of the screen and slide.</li>
 <li><b>Act</b>: the orange buttons on the right offer what you can do here with what you hold, the most useful at the bottom.</li>
 <li><b>Hands</b>: two at the bottom; the outlined one is in use. Tap the other to switch.</li>
-<li><b>Belt</b>: the slots of the belt you wear show above the hands (4 on a toolbelt and 3 on a medical belt). Tap one to swap it with the hand in use; only what the belt is made for goes on it. When the hand in use holds something else, the slot's item comes out into your other hand, if it is free.</li>
+<li><b>Belt</b>: the slots of the belt you wear show above the hands (6 on a toolbelt and 3 on a medical belt). Tap one to swap it with the hand in use; only what the belt is made for goes on it. When the hand in use holds something else, the slot's item comes out into your other hand, if it is free.</li>
 <li><b>Backpack</b>: the Bag button beside the hands lists what is in it (up to 6 things). Putting in is quick; taking out takes 1 s.</li>
-<li><b>Gear</b>, at the top, shows what you wear and hold, a box per slot as in classic SS13. Tap <i>Belt</i>, <i>Back</i> or <i>ID</i> to take off what is there into a free hand, or to put on the belt, backpack or ID card in either hand (pick one up first); what is in it stays in it, also when it falls, and the box says how full it is. Tap a hand to use it. The panel stays open while you change things, with the hands and belt slots below it still at hand; tap elsewhere to close it. The dimmed slots wait for things the station does not have yet.</li>
+<li><b>Gear</b>, at the top, shows what you wear and hold, a box per slot as in classic SS13. Tap <i>Belt</i>, <i>Back</i>, <i>Suit</i>, <i>Head</i> or <i>ID</i> to take off what is there into a free hand, or to put on the belt, backpack, EVA suit, EVA helmet or ID card in either hand (pick one up first); what is in it stays in it, also when it falls, and the box says how full it is. <i>Pocket 1</i> and <i>Pocket 2</i> and, while a suit is worn, <i>Suit storage</i> swap with the hand in use like a belt slot. Tap a hand to use it. The panel stays open while you change things, with the hands and belt slots below it still at hand; tap elsewhere to close it. The dimmed slots wait for things the station does not have yet.</li>
 <li><b>Suit sensors</b>: tap <i>Uniform</i> in Gear to set what the crew monitor in the medbay shows of you: off, alive or dead, vitals, vitals and position. Suits start at "alive or dead"; medics will ask for more.</li>
 <li><b>Say</b>: ready-made lines for your job and room, or the keyboard. <i>Near</i> reaches people within 9 tiles, <i>Radio</i> everyone on the station.</li>
 <li><b>The yellow line</b> at the top right says what would help most right now.</li>
 <li>On a Mac: arrows or WASD move, Space or E acts, 1-3 pick an action, Q switches hands, Z/X/C/V use the belt, B opens the backpack, G opens Gear.</li></ul>
 <h2>Air and health</h2><ul>
 <li>Normal air is 101 kPa. Below 50 kPa there is not enough to breathe: 6 health a second, unless you carry an air tank.</li>
-<li>Below 20 kPa the body is crushed too: 8 health a second more, tank or not.</li>
+<li>Below 20 kPa the body is crushed too: 8 health a second more, tank or not, unless you wear the EVA suit and helmet together.</li>
+<li>Below 50 kPa there is not enough to breathe. An air tank anywhere on your body (in a hand, in your backpack or in an EVA suit's storage) spares your lungs.</li>
+<li>Below 20 kPa the body is crushed as well. Only the full EVA gear stops that: an EVA suit and an EVA helmet, both worn. Sealed in them you take no damage in vacuum as long as you carry an air tank; sealed without a tank you still suffocate, and a tank without the suit and helmet does not save you from the crush.</li>
+<li>An EVA suit's storage holds an air tank, so it need not be held. Two pockets hold one small thing each: air tank, wire cutters, screwdriver, multitool, stamp, order form and stamped form. A tank, a kit, a plate, a belt or an ID card does not fit a pocket.</li>
 <li>At 0 health you fall unconscious. Without treatment within 1 minute you die. A medic with a defibrillator can bring you back for 3 minutes after that; otherwise you watch the rest of the shift.</li>
 <li>The pressure lock: a powered door closes and seals when the air on its two sides differs by more than 25 kPa. A crowbar forces it open; it seals again once nobody stands in it.</li>
 <li>A room with power refills its air through its vents; a room with a hole in its wall cannot.</li></ul>
@@ -57,7 +60,7 @@
 <li><b>Rack</b>: A shelf against the wall for tools and supplies. Blocks the way and works like a table: Put on rack, Pick up.</li>
 <li><b>Closet</b>: Blocks the way and holds 8 things out of sight. Stand beside it and Open closet to see its contents as a list: Pick up takes a thing out, Put in puts what you hold in. Only you see inside, and it closes when you walk away. A locked closet has a light, red for an ID card that does not open it; it opens only for a card, worn or in the hand in use, with the access it asks for.</li>
 </ul>
-<p>Locked closets on this station: the Medbay (medical access) and the Cargo Bay (cargo access). Every other closet opens for anyone.</p>
+<p>Locked closets on this station: the Medbay (medical access), the Cargo Bay (cargo access) and the Airlock (engineering access). Every other closet opens for anyone.</p>
 <h2>Consoles</h2>
 <p>Nothing on your screen tells how the station is doing: the station announces trouble on the radio, and the rest is read at its consoles. Stand next to one to see it live. Like every console, it works only while its room has power; without power it is dark.</p><ul>
 <li><b>Crew monitor</b> (MON, in the Medbay): every suit that reports, with as much as its owner set the sensors to tell (alive or dead, health, where).</li>
