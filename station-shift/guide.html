@@ -22,11 +22,11 @@
 <li><b>Hands</b>: two at the bottom; the outlined one is in use. Tap the other to switch.</li>
 <li><b>Belt</b>: the slots of the belt you wear show above the hands (4 on a toolbelt and 3 on a medical belt). Tap one to swap it with the hand in use; only what the belt is made for goes on it. When the hand in use holds something else, the slot's item comes out into your other hand, if it is free.</li>
 <li><b>Backpack</b>: the Bag button beside the hands lists what is in it (up to 6 things). Putting in is quick; taking out takes 1 s.</li>
-<li><b>Wear</b> a belt or backpack you hold; <b>Take it off</b> with an empty hand. What is in it stays in it, also when it falls.</li>
+<li><b>Gear</b>, at the top, shows what you wear and hold, a box per slot as in classic SS13. Tap <i>Belt</i> or <i>Back</i> to take off what is there into a free hand, or to put on the belt or backpack in the hand in use (pick one up first); what is in it stays in it, also when it falls. Tap a hand to use it. The panel stays open while you change things, with the hands and belt slots below it still at hand; tap elsewhere to close it. The dimmed slots wait for things the station does not have yet.</li>
+<li><b>Suit sensors</b>: tap <i>Uniform</i> in Gear to set what the crew monitor in the medbay shows of you: off, alive or dead, vitals, vitals and position. Suits start at "alive or dead"; medics will ask for more.</li>
 <li><b>Say</b>: ready-made lines for your job and room, or the keyboard. <i>Near</i> reaches people within 9 tiles, <i>Radio</i> everyone on the station.</li>
-<li><b>Suit</b>: your suit sensors decide what the crew monitor in the medbay shows of you: off, alive or dead, vitals, vitals and position. Suits start at "alive or dead"; medics will ask for more.</li>
 <li><b>The yellow line</b> at the top right says what would help most right now.</li>
-<li>On a Mac: arrows or WASD move, Space or E acts, 1-3 pick an action, Q switches hands, Z/X/C/V use the belt, B opens the backpack.</li></ul>
+<li>On a Mac: arrows or WASD move, Space or E acts, 1-3 pick an action, Q switches hands, Z/X/C/V use the belt, B opens the backpack, G opens Gear.</li></ul>
 <h2>Air and health</h2><ul>
 <li>Normal air is 101 kPa. Below 50 kPa there is not enough to breathe: 6 health a second, unless you carry an air tank.</li>
 <li>Below 20 kPa the body is crushed too: 8 health a second more, tank or not.</li>
@@ -45,10 +45,10 @@
 <li><b>Atmos alerts</b> (AIR, in the Life Support): every room with a hull breach, less than 80 kPa of air on average, or its vents stopped for want of power. While there is one, the console flashes red on the map, so the alarm is seen from afar. Rooms switched off at their panels are only noted after the alarms; they set off none.</li>
 </ul>
 <h2>Supply</h2>
-<p>The station starts every shift with <b>40 supply points</b>. The supply console (SUP, in the Cargo Bay) shows how many are left, on its face too, so whoever sees it knows.</p><ul>
+<p>The station starts every shift with <b>40 supply points</b>. The supply console (SUP, in the Cargo Bay) shows how many are left, on its face too, so whoever sees it knows. Like every console, it works only while its room has power; without power it is dark.</p><ul>
 <li><b>Request</b>: anyone at the supply console can request an item. The request waits in the console's list (up to 5 at once), and Logistics hears about it on the headset.</li>
-<li><b>Approve</b>: approving a request spends its cost and takes 6 s of work (3 s for Logistics). The order lands on the delivery pad (PAD) 40 s later, 20 s when Logistics approved it, one order at a time. It stays marked for whoever asked until someone picks it up; they and Logistics hear when it lands.</li>
-<li><b>Deny</b> or <b>withdraw</b>: whoever asked can withdraw their request at the console at once. Anyone else can deny it, which takes 3 s of work (1.5 s for Logistics); whoever asked and Logistics hear who denied it. A request also leaves the list when whoever asked has been gone from the shift for 3 minutes.</li>
+<li><b>Approve</b>: approving a request spends its cost and takes 6 s of work (3 s for Logistics). The order lands on the delivery pad (PAD) 40 s later, 20 s when Logistics approved it, one order at a time. It stays marked for whoever asked until someone picks it up, or until they leave or can no longer be revived; they and Logistics hear when it lands.</li>
+<li><b>Deny</b> or <b>withdraw</b>: whoever asked can withdraw their request at the console at once. Anyone else can deny it, which takes 3 s of work (1.5 s for Logistics); whoever asked and Logistics hear who denied it. A request also leaves the list when whoever asked has been gone from the shift for 3 minutes, or died and can no longer be revived.</li>
 <li><b>Export</b>: <i>Ship the pad</i> at the console sends away the goods on the pad: a crate brings 5 points. The station's own things stay, tools and paperwork included, and so do deliveries nobody has picked up yet. 6 crates wait in the storage of the Cargo Bay.</li>
 <li><b>Paperwork</b>: every approved order prints an order form at the console. Stamp it with the cargo stamp (Logistics carries one, and another lies in the Cargo Bay) and file it in the filing cabinet (FIL, in the Cargo Bay): 2 points.</li>
 </ul><table><tr><th>Order</th><th>Cost</th></tr>
@@ -76,6 +76,6 @@
 <h2>Lost connection</h2>
 <p>If the app drops out (a call, the phone locked), your body sleeps where it stood for 3 minutes. Open the app again and you are back in it.</p>
 </main>
-<footer>Made from the game's own rules and map, version 0.17.0, on 2026-11-20.</footer>
+<footer>Made from the game's own rules and map, version 0.18.0, on 2026-11-20.</footer>
 </body>
 </html>
