@@ -58,6 +58,9 @@ th { color: var(--muted); font-weight: 600; }
 .key { display: inline-block; min-width: 14px; height: 14px; margin: 0 4px 0 10px; vertical-align: middle; font-size: 10px; font-weight: 700; color: var(--accent); }
 .key.panel { background: #58d68d; }
 .key.cable { background: #c0703a; width: 6px; min-width: 6px; height: 6px; }
+.key.table { background: #b08a5a; }
+.key.rack { background: #8a6f4a; }
+.key.closet { background: #6d8cb4; }
 footer { max-width: 900px; margin: 0 auto; padding: 16px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
 @media (max-width: 600px) {
   body { font-size: 16px; }

@@ -39,7 +39,25 @@
 <p>A dark room is <i>switched off</i> at its panel, <i>cut off</i> (its panel is not connected to a cable that a source feeds: look for a cut cable) or <i>short of power</i> (connected, but there is too little). The power monitor says which for every room, the top of your screen for the room you are in.</p>
 <p>A door draws little power: it works while every room it joins is connected to a cable that a source feeds right now, even when that room is switched off or short of power. A cut cable kills it; a door without power can be forced open with a crowbar.</p>
 <h2>ID cards and access</h2>
-<p>Everyone starts wearing an ID card with their name, their job and the access the job gives (see <a href="jobs.html">Jobs</a>). A powered door into a room that asks for access opens only for a card that has it: the one in your <i>ID</i> slot in Gear, or the one in the hand in use. Otherwise it stays shut and your screen says <i>Access denied</i>; the <a href="station.html">Station</a> page lists who gets in where. A door without power does not read cards: a crowbar forces it open, whoever holds it. Bolting and unbolting a door needs Engineering access. The icon over each head shows the job on the card that person wears, or a red question mark when they wear none. Lose your card and the doors stay shut; the dead drop theirs.</p>
+<p>Everyone starts wearing an ID card with their name, their job and the access the job gives (see <a href="jobs.html">Jobs</a>). A powered door into a room that asks for access opens only for a card that has it: the one in your <i>ID</i> slot in Gear, or the one in the hand in use. Otherwise it stays shut and your screen says <i>Access denied</i>; the <a href="station.html">Station</a> page lists who gets in where. A door without power does not read cards: a crowbar forces it open, whoever holds it. The icon over each head shows the job on the card that person wears, or a red question mark when they wear none. Lose your card and the doors stay shut, unless you can hack them (see below); the dead drop theirs.</p>
+<h2>Hacking doors</h2>
+<p>A door has no bolt button. Behind its maintenance panel are 5 wires, each a different colour; bolting a door, testing its light or opening it without a card is done by working on them. Stand next to the door, hold a <b>screwdriver</b> and tap <i>Open panel</i> (<i>Close panel</i> to shut it again); it takes 2 s, 1 s for an Engineer, and no access is needed. An open panel shows on the door. Then tap <i>Door wires</i> to list the wires by colour, each with what it does and whether it is cut, and tap a wire to use the tool in your active hand on it, at once.</p>
+<ul><li><b>Wirecutters</b> cut an intact wire.</li><li>A <b>cable coil</b> mends a cut one.</li><li>A <b>multitool</b> pulses an intact wire; it does something to bolts, bolt light and opening only.</li></ul>
+<table><tr><th>Wire</th><th>If cut</th><th>If pulsed</th></tr>
+<tr><td>Power</td><td>The Door Is Dead: It Does Not Open, Bolt Or Seal, And A Crowbar Forces It Open Unless It Is Bolted.</td><td>Nothing.</td></tr>
+<tr><td>Bolts</td><td>The Bolts Stay As They Are: A Bolted Door Cannot Be Unbolted And A Free One Cannot Be Bolted.</td><td>Bolts A Door With Power, Or Unbolts It. A Door Someone Stands In Cannot Be Bolted.</td></tr>
+<tr><td>Bolt Light</td><td>The Bolt Indicator Stays Dark, Bolted Or Not.</td><td>Toggles The Test Light, Which Shows The Bolt Indicator Whether Or Not The Door Is Bolted.</td></tr>
+<tr><td>Opening</td><td>The Door Does Not Open For Anyone, Access Or Not; A Crowbar Forces It Open.</td><td>Opens A Closed Door With Power At Once, Whatever Access It Asks For.</td></tr>
+<tr><td>Safety</td><td>The Pressure Lock Is Off: The Door Never Seals, And One That Was Sealed Opens.</td><td>Nothing.</td></tr>
+</table>
+<p>Which colour is which changes from door to door and from shift to shift, and only someone at the open panel sees them. The colours are red, blue, green, yellow, white.</p>
+<h2>Tables, racks and closets</h2>
+<p>Things do not only lie on the floor. Furniture blocks the way, so walk round it.</p><ul>
+<li><b>Table</b>: Blocks the way. Things lie on it: stand beside it and Put on table what you hold, and Pick up from it as from the floor.</li>
+<li><b>Rack</b>: A shelf against the wall for tools and supplies. Blocks the way and works like a table: Put on rack, Pick up.</li>
+<li><b>Closet</b>: Blocks the way and holds 8 things out of sight. Stand beside it and Open closet to see its contents as a list: Pick up takes a thing out, Put in puts what you hold in. Only you see inside, and it closes when you walk away. A locked closet has a light, red for an ID card that does not open it; it opens only for a card, worn or in the hand in use, with the access it asks for.</li>
+</ul>
+<p>Locked closets on this station: the Medbay (medical access) and the Cargo Bay (cargo access). Every other closet opens for anyone.</p>
 <h2>Consoles</h2>
 <p>Nothing on your screen tells how the station is doing: the station announces trouble on the radio, and the rest is read at its consoles. Stand next to one to see it live. Like every console, it works only while its room has power; without power it is dark.</p><ul>
 <li><b>Crew monitor</b> (MON, in the Medbay): every suit that reports, with as much as its owner set the sensors to tell (alive or dead, health, where).</li>
@@ -74,10 +92,11 @@
 <tr><td>Approve a supply order</td><td>6 s</td><td>Logistics: 3 s</td></tr>
 <tr><td>Stamp an order form</td><td>1 s</td><td>—</td></tr>
 <tr><td>Deny a supply request</td><td>3 s</td><td>Logistics: 1.5 s</td></tr>
+<tr><td>Open or close a door's panel</td><td>2 s</td><td>Engineer: 1 s</td></tr>
 </table>
 <h2>Lost connection</h2>
 <p>If the app drops out (a call, the phone locked), your body sleeps where it stood for 3 minutes. Open the app again and you are back in it.</p>
 </main>
-<footer>Made from the game's own rules and map, version 0.21.0, on 2026-11-20.</footer>
+<footer>Made from the game's own rules and map, version 0.22.0, on 2026-11-20.</footer>
 </body>
 </html>
