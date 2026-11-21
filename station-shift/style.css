@@ -51,12 +51,15 @@ th { color: var(--muted); font-weight: 600; }
 .map { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; background: #060a12; }
 .map text { font-family: inherit; text-anchor: middle; }
 .map .room { fill: #fff; font-size: 12px; font-weight: 600; paint-order: stroke; stroke: #0b111b; stroke-width: 3px; }
+.map .signtext { font-size: 6px; font-weight: 700; }
 .map .item { fill: #101820; font-size: 11px; font-weight: 700; }
 .map .device { fill: var(--accent); font-size: 9px; font-weight: 700; }
 .legend { color: var(--muted); font-size: 15px; }
 .note { color: var(--muted); font-size: 15px; border-left: 3px solid var(--line); padding-left: 12px; }
 .key { display: inline-block; min-width: 14px; height: 14px; margin: 0 4px 0 10px; vertical-align: middle; font-size: 10px; font-weight: 700; color: var(--accent); }
 .key.panel { background: #58d68d; }
+.key.hallway { background: #6f7f96; }
+.key.tunnel { background: #2a211b; border: 1px solid #52473d; }
 .key.cable { background: #c0703a; width: 6px; min-width: 6px; height: 6px; }
 .key.table { background: #b08a5a; }
 .key.rack { background: #8a6f4a; }
