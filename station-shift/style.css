@@ -64,6 +64,7 @@ th { color: var(--muted); font-weight: 600; }
 .key.table { background: #b08a5a; }
 .key.rack { background: #8a6f4a; }
 .key.closet { background: #6d8cb4; }
+.key.cabinet { background: #d9b36a; }
 .key.bench { background: #c8423c; }
 .key.window { background: #7fc4ea; }
 .key.solar { background: #2a4582; }
