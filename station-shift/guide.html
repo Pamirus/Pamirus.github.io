@@ -20,7 +20,7 @@
 <h2>The three objectives</h2><ul>
 <li><b>Station intact</b>: at least 80% of the rooms have power and on average 80 kPa of air or more.</li>
 <li><b>Nobody dies.</b></li>
-<li><b>The generator never runs dry.</b> Without fuel the whole station goes dark.</li></ul>
+<li><b>The power never fails.</b> Keep the arrays, the battery bank and the inverters running: a dark station is a lost station.</li></ul>
 <h2>Controls</h2><ul>
 <li><b>Move</b>: put your left thumb anywhere on the left half of the screen and slide.</li>
 <li><b>Act</b>: the orange buttons on the right offer what you can do here with what you hold, the most useful at the bottom.</li>
@@ -71,8 +71,11 @@
 <li>The pressure lock: a powered door closes and seals when the air on its two sides differs by more than 25 kPa. A crowbar forces it open; it seals again once nobody stands in it.</li>
 <li>A room with power refills its air through its vents; a room with a hole in its wall cannot.</li></ul>
 <h2>Power</h2>
-<p>Three sources feed the cables they stand on: the <b>generator</b> (70 kW, one fuel cell every 6 minutes), the <b>solar array</b> (40 kW, in sunlight only) and the <b>battery</b> (up to 60 kW, until it is empty). The station circles Earth every 8 minutes and spends the last 2 minutes of each orbit in its shadow, so the battery has to carry what the sun cannot; whatever is left over charges it.</p>
-<p>Every room draws 2 kW while its panel is switched on and connected. When there is too little, rooms keep their power in this order and the last go dark first: Atmospherics, Medbay, Generator Room, Bridge, Central Hub, Engineering Hall, West Transit Tube, North Transit Tube, South Transit Tube, East Transit Tube, Cargo Entrance, Cargo Reception, Cargo Storage Bay, Main Airlock and Docking Port, Machine Workshop, Electrical Workshop, Construction Workshop, Solar Control, EVA Airlock, Medical Reception, Surgery, Chemistry, Morgue, Security Office, Brig, Cell 1, Warden's Desk, Research and Development, Robotics, Genetics, Reactor Room, Turbine Hall, Crew Quarters, Restroom, Library, Chapel, Captain's Office, Head of Personnel's Office, Command Conference Room, Bar, Hydroponics, Kitchen, Mining Dock, Janitor's Closet, Maint. Tunnels by Robotics, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube. Switching off a room nobody needs, at its power panel, leaves more for the rest.</p>
+<p>Solar is the only source. PV arrays outside the hull (4 to 8 panels each) follow the sun and feed a charge controller each, in Solar Control; the controllers charge the battery bank (8 cells, in the Battery Room) and feed the inverters (4 modules, in the Inverter Room), which pass AC through the transformer to the switchgear (the Transformer and Switchgear Room). Its breakers send the power out on four feeders, each serving a part of the station's room panels.</p>
+<p>The station circles Earth every 8 minutes and spends the last 2 minutes of each orbit in shadow: the arrays give nothing then and the bank carries the whole station. Each array follows the sun within its own range, so the output of all of them together rises and falls over the orbit.</p>
+<p>A low bank (below 15%) is a soft blackout: it gives only a reserve, so the rooms first in the power order stay lit and the rest go dark. When the arrays' output has fallen seriously (below 35% of what whole, clean panels give: broken or dirty panels, tripped controllers) the whole station goes dark, a hard blackout, until it is back above 50%.</p>
+<p>Nothing is announced on the radio or the screen: the three consoles of Solar Control show the arrays' output, the battery bank and the inverters, the transformer and the feeders to whoever stands at them. The power monitor still lists every room.</p>
+<p>Every room draws 2 kW while its panel is switched on and connected. When there is too little, rooms keep their power in this order and the last go dark first: Atmospherics, Medbay, Transformer and Switchgear Room, Bridge, Central Hub, Engineering Hall, West Transit Tube, North Transit Tube, South Transit Tube, East Transit Tube, Cargo Entrance, Cargo Reception, Cargo Storage Bay, Main Airlock and Docking Port, Machine Workshop, Electrical Workshop, Construction Workshop, Solar Control, EVA Airlock, Medical Reception, Surgery, Chemistry, Morgue, Security Office, Brig, Cell 1, Warden's Desk, Research and Development, Robotics, Genetics, Battery Room, Inverter Room, Crew Quarters, Restroom, Library, Chapel, Captain's Office, Head of Personnel's Office, Command Conference Room, Bar, Hydroponics, Kitchen, Mining Dock, Janitor's Closet, Maint. Tunnels by Robotics, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube. Switching off a room nobody needs, at its power panel, leaves more for the rest.</p>
 <p>A dark room is <i>switched off</i> at its panel, <i>cut off</i> (its panel is not connected to a cable that a source feeds: look for a cut cable) or <i>short of power</i> (connected, but there is too little). The power monitor says which for every room, the top of your screen for the room you are in.</p>
 <p>A door draws little power: it works while every room it joins is connected to a cable that a source feeds right now, even when that room is switched off or short of power. A cut cable kills it; a door without power can be forced open with a crowbar.</p>
 <p>A hull wall (an outer wall or window with space beyond) is opened in two steps. A crowbar strips its plating (4 seconds; the plating drops as a hull plate): the wall still holds the air, and everyone sees it drawn with its plating off. Then a welder in the active hand cuts it through (6 seconds) and the air rushes out.</p>
@@ -114,7 +117,7 @@
 <h2>Consoles</h2>
 <p>Nothing on your screen tells how the station is doing: the station announces trouble on the radio, and the rest is read at its consoles. Stand next to one to see it live. Like every console, it works only while its room has power; without power it is dark.</p><ul>
 <li><b>Crew monitor</b> (MON, in the Medbay): every suit that reports, with as much as its owner set the sensors to tell (alive or dead, health, where).</li>
-<li><b>Power monitor</b> (PWR, in the Generator Room): the generator and its fuel, the sun and the time to the next shadow, the battery, the load, and which rooms have power and why the others do not.</li>
+<li><b>Power monitor</b> (PWR, in the Transformer and Switchgear Room): the generator and its fuel, the sun and the time to the next shadow, the battery, the load, and which rooms have power and why the others do not.</li>
 <li><b>Atmos console</b> (AIR, in the Atmospherics): every room with an air alarm, the worst first, with what is wrong: a hull breach, less than 80 kPa of air on average, bad air (O2, CO2, ember gas, temperature) or vents stopped for want of power; tap a room for its card. Any engineer sends a room Panic or Normal from here, or Panic all red rooms. While there is a room in trouble, the console flashes red on the map, so the alarm is seen from afar. Rooms switched off at their panels are only noted; they set off none.</li>
 </ul>
 <h2>Supply</h2>
@@ -161,6 +164,6 @@
 <h2>Lost connection</h2>
 <p>If the app drops out (a call, the phone locked), your body sleeps where it stood for 3 minutes. Open the app again and you are back in it.</p>
 </main>
-<footer>Made from the game's own rules and map, version 0.47.0, on 2026-11-21.</footer>
+<footer>Made from the game's own rules and map, version 0.48.0, on 2026-11-22.</footer>
 </body>
 </html>
