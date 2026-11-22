@@ -6836,6 +6836,7 @@
 <li><b>Tunnel air alarms</b> (22): the rooms an engineer's card does not open have an alarm in the maintenance tunnel beside their wall, so the air there can still be controlled.</li>
 <li><b>Brig cells</b> (3): A cell has one door to the brig corridor, with windows beside it. A Security Officer or the Captain, standing at the door with the card, can lock it while someone is inside, for a Station Law sentence of 2, 5, 10 minutes. Until the time runs out nobody opens it from either side: not with a card, a crowbar, a multitool or cut wires, and a power cut does not undo it (the lock is mechanical). The door shows the time left. A Security Officer or the Captain can release it early at the door. Once it is unlocked, whoever is inside leaves by it without a card.</li>
 </ul>
+<p>The Captain's ID card has all areas: it opens every door, so the Captain is not repeated in the table.</p>
 <table><tr><th>Room</th><th>What is there</th><th>Who gets in</th></tr>
 <tr><td>Central Hub</td><td>the ration dispenser, the job board, 11 benchs, 29 seats, 18 props, 12 tables</td><td>everyone</td></tr>
 <tr><td>Bar</td><td>where bartender starts, 4 racks, 2 bar mixers, 3 tables</td><td>Bartender (bar access)</td></tr>
@@ -6848,26 +6849,26 @@
 <tr><td>Security Transit Tube</td><td>1 service window with roll shutters</td><td>everyone</td></tr>
 <tr><td>Power Transit Tube</td><td>—</td><td>everyone</td></tr>
 <tr><td>Quarters Transit Tube</td><td>—</td><td>everyone</td></tr>
-<tr><td>Bridge</td><td>the tactical table and 3 console repeaters, 8 props, 8 tables, 18 seats</td><td>nobody yet (command access)</td></tr>
-<tr><td>Captain's Office</td><td>3 tables, 2 benchs</td><td>nobody yet (command access)</td></tr>
-<tr><td>Head of Personnel's Office</td><td>1 service window with roll shutters, a seat, a table</td><td>nobody yet (command access)</td></tr>
-<tr><td>Command Conference Room</td><td>3 tables, 3 benchs</td><td>nobody yet (command access)</td></tr>
+<tr><td>Bridge</td><td>the tactical table and 3 console repeaters, 8 props, 8 tables, 18 seats</td><td>Head of Personnel (command access)</td></tr>
+<tr><td>Captain's Office</td><td>where the Captain starts, 3 tables, 2 benchs</td><td>Head of Personnel (command access)</td></tr>
+<tr><td>Head of Personnel's Office</td><td>1 service window with roll shutters, where the Head of Personnel starts, a seat, a table</td><td>Head of Personnel (command access)</td></tr>
+<tr><td>Command Conference Room</td><td>3 tables, 3 benchs</td><td>Head of Personnel (command access)</td></tr>
 <tr><td>Medical Reception</td><td>3 service windows with roll shutters, 6 benchs</td><td>everyone</td></tr>
 <tr><td>Medbay</td><td>2 service windows with roll shutters, the crew monitor, where medical doctor starts, 6 tables, 7 seats, a locked closet (medical access), a locked cabinet (medical access)</td><td>Medical Doctor (medical access)</td></tr>
 <tr><td>Surgery</td><td>3 props, a seat, a rack</td><td>Medical Doctor (medical access)</td></tr>
 <tr><td>Chemistry</td><td>1 service window with roll shutters, a cabinet, 3 tables, a seat, 3 racks</td><td>Medical Doctor (medical access)</td></tr>
-<tr><td>Research and Development</td><td>4 tables</td><td>nobody yet (science access)</td></tr>
-<tr><td>Robotics</td><td>2 racks, 2 tables</td><td>nobody yet (science access)</td></tr>
-<tr><td>Genetics</td><td>2 tables</td><td>nobody yet (science access)</td></tr>
-<tr><td>Security Office</td><td>1 service window with roll shutters, a table, a seat, 2 benchs, 2 props</td><td>nobody yet (security access)</td></tr>
-<tr><td>Law Office</td><td>3 seats, 4 props, 2 tables</td><td>everyone</td></tr>
-<tr><td>Brig</td><td>—</td><td>nobody yet (security access)</td></tr>
+<tr><td>Research and Development</td><td>4 tables</td><td>only the Captain (science access)</td></tr>
+<tr><td>Robotics</td><td>2 racks, 2 tables</td><td>only the Captain (science access)</td></tr>
+<tr><td>Genetics</td><td>2 tables</td><td>only the Captain (science access)</td></tr>
+<tr><td>Security Office</td><td>1 service window with roll shutters, where the Security Officer starts, a table, a seat, 2 benchs, 2 props</td><td>Security Officer (security access)</td></tr>
+<tr><td>Law Office</td><td>where the Lawyer starts, 3 seats, 4 props, 2 tables</td><td>everyone</td></tr>
+<tr><td>Brig</td><td>—</td><td>Security Officer (security access)</td></tr>
 <tr><td>Cargo Entrance</td><td>the request console, 1 service window with roll shutters, a prop</td><td>everyone</td></tr>
 <tr><td>Cargo Reception</td><td>the order console, the filing cabinet, 1 service window with roll shutters, where logistics start, 3 tables, 2 seats</td><td>Logistics (cargo access)</td></tr>
 <tr><td>Cargo Storage Bay</td><td>the delivery pad, a locked closet (cargo access)</td><td>Logistics (cargo access)</td></tr>
 <tr><td>Main Airlock and Docking Port</td><td>4 seats</td><td>everyone</td></tr>
 <tr><td>Mining Dock</td><td>2 tables, 3 seats</td><td>Logistics (cargo access)</td></tr>
-<tr><td>Janitor's Closet</td><td>3 racks</td><td>everyone</td></tr>
+<tr><td>Janitor's Closet</td><td>where the Janitor starts, 3 racks</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
 <tr><td>Engineering Hall</td><td>a rack</td><td>everyone</td></tr>
 <tr><td>Atmospherics</td><td>the atmos alert console, 8 props, 7 racks, 4 tables, 2 closets</td><td>Station Engineer (engineering access)</td></tr>
 <tr><td>Machine Workshop</td><td>where station engineer starts, 12 racks, 4 tables, a lathe, 2 props, a closet</td><td>Station Engineer (engineering access)</td></tr>
@@ -6882,33 +6883,33 @@
 <tr><td>Restroom</td><td>3 seats, a bench, 2 props, a closet</td><td>everyone</td></tr>
 <tr><td>Library</td><td>6 props, 4 seats, 2 tables</td><td>everyone</td></tr>
 <tr><td>Chapel</td><td>4 benchs, 3 tables, a prop</td><td>everyone</td></tr>
-<tr><td>Maint. Tunnels by Robotics</td><td>a rack, a closet, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Robotics</td><td>a rack, a closet, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
 <tr><td>Crew-Transfer Shuttle</td><td>16 seats, no power panel</td><td>everyone</td></tr>
-<tr><td>Cell 1</td><td>a bench</td><td>nobody yet (security access)</td></tr>
+<tr><td>Cell 1</td><td>a bench</td><td>Security Officer (security access)</td></tr>
 <tr><td>Kitchen</td><td>where chef starts, 5 tables, a seat, 2 stoves, a closet, a locked cabinet (kitchen or botanics access)</td><td>Chef (kitchen access)</td></tr>
 <tr><td>Morgue</td><td>6 props</td><td>Medical Doctor (medical access)</td></tr>
 <tr><td>EVA Airlock 2</td><td>—</td><td>Station Engineer (engineering access)</td></tr>
 <tr><td>EVA Pod</td><td>—</td><td>Station Engineer (engineering access)</td></tr>
 <tr><td>High-Voltage Kiosk</td><td>the transformer, the switchgear (4 breakers) and the gantry crane, 3 props, 3 racks</td><td>Station Engineer (engineering access)</td></tr>
-<tr><td>Maint. Tunnels by Solar Control</td><td>a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Bridge</td><td>a closet, a rack</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Power Tube</td><td>a storage crate, a closet, a rack</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by EVA Airlock 2</td><td>a rack, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Hub</td><td>a closet, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Atmospherics</td><td>a rack, a closet, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Chemistry</td><td>a rack, a closet, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Quarters Tube</td><td>a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by West Tube</td><td>a rack</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by East Tube</td><td>a closet</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by South Tube</td><td>a rack, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Restroom</td><td>a closet, a rack, a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Cargo Reception</td><td>a storage crate</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Cargo Storage</td><td>a rack</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Maint. Tunnels by Janitor</td><td>a closet</td><td>Station Engineer (maintenance access)</td></tr>
-<tr><td>Cell 2</td><td>a bench</td><td>nobody yet (security access)</td></tr>
-<tr><td>Cell 3</td><td>a bench</td><td>nobody yet (security access)</td></tr>
+<tr><td>Maint. Tunnels by Solar Control</td><td>a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Bridge</td><td>a closet, a rack</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Power Tube</td><td>a storage crate, a closet, a rack</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by EVA Airlock 2</td><td>a rack, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Hub</td><td>a closet, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Atmospherics</td><td>a rack, a closet, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Chemistry</td><td>a rack, a closet, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Quarters Tube</td><td>a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by West Tube</td><td>a rack</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by East Tube</td><td>a closet</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by South Tube</td><td>a rack, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Restroom</td><td>a closet, a rack, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Cargo Reception</td><td>a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Cargo Storage</td><td>a rack</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Maint. Tunnels by Janitor</td><td>a closet</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
+<tr><td>Cell 2</td><td>a bench</td><td>Security Officer (security access)</td></tr>
+<tr><td>Cell 3</td><td>a bench</td><td>Security Officer (security access)</td></tr>
 </table>
 </main>
-<footer>Made from the game's own rules and map, version 0.53.0, on 2026-11-22.</footer>
+<footer>Made from the game's own rules and map, version 0.54.0, on 2026-11-22.</footer>
 </body>
 </html>
