@@ -3,19 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Station Shift: a co-operative game for phones. A small crew keeps a space station running through a shift.">
 <title>Incidents · Station Shift</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><a class="brand" href="index.html">Station Shift</a><nav><a href="index.html">Home</a><a href="guide.html">How to play</a><a href="jobs.html">Jobs</a><a href="items.html">Items</a><a href="botanics.html">Botanics</a><a href="incidents.html" aria-current="page">Incidents</a><a href="station.html">Station</a><a href="law.html">Station Law</a><a href="sop.html">SOP</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav></header>
-<main>
+<a class="skip" href="#main">Skip to the content</a>
+<header><a class="brand" href="index.html">Station Shift</a><nav aria-label="Pages"><a href="index.html">Home</a><a href="guide.html">How to play</a><a href="jobs.html">Jobs</a><a href="items.html">Items</a><a href="maps.html">Maps</a><a href="incidents.html" aria-current="page">Incidents</a><a href="law.html">Law &amp; SOP</a><a href="credits.html">Credits</a><a href="privacy.html">Privacy</a></nav></header>
+<main id="main">
 <h1>Incidents</h1>
-<p>Every shift brings 2 incidents plus one for every 3 people on it. The station announces each one on the radio; the end-of-shift summary shows how long each took to fix.</p>
-<section class="card" id="erosion"><h2>Plating erosion</h2><p>Dust and heat eat at one outer wall and the walls beside it: the plating there goes thin (a stain on the wall), then cracks and leaks a little air, and with no one to mend it opens to space, the room losing its air within seconds.</p><p><b>Fix:</b> Look at the outer walls (or carry a thickness gauge). An engineer reinforces a worn wall with the welder alone, and patches a cracked one with a hull plate and the welder. A hole is patched the same way; an air tank in the EVA suit's storage keeps them breathing inside. If the doors are sealed, a crowbar forces one open (Logistics does it fastest). Once the hole is patched the room's vents refill it.</p></section>
-<section class="card" id="power"><h2>Power fault</h2><p>A cable near a room's power panel fails: the room is cut off and goes dark, and its doors, vents and consoles stop working.</p><p><b>Fix:</b> Find the gap in the cable line near the room's panel (a fault is always where cable lies open: in a maintenance tunnel or under a lifted floor tile) and lay cable over it with a cable coil.</p></section>
-<section class="card" id="leak"><h2>Fuel leak</h2><p>The generator loses half of its fuel.</p><p><b>Fix:</b> Someone requests a fuel cell at the supply console (the request console, where a map has two) and Logistics approves it; whoever carries it to the generator refuels it.</p></section>
-<section class="card" id="breach"><h2>Worn plating gave way</h2><p>A cracked outer wall that nobody mended opened to space: the room loses its air within seconds and the pressure lock seals its doors.</p><p><b>Fix:</b> A hull plate with a welder in the other hand patches the hole; an EVA suit's air tank keeps the repairer breathing.</p></section>
+<p class="lead">Every shift brings 2 incidents plus one for every 3 people on it. The station announces some on the radio; the end-of-shift summary shows how long each took to fix.</p>
+<p>There is no fuel on the station: its power is solar only. What goes wrong is wear, in the hull and in the power plant.</p>
+<ul class="toc" aria-label="Incidents"><li><a href="#hull">Hull</a></li><li><a href="#power">Power fault</a></li><li><a href="#radiation">Radiation belt</a></li><li><a href="#wear">Developing faults</a></li></ul>
+<h2 id="hull">Hull wear</h2>
+<p>Dust and heat eat at the outer walls all shift. A wall goes <b>worn</b> (a stain), then <b>cracked</b> (a small leak), and a crack nobody mends opens to space.</p><ul class="kit">
+<li><img class="spr" src="img/hull/worn.png" width="64" height="64" alt="Worn wall"> Worn</li>
+<li><img class="spr" src="img/hull/cracked.png" width="64" height="64" alt="Cracked wall"> Cracked</li>
+<li><img class="spr" src="img/hull/breach.png" width="64" height="64" alt="Hole wall"> Hole</li>
+</ul>
+<section class="card" id="erosion"><h3>Plating erosion</h3><p>Dust and heat eat at one outer wall and the walls beside it: the plating there goes thin (a stain on the wall), then cracks and leaks a little air, and with no one to mend it opens to space, the room losing its air within seconds.</p><p><b>Fix:</b> Look at the outer walls (or carry a thickness gauge). An engineer reinforces a worn wall with the welder alone, and patches a cracked one with a hull plate and the welder. A hole is patched the same way; an air tank in the EVA suit's storage keeps them breathing inside. If the doors are sealed, a crowbar forces one open (Logistics does it fastest). Once the hole is patched the room's vents refill it.</p></section>
+<section class="card" id="breach"><h3>Worn plating gave way</h3><p>A cracked outer wall that nobody mended opened to space: the room loses its air within seconds and the pressure lock seals its doors.</p><p><b>Fix:</b> A hull plate with a welder in the other hand patches the hole; an EVA suit's air tank keeps the repairer breathing.</p></section>
+<figure class="inline"><a href="img/shots/hull_worn.png"><img src="img/shots/hull_worn.png" width="1280" height="720" alt="A wall with a dark stain where the plating is thin." loading="lazy"></a><figcaption>A worn wall: a stain on the plating.</figcaption></figure>
+<figure class="inline"><a href="img/shots/hull_cracked.png"><img src="img/shots/hull_cracked.png" width="1280" height="720" alt="A wall with a hairline crack and a puff of mist." loading="lazy"></a><figcaption>A cracked wall leaks a little air.</figcaption></figure>
+<figure class="inline"><a href="img/shots/hull_patching.png"><img src="img/shots/hull_patching.png" width="1280" height="720" alt="A crew member welding a plate onto a cracked wall." loading="lazy"></a><figcaption>Patching a cracked wall with a hull plate and a welder.</figcaption></figure>
+<h2 id="power-fault">Power fault</h2>
+<section class="card" id="power"><h3>Power fault</h3><p>A cable near a room's power panel fails: the room is cut off and goes dark, and its doors, vents and consoles stop working.</p><p><b>Fix:</b> Find the gap in the cable line near the room's panel (a fault is always where cable lies open: in a maintenance tunnel or under a lifted floor tile) and lay cable over it with a cable coil.</p></section>
+<h2 id="radiation">Radiation belt</h2>
+<p>The station crosses a radiation belt once, and in half the shifts twice. The radio warns 40 seconds ahead: get into the maintenance tunnels, whose doors open to everyone and blink orange. The belt lasts 60 to 90 seconds. Whoever is not sheltered loses 3 health every 3.5 s; the tunnels and the EVA pods are safe, the rooms, the hall and the truss are not. A few hull walls wear while it lasts. After the belt the radio says so, and the doors go back to their access 120 seconds later.</p>
+<figure class="inline"><a href="img/shots/radiation.png"><img src="img/shots/radiation.png" width="1280" height="720" alt="A crew member sheltering in a dim maintenance tunnel." loading="lazy"></a><figcaption>In a maintenance tunnel while the radiation belt passes.</figcaption></figure>
+<h2 id="wear">Developing faults</h2>
+<p>Parts of the solar plant wear out slowly: a fault <i>develops</i> over minutes (a part runs hotter, gives less, and only then fails), and nothing is announced on the radio. The consoles in Solar Control show it as it grows. Nothing starts in the first 150 seconds or the last 4 minutes of a shift, and no more than 2 parts are in trouble at once. A 25-minute shift sees one to three. See the Power part of <a href="guide.html#power">How to play</a> for the repairs.</p>
+<ul>
+<li>A controller's vents are clogging. (common)</li>
+<li>A controller's terminals are wearing. </li>
+<li>A battery cell is starting to fail. (common)</li>
+<li>An inverter fan is wearing out. </li>
+<li>An inverter module's capacitors are ageing. </li>
+<li>The transformer's winding is ageing. </li>
+<li>A load on a feeder is starting to leak. (common)</li>
+<li>A solar panel is starting to crack. (common)</li>
+<li>An array's bolts are working loose. </li>
+<li>An array's tracking joint is wearing. </li>
+</ul>
 </main>
-<footer>Made from the game's own rules and map, version 0.63.0, on 2026-11-23.</footer>
+<footer>Station Shift 0.64.0 · made from the game's own rules and art on 2026-11-23 · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></footer>
 </body>
 </html>

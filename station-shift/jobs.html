@@ -3,76 +3,376 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Station Shift: a co-operative game for phones. A small crew keeps a space station running through a shift.">
 <title>Jobs · Station Shift</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><a class="brand" href="index.html">Station Shift</a><nav><a href="index.html">Home</a><a href="guide.html">How to play</a><a href="jobs.html" aria-current="page">Jobs</a><a href="items.html">Items</a><a href="botanics.html">Botanics</a><a href="incidents.html">Incidents</a><a href="station.html">Station</a><a href="law.html">Station Law</a><a href="sop.html">SOP</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav></header>
-<main>
+<a class="skip" href="#main">Skip to the content</a>
+<header><a class="brand" href="index.html">Station Shift</a><nav aria-label="Pages"><a href="index.html">Home</a><a href="guide.html">How to play</a><a href="jobs.html" aria-current="page">Jobs</a><a href="items.html">Items</a><a href="maps.html">Maps</a><a href="incidents.html">Incidents</a><a href="law.html">Law &amp; SOP</a><a href="credits.html">Credits</a><a href="privacy.html">Privacy</a></nav></header>
+<main id="main">
 <h1>Jobs</h1>
-<p>Everybody can do everything; a job decides what you start with, where you start, and what you do twice as fast.</p>
-<section class="card" id="captain"><h2><span class="badge" style="background:#3c4a98">K</span> Captain</h2>
-<p>Runs the station; all access. Starts empty-handed. Wears a backpack with standard operating procedures. Their ID card gives all areas access. The Captain has all areas: every door opens for their card, and they may lock a cell and release it. The Head of Personnel is their right hand; there are no department heads. Alert levels and orders are not built yet: for now the Captain's power is that their card opens everything, with the Bridge as their post.</p>
-<p>Starts in the <b>Captain's Office</b>.</p>
-<p>Their ID card opens the <b>Bar</b> (bar), the <b>Botanics</b> (botanics), the <b>Bridge</b> (command), the <b>Captain's Office</b> (command), the <b>Head of Personnel's Office</b> (command), the <b>Head of Personnel's Bedroom</b> (command), the <b>Medbay</b> (medical), the <b>Surgery</b> (medical), the <b>Chemistry</b> (medical), the <b>Research and Development</b> (science), the <b>Robotics</b> (science), the <b>Genetics</b> (science), the <b>Security Office</b> (security), the <b>Brig</b> (security), the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo), the <b>Janitor's Closet</b> (maintenance), the <b>Atmospherics</b> (engineering), the <b>Machine Workshop</b> (engineering), the <b>Electrical Workshop</b> (engineering), the <b>Construction Workshop</b> (engineering), the <b>Battery Room</b> (engineering), the <b>Inverter Room</b> (engineering), the <b>Transformer Room</b> (engineering), the <b>Solar Control</b> (engineering), the <b>EVA Airlock</b> (engineering), the <b>Maint. Tunnels by Robotics</b> (maintenance), the <b>Cell 1</b> (security), the <b>Kitchen</b> (kitchen), the <b>Morgue</b> (medical), the <b>EVA Airlock 2</b> (maintenance), the <b>EVA Pod</b> (engineering), the <b>High-Voltage Kiosk</b> (engineering), the <b>Captain's Bedroom</b> (command), the <b>Captain's Restroom</b> (command), the <b>Maint. Tunnels by Solar Control</b> (maintenance), the <b>Maint. Tunnels by Bridge</b> (maintenance), the <b>Maint. Tunnels by Power Tube</b> (maintenance), the <b>Maint. Tunnels by EVA Airlock 2</b> (maintenance), the <b>Maint. Tunnels by Hub</b> (maintenance), the <b>Maint. Tunnels by Atmospherics</b> (maintenance), the <b>Maint. Tunnels by Chemistry</b> (maintenance), the <b>Maint. Tunnels by Quarters Tube</b> (maintenance), the <b>Maint. Tunnels by West Tube</b> (maintenance), the <b>Maint. Tunnels by East Tube</b> (maintenance), the <b>Maint. Tunnels by South Tube</b> (maintenance), the <b>Maint. Tunnels by Restroom</b> (maintenance), the <b>Maint. Tunnels by Cargo Reception</b> (maintenance), the <b>Maint. Tunnels by Cargo Storage</b> (maintenance), the <b>Maint. Tunnels by Janitor</b> (maintenance), the <b>Cell 2</b> (security), the <b>Cell 3</b> (security), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<p class="lead">Everybody can do everything. A job decides what you start with, where you start, and what you do twice as fast.</p>
+<ul class="jobstrip" aria-label="Jump to a job">
+<li><a href="#captain"><img class="spr" src="img/jobs/captain.png" width="40" height="40" alt="" loading="lazy"><span>Captain</span></a></li>
+<li><a href="#hop"><img class="spr" src="img/jobs/hop.png" width="40" height="40" alt="" loading="lazy"><span>Head of Personnel</span></a></li>
+<li><a href="#security"><img class="spr" src="img/jobs/security.png" width="40" height="40" alt="" loading="lazy"><span>Security Officer</span></a></li>
+<li><a href="#lawyer"><img class="spr" src="img/jobs/lawyer.png" width="40" height="40" alt="" loading="lazy"><span>Lawyer</span></a></li>
+<li><a href="#engineer"><img class="spr" src="img/jobs/engineer.png" width="40" height="40" alt="" loading="lazy"><span>Station Engineer</span></a></li>
+<li><a href="#medic"><img class="spr" src="img/jobs/medic.png" width="40" height="40" alt="" loading="lazy"><span>Medical Doctor</span></a></li>
+<li><a href="#logistics"><img class="spr" src="img/jobs/logistics.png" width="40" height="40" alt="" loading="lazy"><span>Logistics</span></a></li>
+<li><a href="#botanist"><img class="spr" src="img/jobs/botanist.png" width="40" height="40" alt="" loading="lazy"><span>Botanist</span></a></li>
+<li><a href="#chef"><img class="spr" src="img/jobs/chef.png" width="40" height="40" alt="" loading="lazy"><span>Chef</span></a></li>
+<li><a href="#bartender"><img class="spr" src="img/jobs/bartender.png" width="40" height="40" alt="" loading="lazy"><span>Bartender</span></a></li>
+<li><a href="#miner"><img class="spr" src="img/jobs/miner.png" width="40" height="40" alt="" loading="lazy"><span>Miner</span></a></li>
+<li><a href="#janitor"><img class="spr" src="img/jobs/janitor.png" width="40" height="40" alt="" loading="lazy"><span>Janitor</span></a></li>
+</ul>
+<section class="card job" id="captain" aria-labelledby="h-captain">
+<h2 id="h-captain"><img class="spr jobicon" src="img/jobs/captain.png" width="40" height="40" alt="Captain icon"> Captain <img class="spr crew" src="img/jobs/captain-crew.png" width="48" height="80" alt="Captain in uniform" loading="lazy"></h2>
+<p>The Captain runs the shift from the Bridge. Their ID card opens every door.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/sopbook.png" width="24" height="24" alt="" loading="lazy"> Standard Operating Procedures</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span> <span class="chip"><img class="spr" src="img/items/pen.png" width="24" height="24" alt="" loading="lazy"> Pen</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: all areas. Starts in the <b>Captain's Office</b>. Their ID card opens the <b>Bar</b> (bar), the <b>Botanics</b> (botanics), the <b>Bridge</b> (command), the <b>Captain's Office</b> (command), the <b>Head of Personnel's Office</b> (command), the <b>Head of Personnel's Bedroom</b> (command), the <b>Medbay</b> (medical), the <b>Surgery</b> (medical), the <b>Chemistry</b> (medical), the <b>Research and Development</b> (science), the <b>Robotics</b> (science), the <b>Genetics</b> (science), the <b>Security Office</b> (security), the <b>Brig</b> (security), the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo), the <b>Janitor's Closet</b> (maintenance), the <b>Atmospherics</b> (engineering), the <b>Machine Workshop</b> (engineering), the <b>Electrical Workshop</b> (engineering), the <b>Construction Workshop</b> (engineering), the <b>Battery Room</b> (engineering), the <b>Inverter Room</b> (engineering), the <b>Transformer Room</b> (engineering), the <b>Solar Control</b> (engineering), the <b>EVA Airlock</b> (engineering), the <b>Cell 1</b> (security), the <b>Kitchen</b> (kitchen), the <b>Morgue</b> (medical), the <b>EVA Airlock 2</b> (maintenance), the <b>EVA Pod</b> (engineering), the <b>High-Voltage Kiosk</b> (engineering), the <b>Captain's Bedroom</b> (command), the <b>Captain's Restroom</b> (command), the maintenance tunnels and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Watch the station on the Bridge's screens and decide what matters most.</li>
+<li>Pick the sentence for a Class 3 offence and hear the Head of Personnel's reports.</li>
+<li>Lock and release cells with the all-areas card.</li>
+<li>Call the shuttle when the shift should end (the crew votes first).</li>
+</ul>
+<h3>Works with</h3><p>The Head of Personnel (right hand), Security and the Lawyer.</p>
+<h3>Tips</h3><ul>
+<li>Ask on the radio before you decide: you see the whole station, but others see the problem.</li>
+<li>Do not wander off with the all-areas card: lost cards stay lost.</li>
+</ul>
+<figure class="inline"><a href="img/shots/captain_office.png"><img src="img/shots/captain_office.png" width="1280" height="720" alt="An office divided by a desk and a bookshelf." loading="lazy"></a><figcaption>The Captain's office, next to the Bridge.</figcaption></figure>
 </section>
-<section class="card" id="hop"><h2><span class="badge" style="background:#72a8e0">H</span> Head of Personnel</h2>
-<p>Heads all departments; ID console. Starts empty-handed. Wears a backpack with a station law. Their ID card gives command access. The Head of Personnel is the visible head of all departments (nobody leads a department of their own) and has command access: the Bridge, the offices and the ID console. At the ID console in their office they put a crew member's card in and give it another job's name and access (never a command job); the change is logged and told to its owner. They also work the HoP desk's window and shutter, and may lock a cell with their command card.</p>
-<p>Starts in the <b>Head of Personnel's Office</b>.</p>
-<p>Their ID card opens the <b>Bridge</b> (command), the <b>Captain's Office</b> (command), the <b>Head of Personnel's Office</b> (command), the <b>Head of Personnel's Bedroom</b> (command), the <b>Captain's Bedroom</b> (command), the <b>Captain's Restroom</b> (command), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="hop" aria-labelledby="h-hop">
+<h2 id="h-hop"><img class="spr jobicon" src="img/jobs/hop.png" width="40" height="40" alt="Head of Personnel icon"> Head of Personnel <img class="spr crew" src="img/jobs/hop-crew.png" width="48" height="80" alt="Head of Personnel in uniform" loading="lazy"></h2>
+<p>The Head of Personnel looks after the crew's cards and jobs. They keep the offices and the Bridge in order.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/lawbook.png" width="24" height="24" alt="" loading="lazy"> Station Law</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span> <span class="chip"><img class="spr" src="img/items/pen.png" width="24" height="24" alt="" loading="lazy"> Pen</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: command. Starts in the <b>Head of Personnel's Office</b>. Their ID card opens the <b>Bridge</b> (command), the <b>Captain's Office</b> (command), the <b>Head of Personnel's Office</b> (command), the <b>Head of Personnel's Bedroom</b> (command), the <b>Captain's Bedroom</b> (command), the <b>Captain's Restroom</b> (command) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Work the ID console: put a card in and give it another job's name and access (never a command job).</li>
+<li>Serve the HoP desk's window and roll its shutter up or down.</li>
+<li>Help the lost: someone without a card cannot open a door.</li>
+<li>Lock a cell with the command card when Security asks.</li>
+</ul>
+<h3>Works with</h3><p>The Captain, the Lawyer and the whole crew at the desk.</p>
+<h3>Tips</h3><ul>
+<li>Every card change is logged and told to its owner, so say why on the radio.</li>
+<li>Give the right access, no more: Engineering and Medical doors guard dangerous things.</li>
+</ul>
+<figure class="inline"><a href="img/shots/hop_line.png"><img src="img/shots/hop_line.png" width="1280" height="720" alt="A service window with a roll shutter and a queue line." loading="lazy"></a><figcaption>The Head of Personnel's desk with its window and shutter.</figcaption></figure>
 </section>
-<section class="card" id="security"><h2><span class="badge" style="background:#c04848">S</span> Security Officer</h2>
-<p>Patrols, arrests, locks the cells. Starts empty-handed. Wears a backpack with handcuffs and handcuffs. Their ID card gives security access. The Security Officer patrols, arrests and investigates. At a cell door with someone inside they pick a sentence from Station Law (1 to 15 minutes), and they can release the cell. Their card opens the Security Office and the Brig. They carry two pairs of handcuffs: tap Cuff beside someone who holds still, then Pull them (a cuffed, unconscious or dead player follows one tile behind until Release) to the Brig, lock the cell with a sentence, and take their belongings at the cell door. There are no weapons in the game.</p>
-<p>Starts in the <b>Security Office</b>.</p>
-<p>Their ID card opens the <b>Security Office</b> (security), the <b>Brig</b> (security), the <b>Cell 1</b> (security), the <b>Cell 2</b> (security), the <b>Cell 3</b> (security), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="security" aria-labelledby="h-security">
+<h2 id="h-security"><img class="spr jobicon" src="img/jobs/security.png" width="40" height="40" alt="Security Officer icon"> Security Officer <img class="spr crew" src="img/jobs/security-crew.png" width="48" height="80" alt="Security Officer in uniform" loading="lazy"></h2>
+<p>The Security Officer keeps the peace and runs the Brig. There are no weapons in the game: only handcuffs, talk and the cells.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/handcuffs.png" width="24" height="24" alt="" loading="lazy"> Handcuffs</span> <span class="chip"><img class="spr" src="img/items/handcuffs.png" width="24" height="24" alt="" loading="lazy"> Handcuffs</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span> <span class="chip"><img class="spr" src="img/items/pen.png" width="24" height="24" alt="" loading="lazy"> Pen</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: security. Starts in the <b>Security Office</b>. Their ID card opens the <b>Security Office</b> (security), the <b>Brig</b> (security), the <b>Cell 1</b> (security) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Patrol the corridors and answer calls for help.</li>
+<li>Cuff someone who holds still, then pull them to the Brig.</li>
+<li>Pick a sentence at the cell door panel (see Station Law) and take their belongings.</li>
+<li>Release a cell early if the person falls ill or the cell loses air.</li>
+<li>Write down every detention.</li>
+</ul>
+<h3>Works with</h3><p>The Captain, the Lawyer and the Medical Doctor.</p>
+<h3>Tips</h3><ul>
+<li>Say your reason in one sentence before you stop anyone.</li>
+<li>Read the Law &amp; SOP pages once: the sentences are on a table.</li>
+</ul>
+<figure class="inline"><a href="img/shots/cell_timer.png"><img src="img/shots/cell_timer.png" width="1280" height="720" alt="A list of cell sentences in minutes on a door panel." loading="lazy"></a><figcaption>A cell door's panel: the sentence is picked from a list.</figcaption></figure>
 </section>
-<section class="card" id="lawyer"><h2><span class="badge" style="background:#5c5c6c">W</span> Lawyer</h2>
-<p>Law and SOP; advises the detained. Starts empty-handed. Wears a backpack with a station law and standard operating procedures. The Lawyer keeps both books of the rules in the backpack (hold one, tap Read, and the text opens in a list) and works in the Law Office, which any card opens. The sentence a cell holds is on the cell door's panel for anyone to see. Petitions are not built yet: the Lawyer advises by talking.</p>
-<p>Starts in the <b>Law Office</b>.</p>
-<p>Their ID card opens the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="lawyer" aria-labelledby="h-lawyer">
+<h2 id="h-lawyer"><img class="spr jobicon" src="img/jobs/lawyer.png" width="40" height="40" alt="Lawyer icon"> Lawyer <img class="spr crew" src="img/jobs/lawyer-crew.png" width="48" height="80" alt="Lawyer in uniform" loading="lazy"></h2>
+<p>The Lawyer sees that the law is followed. They work in the Law Office, which every card opens.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/lawbook.png" width="24" height="24" alt="" loading="lazy"> Station Law</span> <span class="chip"><img class="spr" src="img/items/sopbook.png" width="24" height="24" alt="" loading="lazy"> Standard Operating Procedures</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/pen.png" width="24" height="24" alt="" loading="lazy"> Pen</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: none beyond the public rooms. Starts in the <b>Law Office</b>. Their ID card opens every public room.</p>
+<h3>What you do</h3><ul>
+<li>Read both rule books (hold one and tap Read).</li>
+<li>Listen to the detained person, the officer and the witnesses.</li>
+<li>Say whether a charge stands, is lowered or is dropped.</li>
+<li>Tell Security and the Captain what the law says.</li>
+</ul>
+<h3>Works with</h3><p>Security, the Captain and the Head of Personnel.</p>
+<h3>Tips</h3><ul>
+<li>A Lawyer cannot open a cell door: persuade, do not order.</li>
+<li>A petition made in good faith is never an offence.</li>
+</ul>
+<figure class="inline"><a href="img/shots/law_office.png"><img src="img/shots/law_office.png" width="1280" height="720" alt="A small office with a desk and bookshelves." loading="lazy"></a><figcaption>The Law Office and its shelf of books.</figcaption></figure>
 </section>
-<section class="card" id="engineer"><h2><span class="badge" style="background:#f39c12">E</span> Station Engineer</h2>
-<p>Power, cables, walls and the hull. Starts empty-handed. Wears a toolbelt with wire cutters, a welder, a cable coil, a screwdriver, a multitool, a crowbar, a t-ray scanner and a wrench, and a backpack with an air tank. Also wears a hazard vest, insulated gloves, welding goggles and a hard hat. Twice as fast to patch a breach, refuel the generator, open or close a door's panel, lift a floor tile, strip a hull wall's plating and reinforce a worn hull wall. Their ID card gives engineering and maintenance access. A station engineer is expert in electrical, construction and mechanical work; their ID card also has mechanical access, which opens the controls of the room air alarms.</p>
-<p>Starts in the <b>Machine Workshop</b>.</p>
-<p>Their ID card opens the <b>Janitor's Closet</b> (maintenance), the <b>Atmospherics</b> (engineering), the <b>Machine Workshop</b> (engineering), the <b>Electrical Workshop</b> (engineering), the <b>Construction Workshop</b> (engineering), the <b>Battery Room</b> (engineering), the <b>Inverter Room</b> (engineering), the <b>Transformer Room</b> (engineering), the <b>Solar Control</b> (engineering), the <b>EVA Airlock</b> (engineering), the <b>Maint. Tunnels by Robotics</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the <b>EVA Pod</b> (engineering), the <b>High-Voltage Kiosk</b> (engineering), the <b>Maint. Tunnels by Solar Control</b> (maintenance), the <b>Maint. Tunnels by Bridge</b> (maintenance), the <b>Maint. Tunnels by Power Tube</b> (maintenance), the <b>Maint. Tunnels by EVA Airlock 2</b> (maintenance), the <b>Maint. Tunnels by Hub</b> (maintenance), the <b>Maint. Tunnels by Atmospherics</b> (maintenance), the <b>Maint. Tunnels by Chemistry</b> (maintenance), the <b>Maint. Tunnels by Quarters Tube</b> (maintenance), the <b>Maint. Tunnels by West Tube</b> (maintenance), the <b>Maint. Tunnels by East Tube</b> (maintenance), the <b>Maint. Tunnels by South Tube</b> (maintenance), the <b>Maint. Tunnels by Restroom</b> (maintenance), the <b>Maint. Tunnels by Cargo Reception</b> (maintenance), the <b>Maint. Tunnels by Cargo Storage</b> (maintenance), the <b>Maint. Tunnels by Janitor</b> (maintenance), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="engineer" aria-labelledby="h-engineer">
+<h2 id="h-engineer"><img class="spr jobicon" src="img/jobs/engineer.png" width="40" height="40" alt="Station Engineer icon"> Station Engineer <img class="spr crew" src="img/jobs/engineer-crew.png" width="48" height="80" alt="Station Engineer in uniform" loading="lazy"></h2>
+<p>The Station Engineer keeps the power on and the hull closed. The station goes dark without one, so the lobby marks it as prioritized.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Belt</b>: <span class="chip"><img class="spr" src="img/items/toolbelt.png" width="24" height="24" alt="" loading="lazy"> Toolbelt</span> holding <span class="chip"><img class="spr" src="img/items/cutters.png" width="24" height="24" alt="" loading="lazy"> Wire cutters</span> <span class="chip"><img class="spr" src="img/items/welder.png" width="24" height="24" alt="" loading="lazy"> Welder</span> <span class="chip"><img class="spr" src="img/items/coil.png" width="24" height="24" alt="" loading="lazy"> Cable coil</span> <span class="chip"><img class="spr" src="img/items/screwdriver.png" width="24" height="24" alt="" loading="lazy"> Screwdriver</span> <span class="chip"><img class="spr" src="img/items/multitool.png" width="24" height="24" alt="" loading="lazy"> Multitool</span> <span class="chip"><img class="spr" src="img/items/crowbar.png" width="24" height="24" alt="" loading="lazy"> Crowbar</span> <span class="chip"><img class="spr" src="img/items/tray.png" width="24" height="24" alt="" loading="lazy"> T-ray scanner</span> <span class="chip"><img class="spr" src="img/items/wrench.png" width="24" height="24" alt="" loading="lazy"> Wrench</span></li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/tank.png" width="24" height="24" alt="" loading="lazy"> Air tank</span></li>
+<li><b>Wearing</b>: <span class="chip"><img class="spr" src="img/items/hazardvest.png" width="24" height="24" alt="" loading="lazy"> Hazard vest</span> <span class="chip"><img class="spr" src="img/items/insgloves.png" width="24" height="24" alt="" loading="lazy"> Insulated gloves</span> <span class="chip"><img class="spr" src="img/items/goggles.png" width="24" height="24" alt="" loading="lazy"> Welding goggles</span> <span class="chip"><img class="spr" src="img/items/hardhat.png" width="24" height="24" alt="" loading="lazy"> Hard hat</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: engineering, maintenance. Starts in the <b>Machine Workshop</b>. Their ID card opens the <b>Janitor's Closet</b> (maintenance), the <b>Atmospherics</b> (engineering), the <b>Machine Workshop</b> (engineering), the <b>Electrical Workshop</b> (engineering), the <b>Construction Workshop</b> (engineering), the <b>Battery Room</b> (engineering), the <b>Inverter Room</b> (engineering), the <b>Transformer Room</b> (engineering), the <b>Solar Control</b> (engineering), the <b>EVA Airlock</b> (engineering), the <b>EVA Airlock 2</b> (maintenance), the <b>EVA Pod</b> (engineering), the <b>High-Voltage Kiosk</b> (engineering), the maintenance tunnels and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Patch hull breaches and reinforce worn or cracked walls before they open.</li>
+<li>Find the gap in a cut cable and lay cable over it.</li>
+<li>Walk the truss in an EVA suit to clean, tighten and replace solar parts.</li>
+<li>Reset charge controllers, swap failing battery cells and inverter modules.</li>
+<li>Make spare parts at the lathe; rewind the transformer when its winding is gone.</li>
+<li>Open a door's maintenance panel to cut, mend or pulse its wires.</li>
+<li><b>Twice as fast</b> at: patch a breach, open or close a door's panel, lift a floor tile, strip a hull wall's plating, wrench a pipe loose or tight, lay a pipe, cut a pipe and reinforce a worn hull wall.</li>
+</ul>
+<h3>Works with</h3><p>Logistics (plates and parts), the Janitor (tunnels) and Security (hacked doors).</p>
+<h3>Tips</h3><ul>
+<li>Look at the outer walls on every round: a stain is cheap to fix, a hole is not.</li>
+<li>Hang a lockout tag on every breaker before you touch the transformer.</li>
+</ul>
+<figure class="inline"><a href="img/shots/electrical_workshop.png"><img src="img/shots/electrical_workshop.png" width="1280" height="720" alt="A workshop with benches, cable spools and tools." loading="lazy"></a><figcaption>The Electrical Workshop.</figcaption></figure>
+<figure class="inline"><a href="img/shots/hull_patching.png"><img src="img/shots/hull_patching.png" width="1280" height="720" alt="A crew member welding a plate onto a cracked wall." loading="lazy"></a><figcaption>Patching a cracked wall with a hull plate and a welder.</figcaption></figure>
+<figure class="inline"><a href="img/shots/array_console.png"><img src="img/shots/array_console.png" width="1280" height="720" alt="A console screen listing the solar arrays and their panels." loading="lazy"></a><figcaption>The array console in Solar Control: every array, its panels and its output.</figcaption></figure>
 </section>
-<section class="card" id="medic"><h2><span class="badge" style="background:#ecf0f1">M</span> Medical Doctor</h2>
-<p>Keeps the crew alive. Starts empty-handed. Wears a medical belt with a defibrillator and a health analyzer, and a backpack with a first aid kit and an air tank. Also wears a lab coat, latex gloves, a sterile mask and a stethoscope. Twice as fast to treat someone, revive someone and listen to someone. Their ID card gives medical access. Whoever falls must be treated within 1 minute; the dead can be revived for 3 minutes.</p>
-<p>Starts in the <b>Medbay</b>.</p>
-<p>Their ID card opens the <b>Medbay</b> (medical), the <b>Surgery</b> (medical), the <b>Chemistry</b> (medical), the <b>Morgue</b> (medical), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="medic" aria-labelledby="h-medic">
+<h2 id="h-medic"><img class="spr jobicon" src="img/jobs/medic.png" width="40" height="40" alt="Medical Doctor icon"> Medical Doctor <img class="spr crew" src="img/jobs/medic-crew.png" width="48" height="80" alt="Medical Doctor in uniform" loading="lazy"></h2>
+<p>The Medical Doctor keeps the crew alive. Whoever falls must be treated in time; the dead can be revived for a short while.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Belt</b>: <span class="chip"><img class="spr" src="img/items/medbelt.png" width="24" height="24" alt="" loading="lazy"> Medical belt</span> holding <span class="chip"><img class="spr" src="img/items/defib.png" width="24" height="24" alt="" loading="lazy"> Defibrillator</span> <span class="chip"><img class="spr" src="img/items/analyzer.png" width="24" height="24" alt="" loading="lazy"> Health analyzer</span></li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/medkit.png" width="24" height="24" alt="" loading="lazy"> First aid kit</span> <span class="chip"><img class="spr" src="img/items/tank.png" width="24" height="24" alt="" loading="lazy"> Air tank</span></li>
+<li><b>Wearing</b>: <span class="chip"><img class="spr" src="img/items/labcoat.png" width="24" height="24" alt="" loading="lazy"> Lab coat</span> <span class="chip"><img class="spr" src="img/items/latexgloves.png" width="24" height="24" alt="" loading="lazy"> Latex gloves</span> <span class="chip"><img class="spr" src="img/items/mask.png" width="24" height="24" alt="" loading="lazy"> Sterile mask</span> <span class="chip"><img class="spr" src="img/items/stethoscope.png" width="24" height="24" alt="" loading="lazy"> Stethoscope</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: medical. Starts in the <b>Medbay</b>. Their ID card opens the <b>Medbay</b> (medical), the <b>Surgery</b> (medical), the <b>Chemistry</b> (medical), the <b>Morgue</b> (medical) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Scan people with the health analyzer and treat them with the first aid kit.</li>
+<li>Revive someone with the defibrillator within the revive window.</li>
+<li>Read the crew monitor to see who is hurt and where.</li>
+<li>Treat colds and flu with cold medicine; work in Surgery and the Morgue.</li>
+<li><b>Twice as fast</b> at: treat someone, revive someone and listen to someone.</li>
+</ul>
+<h3>Works with</h3><p>Security (the detained), the Captain and everyone who gets hurt.</p>
+<h3>Tips</h3><ul>
+<li>Ask people to set their suit sensors to Vitals or more.</li>
+<li>Carry an air tank: a breached room is where people fall.</li>
+</ul>
+<figure class="inline"><a href="img/shots/surgery.png"><img src="img/shots/surgery.png" width="1280" height="720" alt="An operating room with a table and instruments." loading="lazy"></a><figcaption>Surgery in the Medbay.</figcaption></figure>
+<figure class="inline"><a href="img/shots/morgue.png"><img src="img/shots/morgue.png" width="1280" height="720" alt="A morgue wall of drawers, one pulled out." loading="lazy"></a><figcaption>The Morgue, with a drawer in use.</figcaption></figure>
 </section>
-<section class="card" id="logistics"><h2><span class="badge" style="background:#a0785a">L</span> Logistics</h2>
-<p>Supplies, orders and access. Starts empty-handed. Wears a backpack with a crowbar and a stamp. Twice as fast to force a door open, approve a supply order and deny a supply request. Supply orders they approve land in 20 s instead of 40 s. Their ID card gives cargo access.</p>
-<p>Starts in the <b>Cargo Reception</b>.</p>
-<p>Their ID card opens the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="logistics" aria-labelledby="h-logistics">
+<h2 id="h-logistics"><img class="spr jobicon" src="img/jobs/logistics.png" width="40" height="40" alt="Logistics icon"> Logistics <img class="spr crew" src="img/jobs/logistics-crew.png" width="48" height="80" alt="Logistics in uniform" loading="lazy"></h2>
+<p>Logistics runs supply and cargo. They approve orders and load the delivery pad.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/crowbar.png" width="24" height="24" alt="" loading="lazy"> Crowbar</span> <span class="chip"><img class="spr" src="img/items/stamp.png" width="24" height="24" alt="" loading="lazy"> Cargo stamp</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/pen.png" width="24" height="24" alt="" loading="lazy"> Pen</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: cargo. Starts in the <b>Cargo Reception</b>. Their ID card opens the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Approve or deny supply requests at the order console: approved orders land on the pad.</li>
+<li>Stamp order forms and file them in the filing cabinet for points.</li>
+<li>Ship the pad's goods away to earn points.</li>
+<li>Force doors open with a crowbar faster than anyone else.</li>
+<li><b>Twice as fast</b> at: force a door open, approve a supply order and deny a supply request.</li>
+<li>Orders you approve land in 20 s instead of 40 s.</li>
+</ul>
+<h3>Works with</h3><p>The Station Engineer (plates, parts, fertilizer), the Miner and the Botanist.</p>
+<h3>Tips</h3><ul>
+<li>Points are shared: spend them on what the station needs now.</li>
+<li>Answer the radio: a request waits until someone looks.</li>
+</ul>
+<figure class="inline"><a href="img/shots/cart_with_crates.png"><img src="img/shots/cart_with_crates.png" width="1280" height="720" alt="A cart loaded with crates in the cargo bay." loading="lazy"></a><figcaption>A cargo cart with crates.</figcaption></figure>
+<figure class="inline"><a href="img/shots/fax_machine.png"><img src="img/shots/fax_machine.png" width="1280" height="720" alt="A fax machine and a list of other offices." loading="lazy"></a><figcaption>The fax machine's list of offices.</figcaption></figure>
 </section>
-<section class="card" id="botanist"><h2><span class="badge" style="background:#58d68d">B</span> Botanist</h2>
-<p>Grows the crew's food in the greenhouse. Starts empty-handed. Wears a seed pouch with wheat seeds, tomato seeds, bean seeds, potato seeds, rice seeds, corn seeds, carrot seeds and onion seeds, and a backpack with a watering can (empty). Twice as fast to plant a seed, harvest a plant, water a tray, fill a watering can, fertilize a tray, pull the weeds of a tray, treat a sick plant and use the compost bin. Their ID card gives botanics access. The Botanist belongs to Science and plants, tends and harvests the greenhouse's trays, drops the produce into the pass-through cabinet to the kitchen, and one day mutates plants for the lab. They start with a seed pouch (one seed of each of the first eight crops) and a watering can; the care work (water, fertilize, weed, treat) takes them half the time. A tray ripens in 2 minutes to 6 minutes.</p>
-<p>Starts in the <b>Botanics</b>.</p>
-<p>Their ID card opens the <b>Botanics</b> (botanics), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="botanist" aria-labelledby="h-botanist">
+<h2 id="h-botanist"><img class="spr jobicon" src="img/jobs/botanist.png" width="40" height="40" alt="Botanist icon"> Botanist <img class="spr crew" src="img/jobs/botanist-crew.png" width="48" height="80" alt="Botanist in uniform" loading="lazy"></h2>
+<p>The Botanist grows the crew's food in the greenhouse. They plant, water, weed and harvest, and send the produce to the kitchen.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Belt</b>: <span class="chip"><img class="spr" src="img/items/seedpouch.png" width="24" height="24" alt="" loading="lazy"> Seed pouch</span> holding <span class="chip"><img class="spr" src="img/items/seedwheat.png" width="24" height="24" alt="" loading="lazy"> Wheat seeds</span> <span class="chip"><img class="spr" src="img/items/seedtomato.png" width="24" height="24" alt="" loading="lazy"> Tomato seeds</span> <span class="chip"><img class="spr" src="img/items/seedbean.png" width="24" height="24" alt="" loading="lazy"> Bean seeds</span> <span class="chip"><img class="spr" src="img/items/seedpotato.png" width="24" height="24" alt="" loading="lazy"> Potato seeds</span> <span class="chip"><img class="spr" src="img/items/seedrice.png" width="24" height="24" alt="" loading="lazy"> Rice seeds</span> <span class="chip"><img class="spr" src="img/items/seedcorn.png" width="24" height="24" alt="" loading="lazy"> Corn seeds</span> <span class="chip"><img class="spr" src="img/items/seedcarrot.png" width="24" height="24" alt="" loading="lazy"> Carrot seeds</span> <span class="chip"><img class="spr" src="img/items/seedonion.png" width="24" height="24" alt="" loading="lazy"> Onion seeds</span></li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/can0.png" width="24" height="24" alt="" loading="lazy"> Watering can (empty)</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: botanics. Starts in the <b>Botanics</b>. Their ID card opens the <b>Botanics</b> (botanics) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Plant a seed in each tray from the seed pouch.</li>
+<li>Water, fertilize and weed the trays; treat sick plants with a spray.</li>
+<li>Harvest ripe plants and drop the produce into the pass-through cabinet.</li>
+<li>Keep an eye on the clock: each crop ripens on its own time.</li>
+<li><b>Twice as fast</b> at: plant a seed, harvest a plant, water a tray, fill a watering can, fertilize a tray, pull the weeds of a tray, treat a sick plant and use the compost bin.</li>
+</ul>
+<h3>Works with</h3><p>The Chef (the cabinet), Logistics (fertilizer, sprays, seeds) and the Bartender (fruit).</p>
+<h3>Tips</h3><ul>
+<li>Care work takes the Botanist half the time: do the rounds early.</li>
+<li>Check the tray with one tap: it says water, food, weeds and disease.</li>
+</ul>
+<h3 id="botanist-crops">Crops</h3>
+<p>The greenhouse (Botanics, glass on all sides) has planting trays, a sink, a compost bin and racks of seeds of all 11 crops. The Botanist plants a seed (2 seconds), the plant ripens in 2 minutes to 6 minutes depending on the crop, and a harvest (3 seconds) gives its crop's produce (1 to 3, more when well tended) and the seed back. A few trays start the shift already growing, so the first harvest comes in a minute. Tray care has its own rules: see the Botanics page.</p>
+<p>The seed pouch holds one seed of each crop of the first group; the second group's seeds lie on the greenhouse racks, and Cargo sells a seed of any crop.</p>
+<div class="tablewrap"><table>
+<thead><tr><th scope="col">Crop</th><th scope="col">Group</th><th scope="col">Grows in</th><th scope="col">Water a minute</th><th scope="col">Nutrients a minute</th><th scope="col">Produce</th><th scope="col">Goes into</th></tr></thead>
+<tbody>
+<tr><th scope="row">Wheat</th><td>1</td><td>150 seconds</td><td>20</td><td>12</td><td>2</td><td>Flatbread, Malt tea</td></tr>
+<tr><th scope="row">Tomato</th><td>1</td><td>3 minutes</td><td>24</td><td>16</td><td>2</td><td>Tomato pilaf, Bean stew, Tomato soup, Tomato fizz</td></tr>
+<tr><th scope="row">Bean</th><td>1</td><td>210 seconds</td><td>14</td><td>6</td><td>2</td><td>Protein skillet, Rice bowl, Bean stew</td></tr>
+<tr><th scope="row">Potato</th><td>1</td><td>3 minutes</td><td>16</td><td>16</td><td>3</td><td>Harvest hash, Vegetable stew, Corn chowder, Potato soup, Fried potato strips, Baked potato</td></tr>
+<tr><th scope="row">Rice</th><td>1</td><td>4 minutes</td><td>30</td><td>14</td><td>2</td><td>Tomato pilaf, Rice bowl</td></tr>
+<tr><th scope="row">Corn</th><td>1</td><td>270 seconds</td><td>20</td><td>22</td><td>2</td><td>Corn chowder</td></tr>
+<tr><th scope="row">Carrot</th><td>1</td><td>150 seconds</td><td>14</td><td>10</td><td>3</td><td>Vegetable stew, Carrot salad</td></tr>
+<tr><th scope="row">Onion</th><td>1</td><td>3 minutes</td><td>12</td><td>10</td><td>2</td><td>Harvest hash, Vegetable stew, Corn chowder, Mushroom pan, Potato soup, Onion broth</td></tr>
+<tr><th scope="row">Apple</th><td>2</td><td>6 minutes</td><td>10</td><td>14</td><td>3</td><td>Fruit compote</td></tr>
+<tr><th scope="row">Mushroom</th><td>2</td><td>2 minutes</td><td>12</td><td>8</td><td>1</td><td>Mushroom pan</td></tr>
+<tr><th scope="row">Sugar Beet</th><td>2</td><td>4 minutes</td><td>14</td><td>12</td><td>2</td><td>Beet sugar</td></tr>
+</tbody></table></div>
+<h3 id="botanist-care">Plant care</h3><ul>
+<li>Every planting tray keeps its own state: water (0 to 100), nutrients (0 to 100), weeds (0 to 3) and a disease flag (blight or aphids). Tap a tray (Check tray) for one line, 'Water 60 · Food 40 · Weeds 1 · Healthy', and for the buttons that fit what you hold. Anyone in reach may look: a tray's state is no secret.</li>
+<li>Water falls steadily while a plant grows (each crop has its own thirst) and a plant with none stops growing. It wilts only after 4 minutes with no water, and water brings it back. Fill a watering can at the sink in the greenhouse (Fill can, 3 seconds): it holds 4 waterings, and each Water (3 seconds, half that for the Botanist) adds 50.</li>
+<li>Nutrients fall as a plant eats. With 50 or more it grows 25 percent faster and, fed most of the time, gives one more produce; with none it grows 30 percent slower. A fertilizer sack has 5 uses (Fertilize, 4 seconds, adds 50); Cargo orders one for 3 supply points.</li>
+<li>Weeds come to a tray about every 2 minutes and each one slows the plant by 15 percent. Weed (4 seconds, by hand) pulls them all; they lie on the tile as weeds. The compost bin in the greenhouse takes them (Compost weeds): every 6 make one use of fertilizer, which a sack in the hand takes out again (Take fertilizer).</li>
+<li>A disease (blight or aphids) is rare. It slows the plant by 40 percent, shows as spots on the tray, and left alone for 3 minutes it moves to a healthy tray next to it. A plant spray (4 uses, Treat, 5 seconds) cures it; Cargo orders one for 2 supply points.</li>
+<li>Care costs time, not the harvest: a plant left dry, weedy, sick or hungry for 90 seconds in all still gives half its produce, and no job's absence starves the station. Weeding, watering, fertilizing and treating take 3 seconds to 5 seconds, half of that for the Botanist.</li>
+</ul>
+<h3 id="botanist-dishes">Dishes and drinks</h3>
+<p>The Chef cooks at the stove and picks a dish from one list that shows the ingredients still missing; the Bartender mixes at the bar's mixer. A dish fills the hunger meter by the percentage shown.</p>
+<div class="tablewrap"><table>
+<thead><tr><th scope="col">Makes</th><th scope="col">At</th><th scope="col">Ingredients</th><th scope="col">Fills</th><th scope="col">Takes</th></tr></thead>
+<tbody>
+<tr><th scope="row">Harvest hash</th><td>Stove</td><td>protein block and potatoes and onions</td><td>65%</td><td>12 s</td></tr>
+<tr><th scope="row">Protein skillet</th><td>Stove</td><td>protein block and beans</td><td>60%</td><td>10 s</td></tr>
+<tr><th scope="row">Vegetable stew</th><td>Stove</td><td>carrots and potatoes and onions</td><td>52%</td><td>12 s</td></tr>
+<tr><th scope="row">Corn chowder</th><td>Stove</td><td>corn cobs and potatoes and onions</td><td>56%</td><td>11 s</td></tr>
+<tr><th scope="row">Tomato pilaf</th><td>Stove</td><td>rice and tomatoes</td><td>47%</td><td>9 s</td></tr>
+<tr><th scope="row">Rice bowl</th><td>Stove</td><td>rice and beans</td><td>45%</td><td>9 s</td></tr>
+<tr><th scope="row">Bean stew</th><td>Stove</td><td>beans and tomatoes</td><td>42%</td><td>8 s</td></tr>
+<tr><th scope="row">Mushroom pan</th><td>Stove</td><td>mushrooms and onions</td><td>38%</td><td>8 s</td></tr>
+<tr><th scope="row">Potato soup</th><td>Stove</td><td>potatoes and onions</td><td>40%</td><td>8 s</td></tr>
+<tr><th scope="row">Fried potato strips</th><td>Stove</td><td>2 potatoes</td><td>38%</td><td>7 s</td></tr>
+<tr><th scope="row">Fruit compote</th><td>Stove</td><td>apples and beet sugar</td><td>34%</td><td>8 s</td></tr>
+<tr><th scope="row">Tomato soup</th><td>Stove</td><td>2 tomatoes</td><td>33%</td><td>7 s</td></tr>
+<tr><th scope="row">Flatbread</th><td>Stove</td><td>2 wheat</td><td>30%</td><td>6 s</td></tr>
+<tr><th scope="row">Carrot salad</th><td>Stove</td><td>2 carrots</td><td>25%</td><td>6 s</td></tr>
+<tr><th scope="row">Onion broth</th><td>Stove</td><td>2 onions</td><td>26%</td><td>7 s</td></tr>
+<tr><th scope="row">Baked potato</th><td>Stove</td><td>potatoes</td><td>28%</td><td>10 s</td></tr>
+<tr><th scope="row">Tomato fizz</th><td>Bar mixer</td><td>tomatoes</td><td>6%</td><td>3 s</td></tr>
+<tr><th scope="row">Malt tea</th><td>Bar mixer</td><td>wheat</td><td>5%</td><td>3 s</td></tr>
+<tr><th scope="row">Beet sugar</th><td>Bar mixer</td><td>sugar beets</td><td>—</td><td>3 s</td></tr>
+</tbody></table></div>
+<figure class="inline"><a href="img/shots/greenhouse.png"><img src="img/shots/greenhouse.png" width="1280" height="720" alt="Planting trays with growing crops in a lit greenhouse." loading="lazy"></a><figcaption>The greenhouse beside the kitchen.</figcaption></figure>
+<figure class="inline"><a href="img/shots/tray_status.png"><img src="img/shots/tray_status.png" width="1280" height="720" alt="A planting tray with its status line on screen." loading="lazy"></a><figcaption>One tap on a tray: water, food, weeds and disease.</figcaption></figure>
 </section>
-<section class="card" id="chef"><h2><span class="badge" style="background:#e8e8f0">C</span> Chef</h2>
-<p>Cooks the food and keeps the kitchen. Starts empty-handed. Wears a backpack. Also wears an apron and a chef's hat. Twice as fast to cook a dish. Their ID card gives kitchen access. The Chef takes produce from the cabinet, cooks it at the stoves and puts the dishes on the serving counter, which anyone may take from. With no Chef on the shift the ration dispenser keeps the crew fed, but meagrely. The Chef's hat and apron show on their sprite; spares are in the pass-through cabinet.</p>
-<p>Starts in the <b>Kitchen</b>.</p>
-<p>Their ID card opens the <b>Kitchen</b> (kitchen), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="chef" aria-labelledby="h-chef">
+<h2 id="h-chef"><img class="spr jobicon" src="img/jobs/chef.png" width="40" height="40" alt="Chef icon"> Chef <img class="spr crew" src="img/jobs/chef-crew.png" width="48" height="80" alt="Chef in uniform" loading="lazy"></h2>
+<p>The Chef cooks the crew's food in the kitchen. Without a Chef the ration dispenser feeds the crew, but meagrely.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span></li>
+<li><b>Wearing</b>: <span class="chip"><img class="spr" src="img/items/apron.png" width="24" height="24" alt="" loading="lazy"> Apron</span> <span class="chip"><img class="spr" src="img/items/chefhat.png" width="24" height="24" alt="" loading="lazy"> Chef's hat</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: kitchen. Starts in the <b>Kitchen</b>. Their ID card opens the <b>Kitchen</b> (kitchen) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Take produce from the pass-through cabinet.</li>
+<li>Pick a dish at the stove from one list that shows what is still missing.</li>
+<li>Put the dishes on the serving counter: anyone may take from it.</li>
+<li><b>Twice as fast</b> at: cook a dish.</li>
+</ul>
+<h3>Works with</h3><p>The Botanist (produce) and the whole crew (hunger).</p>
+<h3>Tips</h3><ul>
+<li>Cook the biggest meals first: they fill the most.</li>
+<li>The hat and apron show on your sprite: spares are in the cabinet.</li>
+</ul>
+<p>The dishes and what goes into them are in the <a href="#botanist-dishes">Botanist's dish list</a>.</p>
+<figure class="inline"><a href="img/shots/recipe_list.png"><img src="img/shots/recipe_list.png" width="1280" height="720" alt="A list of dishes with their ingredients at the stove." loading="lazy"></a><figcaption>The Chef's list shows what is still missing.</figcaption></figure>
 </section>
-<section class="card" id="bartender"><h2><span class="badge" style="background:#5a5e9c">T</span> Bartender</h2>
-<p>Mixes drinks at the bar. Starts empty-handed. Wears a backpack with a shaker. Also wears a bartender's vest. Twice as fast to mix a drink and shake a cocktail. Their ID card gives bar access. The Bartender mixes drinks at the bar's mixer and shakes cocktails with the shaker in the backpack at the bar counter, for whoever sits at it. Drinks are mild: a little food, no drunkenness. Nobody else needs to pour themselves one, but nothing else depends on the bar. The vest shows on their sprite.</p>
-<p>Starts in the <b>Bar</b>.</p>
-<p>Their ID card opens the <b>Bar</b> (bar), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="bartender" aria-labelledby="h-bartender">
+<h2 id="h-bartender"><img class="spr jobicon" src="img/jobs/bartender.png" width="40" height="40" alt="Bartender icon"> Bartender <img class="spr crew" src="img/jobs/bartender-crew.png" width="48" height="80" alt="Bartender in uniform" loading="lazy"></h2>
+<p>The Bartender mixes drinks at the bar. Drinks are mild: a little food, no drunkenness.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/shaker.png" width="24" height="24" alt="" loading="lazy"> Shaker</span></li>
+<li><b>Wearing</b>: <span class="chip"><img class="spr" src="img/items/vest.png" width="24" height="24" alt="" loading="lazy"> Bartender's vest</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: bar. Starts in the <b>Bar</b>. Their ID card opens the <b>Bar</b> (bar) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Mix drinks at the bar's mixer.</li>
+<li>Shake cocktails with the shaker at the bar counter for whoever sits there.</li>
+<li>Keep the bar open: it is where the crew meets.</li>
+<li><b>Twice as fast</b> at: mix a drink and shake a cocktail.</li>
+</ul>
+<h3>Works with</h3><p>The Chef and Botanist (ingredients) and the crew at the counter.</p>
+<h3>Tips</h3><ul>
+<li>Nothing else depends on the bar: use quiet time to help elsewhere.</li>
+</ul>
 </section>
-<section class="card" id="miner"><h2><span class="badge" style="background:#c8803c">N</span> Miner</h2>
-<p>Mines the asteroid, smelts the ore. Starts with a hand drill and an ore bag in hand. Wears a backpack with an air tank. Twice as fast to drill ore from the asteroid and smelt ore. Their ID card gives cargo and maintenance access. The Miner works for Cargo: they go out through an EVA pod (the pod button, the safety rope, a suit, helmet and tank: the Mining Dock keeps a set on its rack) to the small asteroid tethered off the truss, cut chunks of ore loose with the hand drill into the ore bag, bring them to the refinery in the Mining Dock, load the hopper and smelt: hull plates from iron ore, copper bars (for the lathe's copper wire) from copper ore, nothing from plain rock. With no Miner Cargo sells only 6 plates a shift. Heron only: Benthos Station has nothing to mine until its seabed (docs/UNDERWATER.md). Drilling and smelting take them half the time.</p>
-<p>Starts in the <b>Mining Dock</b>.</p>
-<p>Their ID card opens the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo), the <b>Janitor's Closet</b> (maintenance), the <b>Maint. Tunnels by Robotics</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the <b>Maint. Tunnels by Solar Control</b> (maintenance), the <b>Maint. Tunnels by Bridge</b> (maintenance), the <b>Maint. Tunnels by Power Tube</b> (maintenance), the <b>Maint. Tunnels by EVA Airlock 2</b> (maintenance), the <b>Maint. Tunnels by Hub</b> (maintenance), the <b>Maint. Tunnels by Atmospherics</b> (maintenance), the <b>Maint. Tunnels by Chemistry</b> (maintenance), the <b>Maint. Tunnels by Quarters Tube</b> (maintenance), the <b>Maint. Tunnels by West Tube</b> (maintenance), the <b>Maint. Tunnels by East Tube</b> (maintenance), the <b>Maint. Tunnels by South Tube</b> (maintenance), the <b>Maint. Tunnels by Restroom</b> (maintenance), the <b>Maint. Tunnels by Cargo Reception</b> (maintenance), the <b>Maint. Tunnels by Cargo Storage</b> (maintenance), the <b>Maint. Tunnels by Janitor</b> (maintenance), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="miner" aria-labelledby="h-miner">
+<h2 id="h-miner"><img class="spr jobicon" src="img/jobs/miner.png" width="40" height="40" alt="Miner icon"> Miner <img class="spr crew" src="img/jobs/miner-crew.png" width="48" height="80" alt="Miner in uniform" loading="lazy"></h2>
+<p>The Miner works for Cargo. They go out through an EVA pod to the asteroid and bring back ore.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: <span class="chip"><img class="spr" src="img/items/drill.png" width="24" height="24" alt="" loading="lazy"> Hand drill</span> <span class="chip"><img class="spr" src="img/items/orebag.png" width="24" height="24" alt="" loading="lazy"> Ore bag</span></li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/tank.png" width="24" height="24" alt="" loading="lazy"> Air tank</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: cargo, maintenance. Starts in the <b>Mining Dock</b>. Their ID card opens the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo), the <b>Janitor's Closet</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the maintenance tunnels and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Put on a suit, helmet and tank from the Mining Dock's rack.</li>
+<li>Drill ore from the asteroid into the ore bag.</li>
+<li>Load the hopper at the refinery and smelt: plates from iron ore, copper bars from copper ore.</li>
+<li>Hand plates to the Station Engineer.</li>
+<li><b>Twice as fast</b> at: drill ore from the asteroid and smelt ore.</li>
+</ul>
+<h3>Works with</h3><p>Logistics and the Station Engineer.</p>
+<h3>Tips</h3><ul>
+<li>Check your tank before you go out.</li>
+<li>Plain rock gives nothing: leave it.</li>
+</ul>
+<figure class="inline"><a href="img/shots/asteroid.png"><img src="img/shots/asteroid.png" width="1280" height="720" alt="A rocky asteroid seen from the truss." loading="lazy"></a><figcaption>The asteroid off the truss.</figcaption></figure>
+<figure class="inline"><a href="img/shots/refinery.png"><img src="img/shots/refinery.png" width="1280" height="720" alt="A refinery machine with a hopper." loading="lazy"></a><figcaption>The refinery in the Mining Dock.</figcaption></figure>
 </section>
-<section class="card" id="janitor"><h2><span class="badge" style="background:#a064cc">J</span> Janitor</h2>
-<p>Mops spills and mends the lamps. Starts with a mop and a bucket (empty) in hand. Wears a backpack with box of lightbulbs, a wet floor sign and a wet floor sign. Twice as fast to fill a bucket, mop a puddle and replace a lightbulb. Their ID card gives maintenance access. The Janitor's card opens the Janitor's Closet and the maintenance tunnels. They start with a mop and a bucket in the hands and carry a flashlight, a box of lightbulbs and two wet floor signs. Puddles (a dropped drink or dish, a cracked wall that leaks, a bucket spilled) make anyone who steps on one slip half the time (a short stun); the Janitor mops them (fill the bucket at a sink first), puts a sign where a puddle waits, and replaces the bulbs that burn out in the rooms' lamps. Fill, mop and bulb work take them half the time.</p>
-<p>Starts in the <b>Janitor's Closet</b>.</p>
-<p>Their ID card opens the <b>Janitor's Closet</b> (maintenance), the <b>Maint. Tunnels by Robotics</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the <b>Maint. Tunnels by Solar Control</b> (maintenance), the <b>Maint. Tunnels by Bridge</b> (maintenance), the <b>Maint. Tunnels by Power Tube</b> (maintenance), the <b>Maint. Tunnels by EVA Airlock 2</b> (maintenance), the <b>Maint. Tunnels by Hub</b> (maintenance), the <b>Maint. Tunnels by Atmospherics</b> (maintenance), the <b>Maint. Tunnels by Chemistry</b> (maintenance), the <b>Maint. Tunnels by Quarters Tube</b> (maintenance), the <b>Maint. Tunnels by West Tube</b> (maintenance), the <b>Maint. Tunnels by East Tube</b> (maintenance), the <b>Maint. Tunnels by South Tube</b> (maintenance), the <b>Maint. Tunnels by Restroom</b> (maintenance), the <b>Maint. Tunnels by Cargo Reception</b> (maintenance), the <b>Maint. Tunnels by Cargo Storage</b> (maintenance), the <b>Maint. Tunnels by Janitor</b> (maintenance), and the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<section class="card job" id="janitor" aria-labelledby="h-janitor">
+<h2 id="h-janitor"><img class="spr jobicon" src="img/jobs/janitor.png" width="40" height="40" alt="Janitor icon"> Janitor <img class="spr crew" src="img/jobs/janitor-crew.png" width="48" height="80" alt="Janitor in uniform" loading="lazy"></h2>
+<p>The Janitor keeps the station clean and lit. Spills make people slip, and dark rooms hide trouble.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: <span class="chip"><img class="spr" src="img/items/mop.png" width="24" height="24" alt="" loading="lazy"> Mop</span> <span class="chip"><img class="spr" src="img/items/bucket.png" width="24" height="24" alt="" loading="lazy"> Bucket (empty)</span></li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/bulbbox.png" width="24" height="24" alt="" loading="lazy"> Box of lightbulbs</span> <span class="chip"><img class="spr" src="img/items/wetsign.png" width="24" height="24" alt="" loading="lazy"> Wet floor sign</span> <span class="chip"><img class="spr" src="img/items/wetsign.png" width="24" height="24" alt="" loading="lazy"> Wet floor sign</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: maintenance. Starts in the <b>Janitor's Closet</b>. Their ID card opens the <b>Janitor's Closet</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the maintenance tunnels and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Mop puddles (fill the bucket at a sink first).</li>
+<li>Put a wet floor sign where a puddle waits.</li>
+<li>Replace the bulbs that burn out in the rooms' lamps.</li>
+<li>Use the maintenance tunnels to move around.</li>
+<li><b>Twice as fast</b> at: fill a bucket, mop a puddle and replace a lightbulb.</li>
+</ul>
+<h3>Works with</h3><p>The Station Engineer (leaks, cracked walls) and everyone who slips.</p>
+<h3>Tips</h3><ul>
+<li>Mopping and bulb work take half the time: do them as you pass.</li>
+<li>A cracked wall that leaks makes a new puddle: tell the engineer.</li>
+</ul>
+<figure class="inline"><a href="img/shots/puddle_mop.png"><img src="img/shots/puddle_mop.png" width="1280" height="720" alt="A crew member mopping a puddle with a wet floor sign." loading="lazy"></a><figcaption>The Janitor mops a puddle.</figcaption></figure>
 </section>
-<p>Without a job's access, an ID card opens the public rooms (Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle).</p>
+<p>The public rooms, which every ID card opens, are: Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle.</p>
 </main>
-<footer>Made from the game's own rules and map, version 0.63.0, on 2026-11-23.</footer>
+<footer>Station Shift 0.64.0 · made from the game's own rules and art on 2026-11-23 · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></footer>
 </body>
 </html>
