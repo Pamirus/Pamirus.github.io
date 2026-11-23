@@ -6339,6 +6339,7 @@
 <rect x="385" y="929" width="14" height="14" rx="1" fill="#b08a5a" stroke="#0b111b"/>
 <rect x="433" y="929" width="14" height="14" rx="1" fill="#6d8cb4" stroke="#0b111b"/>
 <rect x="801" y="929" width="14" height="14" rx="1" fill="#8a6f4a" stroke="#0b111b"/>
+<rect x="1169" y="929" width="14" height="14" rx="1" fill="#6d8cb4" stroke="#0b111b"/>
 <rect x="433" y="945" width="14" height="14" rx="1" fill="#6d8cb4" stroke="#0b111b"/>
 <rect x="689" y="945" width="14" height="14" rx="1" fill="#5c7cbc" stroke="#0b111b"/>
 <rect x="705" y="945" width="14" height="14" rx="1" fill="#5c7cbc" stroke="#0b111b"/>
@@ -6347,7 +6348,9 @@
 <rect x="801" y="945" width="14" height="14" rx="1" fill="#8a6f4a" stroke="#0b111b"/>
 <rect x="817" y="945" width="14" height="14" rx="1" fill="#8a6f4a" stroke="#0b111b"/>
 <rect x="1025" y="945" width="14" height="14" rx="1" fill="#c8423c" stroke="#0b111b"/>
+<rect x="1057" y="945" width="14" height="14" rx="1" fill="#6d8cb4" stroke="#0b111b"/>
 <rect x="1089" y="945" width="14" height="14" rx="1" fill="#c8423c" stroke="#0b111b"/>
+<rect x="1121" y="945" width="14" height="14" rx="1" fill="#6d8cb4" stroke="#0b111b"/>
 <rect x="1169" y="945" width="14" height="14" rx="1" fill="#c8423c" stroke="#0b111b"/>
 <rect x="177" y="961" width="14" height="14" rx="1" fill="#b08a5a" stroke="#0b111b"/>
 <rect x="209" y="961" width="14" height="14" rx="1" fill="#b08a5a" stroke="#0b111b"/>
@@ -6488,6 +6491,8 @@
 <text class="item" x="568" y="956">#</text>
 <rect x="579" y="947" width="10" height="10" rx="2" fill="#d4ac6e"/>
 <text class="item" x="584" y="956">#</text>
+<rect x="627" y="931" width="10" height="10" rx="2" fill="#7a8794"/>
+<text class="item" x="632" y="940">Ő</text>
 <rect x="691" y="947" width="10" height="10" rx="2" fill="#7fd8f0"/>
 <text class="item" x="696" y="956">A</text>
 <rect x="755" y="947" width="10" height="10" rx="2" fill="#7fd8f0"/>
@@ -6934,8 +6939,8 @@
 <p class="legend"><span class="key gen">GEN</span> generator <span class="key sup">REQ</span> request console <span class="key sup">ORD</span> order console <span class="key pad">PAD</span> delivery pad <span class="key fil">FIL</span> filing cabinet <span class="key fil">RAT</span> ration dispenser <span class="key fil">JOB</span> job board <span class="key mon">MON</span> crew monitor <span class="key pwr">PWR</span> power monitor <span class="key air">AIR</span> atmos console <span class="key panel"></span> power panel <span class="key hallway"></span> hallway or tube <span class="key tunnel"></span> maintenance tunnel <span class="key cable"></span> cable <span class="key table"></span> table <span class="key rack"></span> rack <span class="key closet"></span> closet <span class="key cabinet"></span> wall cabinet <span class="key bench"></span> bench <span class="key window"></span> window <span class="key solar"></span> solar panels <span class="key rail"></span> handrail; letters are items (see <a href="items.html">Items</a>).</p>
 <ul>
 <li><b>Request console</b> (in the Cargo Entrance): Anyone can request an item here. The request waits in the order console's list until Logistics approves or denies it, or whoever asked withdraws it. It shows what became of your requests: approved and on its way, landed on the pad, or denied. It shows no supply points.</li>
-<li><b>Order console</b> (in the Cargo Reception): For cargo: needs cargo access. Shows the station's supply points and the requests waiting. Approving one spends the item's cost and prints an order form here; denying takes it off the list. Shipping the pad here sends away the goods on the delivery pad for supply points.</li>
-<li><b>Delivery pad</b> (in the Cargo Storage Bay): Orders land here, marked for whoever asked until someone picks them up. Goods lying here can be shipped from the order console; the station's own things stay.</li>
+<li><b>Order console</b> (in the Cargo Reception): For cargo: needs cargo access. Shows the station's supply points and the requests waiting. Approving one spends the item's cost and prints an order form here; denying takes it off the list. Shipping the pad here sends away the empty crates on the delivery pad for supply points.</li>
+<li><b>Delivery pad</b> (in the Cargo Storage Bay): Orders land here in a crate, marked for whoever asked until the things are taken out of it. Take them out, or load the crate on the cargo cart and deliver it. Empty crates lying here can be shipped from the order console; the station's own things stay.</li>
 <li><b>Filing cabinet</b> (in the Cargo Reception): Where stamped order forms are filed: 2 supply points each.</li>
 <li><b>Atmos console</b> (in the Atmospherics): The atmos console. Lists every room with an air alarm, the worst first, with what is wrong; tap a room for its card. Any engineer can send a room Panic or Normal here, or Panic all red rooms (a 10 second cooldown). It flashes red on the map while a room's air is in trouble. It works only while its room has power.</li>
 <li><b>Ration dispenser</b> (in the Central Hub): A wall dispenser of ration packs: stand beside it and tap Take ration. It gives each person one pack every 90 seconds (35 percent of the hunger meter), whether or not there is a Chef, so no one starves for want of a cook. It works only while its room has power.</li>
@@ -6943,7 +6948,7 @@
 <li><b>Tactical table</b> (in the Bridge): The tactical table in the middle of the bridge: a hologram of the station over a table. Stand beside it and tap Tactical table: how many rooms have power, how many air alarms are ringing, the supply and the battery, the shuttle, and a line for every room that needs someone (cut off, switched off, short of power, bad air). It only shows: nothing here changes anything. Dark without power.</li>
 <li><b>Air alarm</b> (47, one in each room): A room's air alarm. Anyone can tap it to read the room's pressure, temperature and gases and the state of its air (OK, WARN, DANGER); only a station engineer's ID card changes its mode (Normal, Scrub, Panic, Fill, Cycle, Off). Its light on the map shows the state, dark without power. A room an engineer's card does not open (command, medical, science, security, cargo, the brig cells) has a second alarm in the maintenance tunnel beside its wall, so the air there can still be controlled.</li>
 <li><b>Tunnel air alarms</b> (24): the rooms an engineer's card does not open have an alarm in the maintenance tunnel beside their wall, so the air there can still be controlled.</li>
-<li><b>Brig cells</b> (3): A cell has one door to the brig corridor, with windows beside it. A Security Officer or the Captain, standing at the door with the card, can lock it while someone is inside, for a Station Law sentence of 2, 5, 10 minutes. Until the time runs out nobody opens it from either side: not with a card, a crowbar, a multitool or cut wires, and a power cut does not undo it (the lock is mechanical). The door shows the time left. A Security Officer or the Captain can release it early at the door. Once it is unlocked, whoever is inside leaves by it without a card.</li>
+<li><b>Brig cells</b> (3): A cell has one door to the brig corridor, with windows beside it. A Security Officer or the Captain, standing at the door with the card, can lock it while someone is inside, for a Station Law sentence picked from 1, 2, 3, 5, 7, 10, 12, 15 minutes (1 to 15). Until the time runs out nobody opens it from either side: not with a card, a crowbar, a multitool or cut wires, and a power cut does not undo it (the lock is mechanical). The panel of the door shows the time left (Locked, 4:59 left) to everyone; at zero the door unlocks and the prisoner is released. A Security Officer or the Captain can release it early at the door. Each cell has a property locker, locked to security: with Take belongings at the door the officer puts what the prisoner carries (hands, pockets, belt, backpack) into it, and on release it all goes back to the prisoner if they are still in the cell or the brig (Return belongings does it by hand); what they wear stays on them. The cell doors, the brig's door to the Security Office and the office's doors to the hallway are one-way doors: whoever is inside leaves by them without a card once they are unlocked, but nobody comes in without the access, so a released prisoner walks out alone, by the hallway. The brig's door to the maintenance tunnel is an ordinary door that needs the access from both sides, and the radiation belt's override never opens it: nobody who is held is let into the tunnels.</li>
 </ul>
 <p>The Captain's ID card has all areas: it opens every door, so the Captain is not repeated in the table.</p>
 <table><tr><th>Room</th><th>What is there</th><th>Who gets in</th></tr>
@@ -6994,7 +6999,7 @@
 <tr><td>Chapel</td><td>4 benchs, 3 tables, a prop</td><td>everyone</td></tr>
 <tr><td>Maint. Tunnels by Robotics</td><td>a rack, a closet, a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
 <tr><td>Crew-Transfer Shuttle</td><td>16 seats, no power panel</td><td>everyone</td></tr>
-<tr><td>Cell 1</td><td>a bench</td><td>Security Officer (security access)</td></tr>
+<tr><td>Cell 1</td><td>a bench, a locked closet (security access)</td><td>Security Officer (security access)</td></tr>
 <tr><td>Kitchen</td><td>where chef starts, 5 tables, a seat, 2 stoves, a closet, a locked cabinet (kitchen or botanics access)</td><td>Chef (kitchen access)</td></tr>
 <tr><td>Morgue</td><td>5 props</td><td>Medical Doctor (medical access)</td></tr>
 <tr><td>EVA Airlock 2</td><td>—</td><td>Station Engineer (engineering access)</td></tr>
@@ -7017,10 +7022,10 @@
 <tr><td>Maint. Tunnels by Cargo Reception</td><td>a storage crate</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
 <tr><td>Maint. Tunnels by Cargo Storage</td><td>a rack</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
 <tr><td>Maint. Tunnels by Janitor</td><td>a closet</td><td>Station Engineer and Janitor (maintenance access)</td></tr>
-<tr><td>Cell 2</td><td>a bench</td><td>Security Officer (security access)</td></tr>
-<tr><td>Cell 3</td><td>a bench</td><td>Security Officer (security access)</td></tr>
+<tr><td>Cell 2</td><td>a bench, a locked closet (security access)</td><td>Security Officer (security access)</td></tr>
+<tr><td>Cell 3</td><td>a bench, a locked closet (security access)</td><td>Security Officer (security access)</td></tr>
 </table>
 </main>
-<footer>Made from the game's own rules and map, version 0.58.0, on 2026-11-23.</footer>
+<footer>Made from the game's own rules and map, version 0.59.0, on 2026-11-23.</footer>
 </body>
 </html>
