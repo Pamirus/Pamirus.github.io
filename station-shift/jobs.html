@@ -14,6 +14,7 @@
 <h1>Jobs</h1>
 <p class="lead">Everybody can do everything. A job decides what you start with, where you start, and what you do twice as fast.</p>
 <ul class="jobstrip" aria-label="Jump to a job">
+<li><a href="#crew"><img class="spr" src="img/jobs/crew.png" width="40" height="40" alt="" loading="lazy"><span>Crew Member</span></a></li>
 <li><a href="#captain"><img class="spr" src="img/jobs/captain.png" width="40" height="40" alt="" loading="lazy"><span>Captain</span></a></li>
 <li><a href="#hop"><img class="spr" src="img/jobs/hop.png" width="40" height="40" alt="" loading="lazy"><span>Head of Personnel</span></a></li>
 <li><a href="#security"><img class="spr" src="img/jobs/security.png" width="40" height="40" alt="" loading="lazy"><span>Security Officer</span></a></li>
@@ -27,6 +28,29 @@
 <li><a href="#miner"><img class="spr" src="img/jobs/miner.png" width="40" height="40" alt="" loading="lazy"><span>Miner</span></a></li>
 <li><a href="#janitor"><img class="spr" src="img/jobs/janitor.png" width="40" height="40" alt="" loading="lazy"><span>Janitor</span></a></li>
 </ul>
+<section class="card job" id="crew" aria-labelledby="h-crew">
+<h2 id="h-crew"><img class="spr jobicon" src="img/jobs/crew.png" width="40" height="40" alt="Crew Member icon"> Crew Member <img class="spr crew" src="img/jobs/crew-crew.png" width="48" height="80" alt="Crew Member in uniform" loading="lazy"></h2>
+<p>The Crew Member is the station's assistant and the job a new player starts as. There is no limit to how many may take it, and no department door opens for the card.</p>
+<h3>You start with</h3><ul class="kit">
+<li><b>In your hands</b>: nothing</li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span></li>
+<li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span></li>
+</ul>
+<h3>Access</h3>
+<p>Card access: bar. Starts in the <b>Crew Quarters</b>. Their ID card opens the <b>Bar</b> (bar) and every public room.</p>
+<h3>What you do</h3><ul>
+<li>Help whichever department is short of hands: carry crates for Cargo, hold the bucket for the Janitor, bring the hurt to the Medbay.</li>
+<li>Serve yourself and others from the counter, and sit at the bar.</li>
+<li>Learn the station by trying every room the card opens: the hall, the canteen's counter, the bar, the restrooms, the chapel and the arrivals.</li>
+<li>Ask the Head of Personnel for a trade when you know what you want to do.</li>
+</ul>
+<h3>Works with</h3><p>Every department, and the Head of Personnel, who can change the card.</p>
+<h3>Tips</h3><ul>
+<li>Nobody needs a job to be useful: ask on the radio what is needed.</li>
+<li>Your flashlight is in a pocket: tap it to light dark tunnels.</li>
+</ul>
+<figure class="inline"><a href="img/shots/crew_member.png"><img src="img/shots/crew_member.png" width="1280" height="720" alt="A crew member in a grey jumpsuit standing in the hub." loading="lazy"></a><figcaption>A Crew Member in the plain grey jumpsuit.</figcaption></figure>
+</section>
 <section class="card job" id="captain" aria-labelledby="h-captain">
 <h2 id="h-captain"><img class="spr jobicon" src="img/jobs/captain.png" width="40" height="40" alt="Captain icon"> Captain <img class="spr crew" src="img/jobs/captain-crew.png" width="48" height="80" alt="Captain in uniform" loading="lazy"></h2>
 <p>The Captain runs the shift from the Bridge. Their ID card opens every door.</p>
@@ -324,42 +348,46 @@
 </section>
 <section class="card job" id="miner" aria-labelledby="h-miner">
 <h2 id="h-miner"><img class="spr jobicon" src="img/jobs/miner.png" width="40" height="40" alt="Miner icon"> Miner <img class="spr crew" src="img/jobs/miner-crew.png" width="48" height="80" alt="Miner in uniform" loading="lazy"></h2>
-<p>The Miner works for Cargo. They go out through an EVA pod to the asteroid and bring back ore.</p>
+<p>The Miner works for Cargo. On Heron they ride the mining shuttle to an airless field of rock and bring back ore.</p>
 <h3>You start with</h3><ul class="kit">
-<li><b>In your hands</b>: <span class="chip"><img class="spr" src="img/items/drill.png" width="24" height="24" alt="" loading="lazy"> Hand drill</span> <span class="chip"><img class="spr" src="img/items/orebag.png" width="24" height="24" alt="" loading="lazy"> Ore bag</span></li>
+<li><b>In your hands</b>: <span class="chip"><img class="spr" src="img/items/drill.png" width="24" height="24" alt="" loading="lazy"> Hand drill</span></li>
+<li><b>Belt</b>: <span class="chip"><img class="spr" src="img/items/minerbelt.png" width="24" height="24" alt="" loading="lazy"> Miner belt</span> holding <span class="chip"><img class="spr" src="img/items/orebag.png" width="24" height="24" alt="" loading="lazy"> Ore bag</span> <span class="chip"><img class="spr" src="img/items/bandage.png" width="24" height="24" alt="" loading="lazy"> Bandage</span> <span class="chip"><img class="spr" src="img/items/epinephrine.png" width="24" height="24" alt="" loading="lazy"> Epinephrine pen</span></li>
 <li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/tank.png" width="24" height="24" alt="" loading="lazy"> Air tank</span></li>
 <li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span></li>
 </ul>
 <h3>Access</h3>
 <p>Card access: cargo, maintenance. Starts in the <b>Mining Dock</b>. Their ID card opens the <b>Cargo Reception</b> (cargo), the <b>Cargo Storage Bay</b> (cargo), the <b>Mining Dock</b> (cargo), the <b>Janitor's Closet</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the maintenance tunnels and every public room.</p>
 <h3>What you do</h3><ul>
-<li>Put on a suit, helmet and tank from the Mining Dock's rack.</li>
-<li>Drill ore from the asteroid into the ore bag.</li>
-<li>Load the hopper at the refinery and smelt: plates from iron ore, copper bars from copper ore.</li>
+<li>Put on a suit, helmet and tank from the Mining Dock's rack, and board the mining shuttle (call it at the dock console, sit, press the panel).</li>
+<li>Drill ore from the rock into the ore bag on the Miner belt's hook.</li>
+<li>Call the shuttle home from the console at the site, then load the hopper at the refinery and smelt: plates from iron ore, copper bars from copper ore.</li>
 <li>Hand plates to the Station Engineer.</li>
 <li><b>Twice as fast</b> at: drill ore from the asteroid and smelt ore.</li>
 </ul>
 <h3>Works with</h3><p>Logistics and the Station Engineer.</p>
 <h3>Tips</h3><ul>
-<li>Check your tank before you go out.</li>
-<li>Plain rock gives nothing: leave it.</li>
+<li>The site has no air and no rope: check your tank before the door opens.</li>
+<li>Plain rock gives nothing: leave it. An empty shuttle goes home by itself after 20 s.</li>
 </ul>
+<figure class="inline"><a href="img/shots/mine_site.png"><img src="img/shots/mine_site.png" width="1280" height="720" alt="A crew member in an EVA suit among ore-bearing rocks on a dark rock shelf." loading="lazy"></a><figcaption>The mine site: an airless field of rock beside the station, walked in a suit.</figcaption></figure>
+<figure class="inline"><a href="img/shots/shuttle_cabin.png"><img src="img/shots/shuttle_cabin.png" width="1280" height="720" alt="A small cabin with strap seats and a console." loading="lazy"></a><figcaption>The mining shuttle's cabin: strap seats and the launch panel.</figcaption></figure>
 <figure class="inline"><a href="img/shots/asteroid.png"><img src="img/shots/asteroid.png" width="1280" height="720" alt="A rocky asteroid seen from the truss." loading="lazy"></a><figcaption>The asteroid off the truss.</figcaption></figure>
 <figure class="inline"><a href="img/shots/refinery.png"><img src="img/shots/refinery.png" width="1280" height="720" alt="A refinery machine with a hopper." loading="lazy"></a><figcaption>The refinery in the Mining Dock.</figcaption></figure>
 </section>
 <section class="card job" id="janitor" aria-labelledby="h-janitor">
 <h2 id="h-janitor"><img class="spr jobicon" src="img/jobs/janitor.png" width="40" height="40" alt="Janitor icon"> Janitor <img class="spr crew" src="img/jobs/janitor-crew.png" width="48" height="80" alt="Janitor in uniform" loading="lazy"></h2>
-<p>The Janitor keeps the station clean and lit. Spills make people slip, and dark rooms hide trouble.</p>
+<p>The Janitor keeps the station clean and lit. Where there is gravity spills make people slip, and dark rooms hide trouble.</p>
 <h3>You start with</h3><ul class="kit">
-<li><b>In your hands</b>: <span class="chip"><img class="spr" src="img/items/mop.png" width="24" height="24" alt="" loading="lazy"> Mop</span> <span class="chip"><img class="spr" src="img/items/bucket.png" width="24" height="24" alt="" loading="lazy"> Bucket (empty)</span></li>
-<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/bulbbox.png" width="24" height="24" alt="" loading="lazy"> Box of lightbulbs</span> <span class="chip"><img class="spr" src="img/items/wetsign.png" width="24" height="24" alt="" loading="lazy"> Wet floor sign</span> <span class="chip"><img class="spr" src="img/items/wetsign.png" width="24" height="24" alt="" loading="lazy"> Wet floor sign</span></li>
+<li><b>In your hands</b>: nothing</li>
+<li><b>Belt</b>: <span class="chip"><img class="spr" src="img/items/janitorbelt.png" width="24" height="24" alt="" loading="lazy"> Janitor belt</span> holding <span class="chip"><img class="spr" src="img/items/mop.png" width="24" height="24" alt="" loading="lazy"> Mop</span> <span class="chip"><img class="spr" src="img/items/bucket.png" width="24" height="24" alt="" loading="lazy"> Bucket (empty)</span> <span class="chip"><img class="spr" src="img/items/bulbbox.png" width="24" height="24" alt="" loading="lazy"> Box of lightbulbs</span> <span class="chip"><img class="spr" src="img/items/wetsign.png" width="24" height="24" alt="" loading="lazy"> Wet floor sign</span> <span class="chip"><img class="spr" src="img/items/wetsign.png" width="24" height="24" alt="" loading="lazy"> Wet floor sign</span></li>
+<li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/squeegee.png" width="24" height="24" alt="" loading="lazy"> Squeegee</span></li>
 <li><b>Pockets</b>: <span class="chip"><img class="spr" src="img/items/flashlight.png" width="24" height="24" alt="" loading="lazy"> Flashlight</span></li>
 </ul>
 <h3>Access</h3>
 <p>Card access: maintenance. Starts in the <b>Janitor's Closet</b>. Their ID card opens the <b>Janitor's Closet</b> (maintenance), the <b>EVA Airlock 2</b> (maintenance), the maintenance tunnels and every public room.</p>
 <h3>What you do</h3><ul>
-<li>Mop puddles (fill the bucket at a sink first).</li>
-<li>Put a wet floor sign where a puddle waits.</li>
+<li>Mop puddles (fill the bucket at a sink first); the tools hang on the Janitor belt.</li>
+<li>Put a wet floor sign where a puddle waits (stations with gravity only: nobody slips on weightless Heron).</li>
 <li>Replace the bulbs that burn out in the rooms' lamps.</li>
 <li>Use the maintenance tunnels to move around.</li>
 <li><b>Twice as fast</b> at: fill a bucket, mop a puddle and replace a lightbulb.</li>
@@ -373,6 +401,6 @@
 </section>
 <p>The public rooms, which every ID card opens, are: Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Security Transit Tube, Power Transit Tube, Quarters Transit Tube, Medical Reception, Law Office, Cargo Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle.</p>
 </main>
-<footer>Station Shift 0.64.0 · made from the game's own rules and art on 2026-11-23 · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></footer>
+<footer>Station Shift 0.65.0 · made from the game's own rules and art on 2026-11-23 · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></footer>
 </body>
 </html>
