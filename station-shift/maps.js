@@ -32,7 +32,7 @@
     });
   });
   if (tabs.length) {
-    var want = location.hash.indexOf('millrace') >= 0 ? 2 : location.hash.indexOf('benthos') >= 0 ? 1 : 0;
+    var want = location.hash.indexOf('millrace') >= 0 ? 1 : 0;
     selectTab(tabs[Math.min(want, tabs.length - 1)], false);
     if (location.hash.length > 1) {
       setTimeout(function () {
@@ -41,8 +41,7 @@
       }, 0);
     }
     window.addEventListener('hashchange', function () {
-      if (location.hash === '#benthos') selectTab(tabs[1], false);
-      if (location.hash === '#millrace') selectTab(tabs[Math.min(2, tabs.length - 1)], false);
+      if (location.hash === '#millrace') selectTab(tabs[Math.min(1, tabs.length - 1)], false);
       if (location.hash === '#heron') selectTab(tabs[0], false);
     });
   }
