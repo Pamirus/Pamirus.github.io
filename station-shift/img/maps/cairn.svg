@@ -10,7 +10,7 @@
 <rect x="24" y="84" width="8" height="52" fill="#f2a33a"/>
 <text x="46" y="112" font-size="24" font-weight="700" fill="#e8edf4">Surface</text>
 <text x="46" y="129" font-size="12" font-weight="700" fill="#f2a33a" letter-spacing="1">DECK 1</text>
-<text x="1772" y="118" font-size="14" fill="#a6b3c4" text-anchor="end">Command, science, medical, security, commons, food, cargo and engineering</text>
+<text x="1772" y="118" font-size="14" fill="#a6b3c4" text-anchor="end">Command, science, medical, watch, commons, food, stores and engineering</text>
 <rect x="24" y="136" width="1760" height="1520" fill="#1f2d3c"/>
 <g transform="translate(24 136)">
 <g transform="scale(20)">
@@ -44,7 +44,7 @@
 <path fill="#f08a24" stroke="#0b111b" stroke-width=".1" d="M57.05 51.05h.9v.9h-.9zM69.05 51.05h.9v.9h-.9zM16.05 55.05h.9v.9h-.9zM28.05 55.05h.9v.9h-.9zM41.05 55.05h.9v.9h-.9zM70.05 55.05h.9v.9h-.9z"/>
 </g>
 <g font-weight="600" text-anchor="middle" fill="#f4f7fb" stroke="#0b111b" stroke-linejoin="round" paint-order="stroke">
-<text x="960.0" y="874.9" font-size="14.1" stroke-width="4.2">Maint. Tunnels by North Hall</text>
+<text x="960.0" y="875.2" font-size="15.0" stroke-width="4.5">Crawlways by North Hall</text>
 <text x="880.0" y="255.2" font-size="15.0" stroke-width="4.5">North Hall</text>
 <text x="880.0" y="675.2" font-size="15.0" stroke-width="4.5">Mid Hall</text>
 <text x="880.0" y="1075.2" font-size="15.0" stroke-width="4.5">South Hall</text>
@@ -52,8 +52,8 @@
 <text font-size="8.2" stroke-width="2.5"><title>Windlock East</title><tspan x="1580.0" y="1058.4">Windlock</tspan><tspan x="1580.0" y="1067.4">East</tspan></text>
 <text font-size="12.4" stroke-width="3.7"><title>Windlock South</title><tspan x="1110.0" y="1337.5">Windlock</tspan><tspan x="1110.0" y="1351.1">South</tspan></text>
 <text x="340.0" y="135.2" font-size="15.0" stroke-width="4.5">Bridge</text>
-<text font-size="15.0" stroke-width="4.5"><title>Captain's Office</title><tspan x="550.0" y="137.0">Captain's</tspan><tspan x="550.0" y="153.5">Office</tspan></text>
-<text font-size="12.8" stroke-width="3.8"><title>Head of Personnel's Office</title><tspan x="710.0" y="137.4">Head of</tspan><tspan x="710.0" y="151.5">Personnel's Office</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Station Master's Office</title><tspan x="550.0" y="137.0">Station</tspan><tspan x="550.0" y="153.5">Master's Office</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Registrar's Office</title><tspan x="710.0" y="137.0">Registrar's</tspan><tspan x="710.0" y="153.5">Office</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Communications Room</title><tspan x="870.0" y="137.0">Communications</tspan><tspan x="870.0" y="153.5">Room</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Research and Development</title><tspan x="1050.0" y="137.0">Research and</tspan><tspan x="1050.0" y="153.5">Development</tspan></text>
 <text x="1250.0" y="155.2" font-size="15.0" stroke-width="4.5">Robotics</text>
@@ -65,10 +65,10 @@
 <text x="520.0" y="555.2" font-size="15.0" stroke-width="4.5">Morgue</text>
 <text x="680.0" y="555.2" font-size="15.0" stroke-width="4.5">Library</text>
 <text font-size="15.0" stroke-width="4.5"><title>Commons Hub</title><tspan x="900.0" y="457.0">Commons</tspan><tspan x="900.0" y="473.5">Hub</tspan></text>
-<text font-size="11.0" stroke-width="3.3"><title>Janitor's Closet</title><tspan x="1010.0" y="577.8">Janitor's</tspan><tspan x="1010.0" y="589.9">Closet</tspan></text>
-<text font-size="15.0" stroke-width="4.5"><title>Security Office</title><tspan x="1130.0" y="377.0">Security</tspan><tspan x="1130.0" y="393.5">Office</tspan></text>
-<text font-size="15.0" stroke-width="4.5"><title>Law Office</title><tspan x="1130.0" y="557.0">Law</tspan><tspan x="1130.0" y="573.5">Office</tspan></text>
-<text x="1350.0" y="475.2" font-size="15.0" stroke-width="4.5">Brig</text>
+<text font-size="9.0" stroke-width="2.7"><title>Caretaker's Store</title><tspan x="1010.0" y="578.2">Caretaker's</tspan><tspan x="1010.0" y="588.1">Store</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Watch Office</title><tspan x="1130.0" y="377.0">Watch</tspan><tspan x="1130.0" y="393.5">Office</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Advocate's Chambers</title><tspan x="1130.0" y="557.0">Advocate's</tspan><tspan x="1130.0" y="573.5">Chambers</tspan></text>
+<text x="1350.0" y="475.2" font-size="15.0" stroke-width="4.5">Holding</text>
 <text font-size="15.0" stroke-width="4.5"><title>Cell 1</title><tspan x="1500.0" y="357.0">Cell</tspan><tspan x="1500.0" y="373.5">1</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Crew Quarters</title><tspan x="390.0" y="777.0">Crew</tspan><tspan x="390.0" y="793.5">Quarters</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>West Hall</title><tspan x="240.0" y="857.0">West</tspan><tspan x="240.0" y="873.5">Hall</tspan></text>
@@ -87,9 +87,9 @@
 <text x="830.0" y="1195.2" font-size="15.0" stroke-width="4.5">Machine Workshop</text>
 <text font-size="15.0" stroke-width="4.5"><title>Sled Shed</title><tspan x="1120.0" y="1197.0">Sled</tspan><tspan x="1120.0" y="1213.5">Shed</tspan></text>
 <text x="1410.0" y="1195.2" font-size="15.0" stroke-width="4.5">Construction Workshop</text>
-<text x="620.0" y="1295.2" font-size="15.0" stroke-width="4.5">Maint. Tunnels by Commons Hub</text>
-<text x="1230.0" y="475.2" font-size="15.0" stroke-width="4.5" transform="rotate(-90 1230.0 470.0)">Maint. Tunnels by Commons Hub 2</text>
-<text x="1370.0" y="1295.2" font-size="15.0" stroke-width="4.5">Maint. Tunnels by Construction</text>
+<text x="620.0" y="1295.2" font-size="15.0" stroke-width="4.5">Crawlways by Commons Hub</text>
+<text x="1150.0" y="474.0" font-size="11.4" stroke-width="3.4">Crawlways by Commons Hub 2</text>
+<text x="1370.0" y="1295.2" font-size="15.0" stroke-width="4.5">Crawlways by Construction</text>
 <text font-size="15.0" stroke-width="4.5"><title>Cell 2</title><tspan x="1500.0" y="457.0">Cell</tspan><tspan x="1500.0" y="473.5">2</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Cell 3</title><tspan x="1500.0" y="557.0">Cell</tspan><tspan x="1500.0" y="573.5">3</tspan></text>
 </g>
@@ -187,7 +187,7 @@
 <path fill="#f08a24" stroke="#0b111b" stroke-width=".1" d="M54.05 15.05h.9v.9h-.9zM69.05 15.05h.9v.9h-.9z"/>
 </g>
 <g font-weight="600" text-anchor="middle" fill="#f4f7fb" stroke="#0b111b" stroke-linejoin="round" paint-order="stroke">
-<text x="900.0" y="55.2" font-size="15.0" stroke-width="4.5">Ice Maintenance Tunnels</text>
+<text x="900.0" y="55.2" font-size="15.0" stroke-width="4.5">Ice Crawlways</text>
 <text x="910.0" y="315.2" font-size="15.0" stroke-width="4.5">Ice Hall</text>
 <text x="360.0" y="155.2" font-size="15.0" stroke-width="4.5">Core Lab</text>
 <text x="620.0" y="155.2" font-size="15.0" stroke-width="4.5">Culture Lab</text>
@@ -230,63 +230,63 @@
 <rect x="190.0" y="2460.0" width="22" height="12" fill="#3ab85a" stroke="#0b111b"/>
 <text x="220.0" y="2470.0" font-size="12" fill="#a6b3c4">Botanics</text>
 <rect x="292.8" y="2460.0" width="22" height="12" fill="#d83a3a" stroke="#0b111b"/>
-<text x="322.8" y="2470.0" font-size="12" fill="#a6b3c4">Security</text>
-<rect x="395.6" y="2460.0" width="22" height="12" fill="#9a5ad8" stroke="#0b111b"/>
-<text x="425.6" y="2470.0" font-size="12" fill="#a6b3c4">Science</text>
-<rect x="491.8" y="2460.0" width="22" height="12" fill="#4db3ee" stroke="#0b111b"/>
-<text x="521.8" y="2470.0" font-size="12" fill="#a6b3c4">Medical</text>
-<rect x="588.0" y="2460.0" width="22" height="12" fill="#e8c32a" stroke="#0b111b"/>
-<text x="618.0" y="2470.0" font-size="12" fill="#a6b3c4">Cargo</text>
-<rect x="671.0" y="2460.0" width="22" height="12" fill="#2f4fc8" stroke="#0b111b"/>
-<text x="701.0" y="2470.0" font-size="12" fill="#a6b3c4">Command</text>
-<rect x="767.2" y="2460.0" width="22" height="12" fill="#f08a24" stroke="#0b111b"/>
-<text x="797.2" y="2470.0" font-size="12" fill="#a6b3c4">Engineering</text>
-<rect x="889.8" y="2460.0" width="22" height="12" fill="#8a8f9c" stroke="#0b111b"/>
-<text x="919.8" y="2470.0" font-size="12" fill="#a6b3c4">Public</text>
-<rect x="979.4" y="2460.0" width="22" height="12" fill="url(#caution)" stroke="#0b111b" transform="translate(0 0)"/>
-<text x="1009.4" y="2470.0" font-size="12" fill="#a6b3c4">Maintenance tunnel door</text>
-<rect x="1181.2" y="2460.0" width="22" height="12" fill="#5d6e86" stroke="#7d8aa0" stroke-width=".8"/>
-<text x="1211.2" y="2470.0" font-size="12" fill="#a6b3c4">Hallway or tube</text>
-<rect x="1330.2" y="2460.0" width="22" height="12" fill="#2e2520" stroke="#7d8aa0" stroke-width=".8"/>
-<text x="1360.2" y="2470.0" font-size="12" fill="#a6b3c4">Maintenance tunnels</text>
-<rect x="1505.6" y="2460.0" width="22" height="12" fill="#7fc4ea" stroke="#7d8aa0" stroke-width=".8"/>
-<text x="1535.6" y="2470.0" font-size="12" fill="#a6b3c4">Window</text>
-<rect x="1595.2" y="2460.0" width="22" height="12" fill="#9fb6c9" stroke="#7d8aa0" stroke-width=".8"/>
-<text x="1625.2" y="2470.0" font-size="12" fill="#a6b3c4">Ice yard</text>
-<rect x="24.0" y="2484.0" width="22" height="12" fill="#58d68d" stroke="#7d8aa0" stroke-width=".8"/>
-<text x="54.0" y="2494.0" font-size="12" fill="#a6b3c4">Power panel</text>
-<g transform="translate(149.6 2482.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
-<text x="176.6" y="2494.0" font-size="12" fill="#a6b3c4">Stairs</text>
-<g transform="translate(239.2 2482.0)"><rect width="16" height="16" rx="3" fill="#5fd0e8" stroke="#0b111b"/><path d="M8 2l4 5H4zM8 14l4-5H4z" fill="#0b111b"/></g>
-<text x="266.2" y="2494.0" font-size="12" fill="#a6b3c4">Lift (a cart lift to every deck)</text>
-<g transform="translate(500.4 2482.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
-<text x="527.4" y="2494.0" font-size="12" fill="#a6b3c4">Cable riser</text>
-<rect x="622.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="631.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">REQ</text>
-<text x="650.0" y="2494.0" font-size="12" fill="#a6b3c4">Request console</text>
-<rect x="771.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="780.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ORD</text>
-<text x="799.0" y="2494.0" font-size="12" fill="#a6b3c4">Order console</text>
-<rect x="907.3" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="915.8" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PAD</text>
-<text x="934.8" y="2494.0" font-size="12" fill="#a6b3c4">Delivery pad</text>
-<rect x="1036.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1045.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">FIL</text>
-<text x="1064.0" y="2494.0" font-size="12" fill="#a6b3c4">Filing cabinet</text>
-<rect x="1179.0" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1187.4" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CRW</text>
-<text x="1206.4" y="2494.0" font-size="12" fill="#a6b3c4">Crew monitor</text>
-<rect x="1308.2" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1316.6" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PWR</text>
-<text x="1335.6" y="2494.0" font-size="12" fill="#a6b3c4">Power monitor</text>
-<rect x="1444.0" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1452.4" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ATM</text>
-<text x="1471.4" y="2494.0" font-size="12" fill="#a6b3c4">Atmos console</text>
-<rect x="1579.8" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1588.2" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">RAT</text>
-<text x="1607.2" y="2494.0" font-size="12" fill="#a6b3c4">Ration dispenser</text>
-<rect x="26.6" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="35.0" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">JOB</text>
-<text x="54.0" y="2518.0" font-size="12" fill="#a6b3c4">Job board</text>
-<rect x="136.0" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="144.4" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TAC</text>
-<text x="163.4" y="2518.0" font-size="12" fill="#a6b3c4">Tactical table</text>
-<rect x="280.5" y="2509.0" width="12.6" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="286.8" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ID</text>
-<text x="305.8" y="2518.0" font-size="12" fill="#a6b3c4">ID console</text>
-<rect x="394.3" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="402.8" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">GEN</text>
-<text x="421.8" y="2518.0" font-size="12" fill="#a6b3c4">Generator</text>
-<rect x="503.7" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="512.2" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PRS</text>
-<text x="531.2" y="2518.0" font-size="12" fill="#a6b3c4">Scrap press</text>
-<rect x="626.3" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="634.8" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
-<text x="653.8" y="2518.0" font-size="12" fill="#a6b3c4">Hull survey board</text>
+<text x="322.8" y="2470.0" font-size="12" fill="#a6b3c4">Watch</text>
+<rect x="375.8" y="2460.0" width="22" height="12" fill="#9a5ad8" stroke="#0b111b"/>
+<text x="405.8" y="2470.0" font-size="12" fill="#a6b3c4">Science</text>
+<rect x="472.0" y="2460.0" width="22" height="12" fill="#4db3ee" stroke="#0b111b"/>
+<text x="502.0" y="2470.0" font-size="12" fill="#a6b3c4">Medical</text>
+<rect x="568.2" y="2460.0" width="22" height="12" fill="#e8c32a" stroke="#0b111b"/>
+<text x="598.2" y="2470.0" font-size="12" fill="#a6b3c4">Stores</text>
+<rect x="657.8" y="2460.0" width="22" height="12" fill="#2f4fc8" stroke="#0b111b"/>
+<text x="687.8" y="2470.0" font-size="12" fill="#a6b3c4">Command</text>
+<rect x="754.0" y="2460.0" width="22" height="12" fill="#f08a24" stroke="#0b111b"/>
+<text x="784.0" y="2470.0" font-size="12" fill="#a6b3c4">Engineering</text>
+<rect x="876.6" y="2460.0" width="22" height="12" fill="#8a8f9c" stroke="#0b111b"/>
+<text x="906.6" y="2470.0" font-size="12" fill="#a6b3c4">Public</text>
+<rect x="966.2" y="2460.0" width="22" height="12" fill="url(#caution)" stroke="#0b111b" transform="translate(0 0)"/>
+<text x="996.2" y="2470.0" font-size="12" fill="#a6b3c4">Crawlway door</text>
+<rect x="1102.0" y="2460.0" width="22" height="12" fill="#5d6e86" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1132.0" y="2470.0" font-size="12" fill="#a6b3c4">Hallway or tube</text>
+<rect x="1251.0" y="2460.0" width="22" height="12" fill="#2e2520" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1281.0" y="2470.0" font-size="12" fill="#a6b3c4">Crawlways</text>
+<rect x="1360.4" y="2460.0" width="22" height="12" fill="#7fc4ea" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1390.4" y="2470.0" font-size="12" fill="#a6b3c4">Window</text>
+<rect x="1450.0" y="2460.0" width="22" height="12" fill="#9fb6c9" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1480.0" y="2470.0" font-size="12" fill="#a6b3c4">Ice yard</text>
+<rect x="1552.8" y="2460.0" width="22" height="12" fill="#58d68d" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1582.8" y="2470.0" font-size="12" fill="#a6b3c4">Power panel</text>
+<g transform="translate(1678.4 2458.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
+<text x="1705.4" y="2470.0" font-size="12" fill="#a6b3c4">Stairs</text>
+<g transform="translate(27.0 2482.0)"><rect width="16" height="16" rx="3" fill="#5fd0e8" stroke="#0b111b"/><path d="M8 2l4 5H4zM8 14l4-5H4z" fill="#0b111b"/></g>
+<text x="54.0" y="2494.0" font-size="12" fill="#a6b3c4">Lift (a cart lift to every deck)</text>
+<g transform="translate(288.2 2482.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
+<text x="315.2" y="2494.0" font-size="12" fill="#a6b3c4">Cable riser</text>
+<rect x="410.3" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="418.8" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">REQ</text>
+<text x="437.8" y="2494.0" font-size="12" fill="#a6b3c4">Request console</text>
+<rect x="559.3" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="567.8" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ORD</text>
+<text x="586.8" y="2494.0" font-size="12" fill="#a6b3c4">Order console</text>
+<rect x="695.1" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="703.6" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PAD</text>
+<text x="722.6" y="2494.0" font-size="12" fill="#a6b3c4">Delivery pad</text>
+<rect x="824.3" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="832.8" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">FIL</text>
+<text x="851.8" y="2494.0" font-size="12" fill="#a6b3c4">Filing cabinet</text>
+<rect x="966.7" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="975.2" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CRW</text>
+<text x="994.2" y="2494.0" font-size="12" fill="#a6b3c4">Crew monitor</text>
+<rect x="1095.9" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1104.4" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PWR</text>
+<text x="1123.4" y="2494.0" font-size="12" fill="#a6b3c4">Power monitor</text>
+<rect x="1231.7" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1240.2" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ATM</text>
+<text x="1259.2" y="2494.0" font-size="12" fill="#a6b3c4">Atmos console</text>
+<rect x="1367.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1376.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">RAT</text>
+<text x="1395.0" y="2494.0" font-size="12" fill="#a6b3c4">Ration dispenser</text>
+<rect x="1523.1" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1531.6" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">JOB</text>
+<text x="1550.6" y="2494.0" font-size="12" fill="#a6b3c4">Job board</text>
+<rect x="1632.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1641.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TAC</text>
+<text x="1660.0" y="2494.0" font-size="12" fill="#a6b3c4">Tactical table</text>
+<rect x="28.7" y="2509.0" width="12.6" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="35.0" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ID</text>
+<text x="54.0" y="2518.0" font-size="12" fill="#a6b3c4">ID console</text>
+<rect x="142.6" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="151.0" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">GEN</text>
+<text x="170.0" y="2518.0" font-size="12" fill="#a6b3c4">Generator</text>
+<rect x="251.9" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="260.4" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PRS</text>
+<text x="279.4" y="2518.0" font-size="12" fill="#a6b3c4">Scrap press</text>
+<rect x="374.6" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="383.0" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
+<text x="402.0" y="2518.0" font-size="12" fill="#a6b3c4">Hull survey board</text>
 </svg>
