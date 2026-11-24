@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1808 2554" width="1808" height="2554" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Cairn Station: map</title>
+<desc id="d">Plan of Cairn Station: 2 decks stacked on one sheet, from Surface at the top to Ice at the bottom. Each deck has a header with its department, every room carries its name, doors wear their department's colour, and stairs, ladders, a lift and cable risers are marked. The same rooms are listed below the picture.</desc>
+<defs><pattern id="caution" width=".42" height=".42" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width=".42" height=".42" fill="#d9b43a"/><rect width=".21" height=".42" fill="#1a1a1a"/></pattern></defs>
+<rect width="1808" height="2554" fill="#0b111b"/>
+<text x="24" y="38" font-size="26" font-weight="700" fill="#e8edf4">Cairn Station</text>
+<text x="24" y="62" font-size="13" fill="#a6b3c4">2 decks stacked, the top deck first. 59 rooms. Floors and doors are coloured by the department that holds the key.</text>
+<g id="deck-surface" data-deck="1">
+<rect x="24" y="84" width="1760" height="52" fill="#161f29"/>
+<rect x="24" y="84" width="8" height="52" fill="#f2a33a"/>
+<text x="46" y="112" font-size="24" font-weight="700" fill="#e8edf4">Surface</text>
+<text x="46" y="129" font-size="12" font-weight="700" fill="#f2a33a" letter-spacing="1">DECK 1</text>
+<text x="1772" y="118" font-size="14" fill="#a6b3c4" text-anchor="end">Command, science, medical, security, commons, food, cargo and engineering</text>
+<rect x="24" y="136" width="1760" height="1520" fill="#1f2d3c"/>
+<g transform="translate(24 136)">
+<g transform="scale(20)">
+<g shape-rendering="crispEdges">
+<path fill="#7d8aa0" d="M8 1h72v1h-72zM8 2h1v10h-1zM79 2h1v50h-1zM10 3h68v1h-68zM10 4h1v9h-1zM23 4h1v8h-1zM31 4h1v8h-1zM39 4h1v8h-1zM47 4h1v8h-1zM57 4h1v8h-1zM67 4h1v8h-1zM77 4h1v9h-1zM7 11h1v2h-1zM9 11h1v1h-1zM11 11h5v1h-5zM17 11h6v1h-6zM24 11h3v1h-3zM28 11h3v1h-3zM32 11h3v1h-3zM36 11h3v1h-3zM40 11h3v1h-3zM44 11h3v1h-3zM48 11h4v1h-4zM53 11h4v1h-4zM58 11h4v1h-4zM63 11h4v1h-4zM68 11h4v1h-4zM73 11h4v1h-4zM7 14h1v2h-1zM10 14h1v9h-1zM77 14h1v29h-1zM8 15h2v1h-2zM11 15h4v1h-4zM16 15h9v1h-9zM26 15h7v1h-7zM34 15h7v1h-7zM42 15h6v1h-6zM49 15h7v1h-7zM57 15h10v1h-10zM68 15h9v1h-9zM8 16h1v50h-1zM21 16h1v2h-1zM30 16h1v7h-1zM37 16h1v7h-1zM52 16h1v7h-1zM60 16h1v7h-1zM62 16h1v16h-1zM72 16h1v1h-1zM72 18h1v4h-1zM21 19h1v4h-1zM73 20h4v1h-4zM11 22h10v1h-10zM22 22h8v1h-8zM31 22h6v1h-6zM53 22h7v1h-7zM72 23h1v4h-1zM10 24h28v1h-28zM52 24h9v1h-9zM10 25h1v28h-1zM21 25h1v7h-1zM30 25h1v7h-1zM37 25h1v7h-1zM52 25h1v7h-1zM60 25h1v7h-1zM73 25h4v1h-4zM48 27h4v1h-4zM48 28h1v1h-1zM72 28h1v4h-1zM48 30h1v2h-1zM73 30h4v2h-4zM11 31h4v1h-4zM16 31h5v1h-5zM22 31h3v1h-3zM26 31h4v1h-4zM31 31h2v1h-2zM34 31h3v1h-3zM38 31h3v1h-3zM42 31h3v1h-3zM46 31h2v1h-2zM49 31h3v1h-3zM53 31h3v1h-3zM57 31h3v1h-3zM61 31h1v1h-1zM63 31h4v1h-4zM68 31h4v1h-4zM12 35h7v1h-7zM20 35h9v1h-9zM30 35h7v1h-7zM38 35h9v1h-9zM48 35h10v1h-10zM59 35h11v1h-11zM71 35h6v1h-6zM13 36h1v16h-1zM25 36h1v7h-1zM33 36h1v7h-1zM42 36h1v7h-1zM53 36h1v7h-1zM63 36h1v7h-1zM14 42h11v1h-11zM26 42h7v1h-7zM34 42h8v1h-8zM43 42h10v1h-10zM54 42h9v1h-9zM64 42h13v1h-13zM14 44h52v1h-52zM67 44h11v1h-11zM29 45h1v7h-1zM40 45h1v3h-1zM53 45h1v7h-1zM62 45h1v7h-1zM77 45h1v8h-1zM40 49h1v3h-1zM12 51h1v1h-1zM14 51h7v1h-7zM22 51h7v1h-7zM30 51h4v1h-4zM35 51h5v1h-5zM41 51h5v1h-5zM47 51h6v1h-6zM54 51h3v1h-3zM58 51h4v1h-4zM63 51h6v1h-6zM70 51h7v1h-7zM78 51h1v1h-1zM80 51h1v2h-1zM10 54h1v10h-1zM77 54h1v10h-1zM80 54h1v2h-1zM11 55h5v1h-5zM17 55h11v1h-11zM29 55h12v1h-12zM42 55h10v1h-10zM53 55h17v1h-17zM71 55h6v1h-6zM78 55h2v1h-2zM22 56h1v8h-1zM34 56h1v8h-1zM48 56h1v8h-1zM63 56h1v8h-1zM79 56h1v10h-1zM11 63h11v1h-11zM23 63h11v1h-11zM35 63h13v1h-13zM49 63h5v1h-5zM57 63h6v1h-6zM64 63h6v1h-6zM71 63h6v1h-6zM53 64h1v5h-1zM57 64h1v5h-1zM9 65h44v1h-44zM54 65h1v1h-1zM56 65h1v1h-1zM58 65h21v1h-21zM54 68h1v1h-1zM56 68h1v1h-1z"/>
+<path fill="#2e2520" d="M9 2h70v1h-70zM9 3h1v8h-1zM78 3h1v48h-1zM9 16h1v49h-1zM61 16h1v15h-1zM10 23h27v1h-27zM53 23h8v1h-8zM14 43h64v1h-64zM78 56h1v9h-1zM10 64h43v1h-43zM58 64h20v1h-20z"/>
+<path fill="#273c76" d="M11 4h12v7h-12zM24 4h7v7h-7zM32 4h7v7h-7zM40 4h7v7h-7z"/>
+<path fill="#52417c" d="M48 4h9v7h-9zM58 4h9v7h-9zM68 4h9v7h-9z"/>
+<path fill="#9fb6c9" d="M0 6h7v70h-7zM81 6h7v70h-7zM7 69h74v7h-74z"/>
+<path fill="#5d6e86" d="M8 12h2v3h-2zM11 12h66v3h-66zM38 16h14v11h-14zM38 27h10v4h-10zM11 32h66v3h-66zM11 36h2v15h-2zM11 52h66v3h-66zM78 52h2v3h-2zM54 66h3v2h-3z"/>
+<path fill="#336485" d="M11 16h10v6h-10zM22 16h8v6h-8zM31 16h6v6h-6zM11 25h10v6h-10zM22 25h8v6h-8z"/>
+<path fill="#6b343d" d="M53 16h7v6h-7zM63 16h9v15h-9zM73 16h4v4h-4zM73 21h4v4h-4zM73 26h4v4h-4z"/>
+<path fill="#22303f" d="M31 25h6v6h-6zM53 25h7v6h-7zM49 28h3v3h-3zM14 36h11v6h-11zM26 36h7v6h-7zM34 36h8v6h-8zM43 36h10v6h-10zM49 56h14v7h-14zM54 63h3v2h-3z"/>
+<path fill="#52473d" d="M54 36h9v6h-9z"/>
+<path fill="#757e87" d="M64 36h13v6h-13z"/>
+<path fill="#2c664a" d="M14 45h15v6h-15z"/>
+<path fill="#716b37" d="M30 45h10v6h-10zM41 45h12v6h-12z"/>
+<path fill="#745434" d="M54 45h8v6h-8zM63 45h14v6h-14zM11 56h11v7h-11zM23 56h11v7h-11zM35 56h13v7h-13zM64 56h13v7h-13z"/>
+</g>
+<path fill="#7fc4ea" d="M9.18 1.18h.64v.64h-.64zM10.18 1.18h.64v.64h-.64zM14.18 1.18h.64v.64h-.64zM15.18 1.18h.64v.64h-.64zM16.18 1.18h.64v.64h-.64zM20.18 1.18h.64v.64h-.64zM21.18 1.18h.64v.64h-.64zM22.18 1.18h.64v.64h-.64zM26.18 1.18h.64v.64h-.64zM27.18 1.18h.64v.64h-.64zM28.18 1.18h.64v.64h-.64zM32.18 1.18h.64v.64h-.64zM33.18 1.18h.64v.64h-.64zM34.18 1.18h.64v.64h-.64zM38.18 1.18h.64v.64h-.64zM39.18 1.18h.64v.64h-.64zM40.18 1.18h.64v.64h-.64zM44.18 1.18h.64v.64h-.64zM45.18 1.18h.64v.64h-.64zM46.18 1.18h.64v.64h-.64zM50.18 1.18h.64v.64h-.64zM51.18 1.18h.64v.64h-.64zM52.18 1.18h.64v.64h-.64zM56.18 1.18h.64v.64h-.64zM57.18 1.18h.64v.64h-.64zM58.18 1.18h.64v.64h-.64zM62.18 1.18h.64v.64h-.64zM63.18 1.18h.64v.64h-.64zM64.18 1.18h.64v.64h-.64zM68.18 1.18h.64v.64h-.64zM69.18 1.18h.64v.64h-.64zM70.18 1.18h.64v.64h-.64zM74.18 1.18h.64v.64h-.64zM75.18 1.18h.64v.64h-.64zM76.18 1.18h.64v.64h-.64zM8.18 4.18h.64v.64h-.64zM79.18 4.18h.64v.64h-.64zM8.18 5.18h.64v.64h-.64zM79.18 5.18h.64v.64h-.64zM8.18 6.18h.64v.64h-.64zM79.18 6.18h.64v.64h-.64zM8.18 10.18h.64v.64h-.64zM79.18 10.18h.64v.64h-.64zM79.18 11.18h.64v.64h-.64zM7.18 12.18h.64v.64h-.64zM79.18 12.18h.64v.64h-.64zM8.18 16.18h.64v.64h-.64zM79.18 16.18h.64v.64h-.64zM8.18 17.18h.64v.64h-.64zM79.18 17.18h.64v.64h-.64zM8.18 18.18h.64v.64h-.64zM79.18 18.18h.64v.64h-.64zM8.18 22.18h.64v.64h-.64zM79.18 22.18h.64v.64h-.64zM8.18 23.18h.64v.64h-.64zM79.18 23.18h.64v.64h-.64zM8.18 24.18h.64v.64h-.64zM79.18 24.18h.64v.64h-.64zM8.18 28.18h.64v.64h-.64zM79.18 28.18h.64v.64h-.64zM8.18 29.18h.64v.64h-.64zM79.18 29.18h.64v.64h-.64zM8.18 30.18h.64v.64h-.64zM79.18 30.18h.64v.64h-.64zM8.18 34.18h.64v.64h-.64zM79.18 34.18h.64v.64h-.64zM8.18 35.18h.64v.64h-.64zM79.18 35.18h.64v.64h-.64zM8.18 36.18h.64v.64h-.64zM79.18 36.18h.64v.64h-.64zM8.18 40.18h.64v.64h-.64zM79.18 40.18h.64v.64h-.64zM8.18 41.18h.64v.64h-.64zM79.18 41.18h.64v.64h-.64zM8.18 42.18h.64v.64h-.64zM79.18 42.18h.64v.64h-.64zM8.18 46.18h.64v.64h-.64zM79.18 46.18h.64v.64h-.64zM8.18 47.18h.64v.64h-.64zM79.18 47.18h.64v.64h-.64zM8.18 48.18h.64v.64h-.64zM79.18 48.18h.64v.64h-.64zM8.18 52.18h.64v.64h-.64zM80.18 52.18h.64v.64h-.64zM8.18 53.18h.64v.64h-.64zM8.18 54.18h.64v.64h-.64zM80.18 54.18h.64v.64h-.64zM8.18 58.18h.64v.64h-.64zM79.18 58.18h.64v.64h-.64zM8.18 59.18h.64v.64h-.64zM79.18 59.18h.64v.64h-.64zM8.18 60.18h.64v.64h-.64zM79.18 60.18h.64v.64h-.64zM8.18 64.18h.64v.64h-.64zM79.18 64.18h.64v.64h-.64zM9.18 65.18h.64v.64h-.64zM10.18 65.18h.64v.64h-.64zM14.18 65.18h.64v.64h-.64zM15.18 65.18h.64v.64h-.64zM16.18 65.18h.64v.64h-.64zM20.18 65.18h.64v.64h-.64zM21.18 65.18h.64v.64h-.64zM22.18 65.18h.64v.64h-.64zM26.18 65.18h.64v.64h-.64zM27.18 65.18h.64v.64h-.64zM28.18 65.18h.64v.64h-.64zM32.18 65.18h.64v.64h-.64zM33.18 65.18h.64v.64h-.64zM34.18 65.18h.64v.64h-.64zM38.18 65.18h.64v.64h-.64zM39.18 65.18h.64v.64h-.64zM40.18 65.18h.64v.64h-.64zM44.18 65.18h.64v.64h-.64zM45.18 65.18h.64v.64h-.64zM46.18 65.18h.64v.64h-.64zM50.18 65.18h.64v.64h-.64zM51.18 65.18h.64v.64h-.64zM52.18 65.18h.64v.64h-.64zM58.18 65.18h.64v.64h-.64zM62.18 65.18h.64v.64h-.64zM63.18 65.18h.64v.64h-.64zM64.18 65.18h.64v.64h-.64zM68.18 65.18h.64v.64h-.64zM69.18 65.18h.64v.64h-.64zM70.18 65.18h.64v.64h-.64zM74.18 65.18h.64v.64h-.64zM75.18 65.18h.64v.64h-.64zM76.18 65.18h.64v.64h-.64zM53.18 66.18h.64v.64h-.64zM57.18 66.18h.64v.64h-.64zM56.18 68.18h.64v.64h-.64z"/>
+<path fill="#2f4fc8" stroke="#0b111b" stroke-width=".1" d="M16.05 11.05h.9v.9h-.9zM27.05 11.05h.9v.9h-.9zM35.05 11.05h.9v.9h-.9zM43.05 11.05h.9v.9h-.9z"/>
+<path fill="#9a5ad8" stroke="#0b111b" stroke-width=".1" d="M52.05 11.05h.9v.9h-.9zM62.05 11.05h.9v.9h-.9zM72.05 11.05h.9v.9h-.9z"/>
+<path fill="#8a8f9c" stroke="#0b111b" stroke-width=".1" d="M7.05 13.05h.9v.9h-.9zM10.05 13.05h.9v.9h-.9zM41.05 15.05h.9v.9h-.9zM48.05 15.05h.9v.9h-.9zM33.05 31.05h.9v.9h-.9zM41.05 31.05h.9v.9h-.9zM45.05 31.05h.9v.9h-.9zM56.05 31.05h.9v.9h-.9zM11.05 35.05h.9v.9h-.9zM19.05 35.05h.9v.9h-.9zM29.05 35.05h.9v.9h-.9zM37.05 35.05h.9v.9h-.9zM47.05 35.05h.9v.9h-.9zM11.05 51.05h.9v.9h-.9zM77.05 53.05h.9v.9h-.9zM80.05 53.05h.9v.9h-.9zM52.05 55.05h.9v.9h-.9zM55.05 65.05h.9v.9h-.9zM55.05 68.05h.9v.9h-.9z"/>
+<path fill="url(#caution)" stroke="#0b111b" stroke-width=".1" d="M77.05 13.05h.9v.9h-.9zM37.05 23.05h.9v.9h-.9zM52.05 23.05h.9v.9h-.9zM48.05 29.05h.9v.9h-.9zM66.05 44.05h.9v.9h-.9zM10.05 53.05h.9v.9h-.9zM70.05 63.05h.9v.9h-.9z"/>
+<path fill="#4db3ee" stroke="#0b111b" stroke-width=".1" d="M15.05 15.05h.9v.9h-.9zM25.05 15.05h.9v.9h-.9zM33.05 15.05h.9v.9h-.9zM21.05 18.05h.9v.9h-.9zM15.05 31.05h.9v.9h-.9zM25.05 31.05h.9v.9h-.9z"/>
+<path fill="#d83a3a" stroke="#0b111b" stroke-width=".1" d="M56.05 15.05h.9v.9h-.9zM67.05 15.05h.9v.9h-.9zM72.05 17.05h.9v.9h-.9zM72.05 22.05h.9v.9h-.9zM72.05 27.05h.9v.9h-.9zM67.05 31.05h.9v.9h-.9z"/>
+<path fill="#9a6a3a" stroke="#0b111b" stroke-width=".1" d="M58.05 35.05h.9v.9h-.9z"/>
+<path fill="#f2f2f2" stroke="#0b111b" stroke-width=".1" d="M70.05 35.05h.9v.9h-.9z"/>
+<path fill="#e8c32a" stroke="#0b111b" stroke-width=".1" d="M40.05 48.05h.9v.9h-.9zM34.05 51.05h.9v.9h-.9zM46.05 51.05h.9v.9h-.9z"/>
+<path fill="#3ab85a" stroke="#0b111b" stroke-width=".1" d="M21.05 51.05h.9v.9h-.9z"/>
+<path fill="#f08a24" stroke="#0b111b" stroke-width=".1" d="M57.05 51.05h.9v.9h-.9zM69.05 51.05h.9v.9h-.9zM16.05 55.05h.9v.9h-.9zM28.05 55.05h.9v.9h-.9zM41.05 55.05h.9v.9h-.9zM70.05 55.05h.9v.9h-.9z"/>
+</g>
+<g font-weight="600" text-anchor="middle" fill="#f4f7fb" stroke="#0b111b" stroke-linejoin="round" paint-order="stroke">
+<text x="960.0" y="874.9" font-size="14.1" stroke-width="4.2">Maint. Tunnels by North Hall</text>
+<text x="880.0" y="255.2" font-size="15.0" stroke-width="4.5">North Hall</text>
+<text x="880.0" y="675.2" font-size="15.0" stroke-width="4.5">Mid Hall</text>
+<text x="880.0" y="1075.2" font-size="15.0" stroke-width="4.5">South Hall</text>
+<text font-size="8.2" stroke-width="2.5"><title>Windlock West</title><tspan x="180.0" y="258.4">Windlock</tspan><tspan x="180.0" y="267.4">West</tspan></text>
+<text font-size="8.2" stroke-width="2.5"><title>Windlock East</title><tspan x="1580.0" y="1058.4">Windlock</tspan><tspan x="1580.0" y="1067.4">East</tspan></text>
+<text font-size="12.4" stroke-width="3.7"><title>Windlock South</title><tspan x="1110.0" y="1337.5">Windlock</tspan><tspan x="1110.0" y="1351.1">South</tspan></text>
+<text x="340.0" y="135.2" font-size="15.0" stroke-width="4.5">Bridge</text>
+<text font-size="15.0" stroke-width="4.5"><title>Captain's Office</title><tspan x="550.0" y="137.0">Captain's</tspan><tspan x="550.0" y="153.5">Office</tspan></text>
+<text font-size="12.8" stroke-width="3.8"><title>Head of Personnel's Office</title><tspan x="710.0" y="137.4">Head of</tspan><tspan x="710.0" y="151.5">Personnel's Office</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Communications Room</title><tspan x="870.0" y="137.0">Communications</tspan><tspan x="870.0" y="153.5">Room</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Research and Development</title><tspan x="1050.0" y="137.0">Research and</tspan><tspan x="1050.0" y="153.5">Development</tspan></text>
+<text x="1250.0" y="155.2" font-size="15.0" stroke-width="4.5">Robotics</text>
+<text x="1450.0" y="155.2" font-size="15.0" stroke-width="4.5">Sky Lab</text>
+<text x="320.0" y="375.2" font-size="15.0" stroke-width="4.5">Ward</text>
+<text font-size="15.0" stroke-width="4.5"><title>Rewarming Bay</title><tspan x="520.0" y="377.0">Rewarming</tspan><tspan x="520.0" y="393.5">Bay</tspan></text>
+<text x="680.0" y="375.2" font-size="15.0" stroke-width="4.5">Chemistry</text>
+<text x="320.0" y="555.2" font-size="15.0" stroke-width="4.5">Surgery</text>
+<text x="520.0" y="555.2" font-size="15.0" stroke-width="4.5">Morgue</text>
+<text x="680.0" y="555.2" font-size="15.0" stroke-width="4.5">Library</text>
+<text font-size="15.0" stroke-width="4.5"><title>Commons Hub</title><tspan x="900.0" y="457.0">Commons</tspan><tspan x="900.0" y="473.5">Hub</tspan></text>
+<text font-size="11.0" stroke-width="3.3"><title>Janitor's Closet</title><tspan x="1010.0" y="577.8">Janitor's</tspan><tspan x="1010.0" y="589.9">Closet</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Security Office</title><tspan x="1130.0" y="377.0">Security</tspan><tspan x="1130.0" y="393.5">Office</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Law Office</title><tspan x="1130.0" y="557.0">Law</tspan><tspan x="1130.0" y="573.5">Office</tspan></text>
+<text x="1350.0" y="475.2" font-size="15.0" stroke-width="4.5">Brig</text>
+<text font-size="15.0" stroke-width="4.5"><title>Cell 1</title><tspan x="1500.0" y="357.0">Cell</tspan><tspan x="1500.0" y="373.5">1</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Crew Quarters</title><tspan x="390.0" y="777.0">Crew</tspan><tspan x="390.0" y="793.5">Quarters</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>West Hall</title><tspan x="240.0" y="857.0">West</tspan><tspan x="240.0" y="873.5">Hall</tspan></text>
+<text x="590.0" y="775.2" font-size="15.0" stroke-width="4.5">Restroom</text>
+<text x="760.0" y="775.2" font-size="15.0" stroke-width="4.5">Chapel</text>
+<text font-size="15.0" stroke-width="4.5"><title>Crew Lounge</title><tspan x="960.0" y="777.0">Crew</tspan><tspan x="960.0" y="793.5">Lounge</tspan></text>
+<text x="1170.0" y="775.2" font-size="15.0" stroke-width="4.5">Bar</text>
+<text x="1410.0" y="775.2" font-size="15.0" stroke-width="4.5">Kitchen</text>
+<text x="430.0" y="955.2" font-size="15.0" stroke-width="4.5">Botanics</text>
+<text font-size="15.0" stroke-width="4.5"><title>Supply Reception</title><tspan x="700.0" y="957.0">Supply</tspan><tspan x="700.0" y="973.5">Reception</tspan></text>
+<text x="940.0" y="975.2" font-size="15.0" stroke-width="4.5">Storage Bay</text>
+<text font-size="15.0" stroke-width="4.5"><title>Heat Control</title><tspan x="1160.0" y="957.0">Heat</tspan><tspan x="1160.0" y="973.5">Control</tspan></text>
+<text x="1400.0" y="975.2" font-size="15.0" stroke-width="4.5">Generator Shed</text>
+<text x="330.0" y="1195.2" font-size="15.0" stroke-width="4.5">Battery Room</text>
+<text x="570.0" y="1195.2" font-size="15.0" stroke-width="4.5">Power Control</text>
+<text x="830.0" y="1195.2" font-size="15.0" stroke-width="4.5">Machine Workshop</text>
+<text font-size="15.0" stroke-width="4.5"><title>Sled Shed</title><tspan x="1120.0" y="1197.0">Sled</tspan><tspan x="1120.0" y="1213.5">Shed</tspan></text>
+<text x="1410.0" y="1195.2" font-size="15.0" stroke-width="4.5">Construction Workshop</text>
+<text x="620.0" y="1295.2" font-size="15.0" stroke-width="4.5">Maint. Tunnels by Commons Hub</text>
+<text x="1230.0" y="475.2" font-size="15.0" stroke-width="4.5" transform="rotate(-90 1230.0 470.0)">Maint. Tunnels by Commons Hub 2</text>
+<text x="1370.0" y="1295.2" font-size="15.0" stroke-width="4.5">Maint. Tunnels by Construction</text>
+<text font-size="15.0" stroke-width="4.5"><title>Cell 2</title><tspan x="1500.0" y="457.0">Cell</tspan><tspan x="1500.0" y="473.5">2</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Cell 3</title><tspan x="1500.0" y="557.0">Cell</tspan><tspan x="1500.0" y="573.5">3</tspan></text>
+</g>
+<rect x="1567" y="867" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1527" y="287" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1527" y="687" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1527" y="1087" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="187" y="287" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1587" y="1087" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1127" y="1347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="227" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="487" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="647" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="807" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="967" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1167" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1367" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="187" y="327" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="447" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="627" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="187" y="507" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="467" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="707" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1027" y="527" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1007" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1087" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1167" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1227" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1567" y="327" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="467" y="827" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="247" y="1007" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="647" y="827" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="807" y="827" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1027" y="827" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1087" y="867" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1567" y="727" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="287" y="867" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="607" y="867" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="827" y="867" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1207" y="1007" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1527" y="1007" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="407" y="1247" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="647" y="1247" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="927" y="1247" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1227" y="1247" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1507" y="1247" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="621.5" y="925.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="630.0" y="932.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">REQ</text>
+<rect x="661.5" y="925.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="670.0" y="932.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ORD</text>
+<rect x="1001.5" y="945.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1010.0" y="952.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PAD</text>
+<rect x="741.5" y="925.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="750.0" y="932.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">FIL</text>
+<rect x="381.6" y="405.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="390.0" y="412.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CRW</text>
+<rect x="501.6" y="1145.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="510.0" y="1152.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PWR</text>
+<rect x="1101.5" y="925.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1110.0" y="932.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ATM</text>
+<rect x="781.5" y="345.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="790.0" y="352.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">RAT</text>
+<rect x="901.5" y="305.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="910.0" y="312.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">JOB</text>
+<rect x="321.6" y="145.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="330.0" y="152.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TAC</text>
+<rect x="743.7" y="165.0" width="12.6" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="750.0" y="172.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ID</text>
+<rect x="1401.5" y="945.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1410.0" y="952.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">GEN</text>
+<rect x="1321.5" y="1145.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1330.0" y="1152.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PRS</text>
+<rect x="1361.5" y="1145.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1370.0" y="1152.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
+<g transform="translate(602.0 262.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
+<text x="623.0" y="273.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#e6c45c" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Stairs S0, down to Ice</text>
+<g transform="translate(1322.0 262.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
+<text x="1317.0" y="273.0" font-size="7.5" font-weight="700" text-anchor="end" fill="#e6c45c" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Stairs S1, down to Ice</text>
+<rect x="880" y="360" width="40" height="40" fill="#5fd0e8" fill-opacity=".28" stroke="#5fd0e8" stroke-width="2" stroke-dasharray="5 3"/>
+<g transform="translate(892.0 372.0)"><rect width="16" height="16" rx="3" fill="#5fd0e8" stroke="#0b111b"/><path d="M8 2l4 5H4zM8 14l4-5H4z" fill="#0b111b"/></g>
+<text x="924.0" y="383.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#5fd0e8" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Lift E1: all decks</text>
+<g transform="translate(402.0 42.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
+<text x="423.0" y="53.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#c0703a" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Riser R0, down to Ice</text>
+<g transform="translate(1402.0 42.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
+<text x="1397.0" y="53.0" font-size="7.5" font-weight="700" text-anchor="end" fill="#c0703a" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Riser R1, down to Ice</text>
+</g></g>
+<g id="deck-ice" data-deck="0">
+<rect x="24" y="1688" width="1760" height="52" fill="#161f29"/>
+<rect x="24" y="1688" width="8" height="52" fill="#9fb6c9"/>
+<text x="46" y="1716" font-size="24" font-weight="700" fill="#e8edf4">Ice</text>
+<text x="46" y="1733" font-size="12" font-weight="700" fill="#9fb6c9" letter-spacing="1">DECK 0</text>
+<text x="1772" y="1722" font-size="14" fill="#a6b3c4" text-anchor="end">The drill dock and shaft, core lab and store, cold vault and cellar, geothermal tap and fuel store</text>
+<rect x="24" y="1740" width="1760" height="660" fill="#1f2d3c"/>
+<g transform="translate(24 1740)">
+<g transform="scale(20)">
+<g shape-rendering="crispEdges">
+<path fill="#7d8aa0" d="M8 1h72v1h-72zM8 2h1v30h-1zM79 2h1v30h-1zM10 3h68v1h-68zM10 4h1v9h-1zM25 4h1v8h-1zM36 4h1v8h-1zM51 4h1v8h-1zM64 4h1v8h-1zM77 4h1v9h-1zM11 11h6v1h-6zM18 11h7v1h-7zM26 11h4v1h-4zM31 11h5v1h-5zM37 11h7v1h-7zM45 11h6v1h-6zM52 11h5v1h-5zM58 11h6v1h-6zM65 11h5v1h-5zM71 11h6v1h-6zM10 14h1v16h-1zM77 14h1v16h-1zM11 15h9v1h-9zM21 15h14v1h-14zM36 15h7v1h-7zM48 15h6v1h-6zM55 15h14v1h-14zM70 15h7v1h-7zM29 16h1v14h-1zM42 16h1v14h-1zM48 16h1v14h-1zM61 16h1v14h-1zM11 29h18v1h-18zM30 29h12v1h-12zM43 29h5v1h-5zM49 29h12v1h-12zM62 29h15v1h-15zM9 31h70v1h-70z"/>
+<path fill="#2e2520" d="M9 2h70v1h-70zM9 3h1v28h-1zM78 3h1v28h-1zM10 30h68v1h-68z"/>
+<path fill="#52417c" d="M11 4h14v7h-14zM26 4h10v7h-10zM37 4h14v7h-14zM52 4h12v7h-12z"/>
+<path fill="#757e87" d="M65 4h12v7h-12z"/>
+<path fill="#5d6e86" d="M11 12h66v3h-66zM43 15h5v14h-5z"/>
+<path fill="#716b37" d="M11 16h18v13h-18zM30 16h12v13h-12z"/>
+<path fill="#745434" d="M49 16h12v13h-12zM62 16h15v13h-15z"/>
+</g>
+<path fill="#9a5ad8" stroke="#0b111b" stroke-width=".1" d="M17.05 11.05h.9v.9h-.9zM30.05 11.05h.9v.9h-.9zM44.05 11.05h.9v.9h-.9zM57.05 11.05h.9v.9h-.9z"/>
+<path fill="#f2f2f2" stroke="#0b111b" stroke-width=".1" d="M70.05 11.05h.9v.9h-.9z"/>
+<path fill="url(#caution)" stroke="#0b111b" stroke-width=".1" d="M10.05 13.05h.9v.9h-.9zM77.05 13.05h.9v.9h-.9z"/>
+<path fill="#e8c32a" stroke="#0b111b" stroke-width=".1" d="M20.05 15.05h.9v.9h-.9zM35.05 15.05h.9v.9h-.9z"/>
+<path fill="#f08a24" stroke="#0b111b" stroke-width=".1" d="M54.05 15.05h.9v.9h-.9zM69.05 15.05h.9v.9h-.9z"/>
+</g>
+<g font-weight="600" text-anchor="middle" fill="#f4f7fb" stroke="#0b111b" stroke-linejoin="round" paint-order="stroke">
+<text x="900.0" y="55.2" font-size="15.0" stroke-width="4.5">Ice Maintenance Tunnels</text>
+<text x="910.0" y="315.2" font-size="15.0" stroke-width="4.5">Ice Hall</text>
+<text x="360.0" y="155.2" font-size="15.0" stroke-width="4.5">Core Lab</text>
+<text x="620.0" y="155.2" font-size="15.0" stroke-width="4.5">Culture Lab</text>
+<text x="880.0" y="155.2" font-size="15.0" stroke-width="4.5">Core Store</text>
+<text x="1160.0" y="155.2" font-size="15.0" stroke-width="4.5">Cold Vault</text>
+<text x="1420.0" y="155.2" font-size="15.0" stroke-width="4.5">Cold Cellar</text>
+<text x="400.0" y="455.2" font-size="15.0" stroke-width="4.5">Drill Dock</text>
+<text x="720.0" y="455.2" font-size="15.0" stroke-width="4.5">Drill Shaft</text>
+<text x="1100.0" y="455.2" font-size="15.0" stroke-width="4.5">Geothermal Tap</text>
+<text x="1390.0" y="455.2" font-size="15.0" stroke-width="4.5">Fuel Store</text>
+</g>
+<rect x="1467" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1527" y="287" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="227" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="527" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="747" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1047" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1307" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="187" y="327" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="607" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1207" y="567" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1507" y="567" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<g transform="translate(602.0 262.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
+<text x="623.0" y="273.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#e6c45c" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Stairs S0, up to Surface</text>
+<g transform="translate(1322.0 262.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
+<text x="1317.0" y="273.0" font-size="7.5" font-weight="700" text-anchor="end" fill="#e6c45c" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Stairs S1, up to Surface</text>
+<rect x="880" y="360" width="40" height="40" fill="#5fd0e8" fill-opacity=".28" stroke="#5fd0e8" stroke-width="2" stroke-dasharray="5 3"/>
+<g transform="translate(892.0 372.0)"><rect width="16" height="16" rx="3" fill="#5fd0e8" stroke="#0b111b"/><path d="M8 2l4 5H4zM8 14l4-5H4z" fill="#0b111b"/></g>
+<text x="924.0" y="383.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#5fd0e8" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Lift E1: all decks</text>
+<g transform="translate(402.0 42.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
+<text x="423.0" y="53.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#c0703a" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Riser R0, up to Surface</text>
+<g transform="translate(1402.0 602.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
+<text x="1397.0" y="613.0" font-size="7.5" font-weight="700" text-anchor="end" fill="#c0703a" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Riser R1, up to Surface</text>
+</g></g>
+<text x="24" y="2444" font-size="16" font-weight="700" fill="#e8edf4">Key</text>
+<rect x="24.0" y="2460.0" width="22" height="12" fill="#9a6a3a" stroke="#0b111b"/>
+<text x="54.0" y="2470.0" font-size="12" fill="#a6b3c4">Bar</text>
+<rect x="93.8" y="2460.0" width="22" height="12" fill="#f2f2f2" stroke="#0b111b"/>
+<text x="123.8" y="2470.0" font-size="12" fill="#a6b3c4">Kitchen</text>
+<rect x="190.0" y="2460.0" width="22" height="12" fill="#3ab85a" stroke="#0b111b"/>
+<text x="220.0" y="2470.0" font-size="12" fill="#a6b3c4">Botanics</text>
+<rect x="292.8" y="2460.0" width="22" height="12" fill="#d83a3a" stroke="#0b111b"/>
+<text x="322.8" y="2470.0" font-size="12" fill="#a6b3c4">Security</text>
+<rect x="395.6" y="2460.0" width="22" height="12" fill="#9a5ad8" stroke="#0b111b"/>
+<text x="425.6" y="2470.0" font-size="12" fill="#a6b3c4">Science</text>
+<rect x="491.8" y="2460.0" width="22" height="12" fill="#4db3ee" stroke="#0b111b"/>
+<text x="521.8" y="2470.0" font-size="12" fill="#a6b3c4">Medical</text>
+<rect x="588.0" y="2460.0" width="22" height="12" fill="#e8c32a" stroke="#0b111b"/>
+<text x="618.0" y="2470.0" font-size="12" fill="#a6b3c4">Cargo</text>
+<rect x="671.0" y="2460.0" width="22" height="12" fill="#2f4fc8" stroke="#0b111b"/>
+<text x="701.0" y="2470.0" font-size="12" fill="#a6b3c4">Command</text>
+<rect x="767.2" y="2460.0" width="22" height="12" fill="#f08a24" stroke="#0b111b"/>
+<text x="797.2" y="2470.0" font-size="12" fill="#a6b3c4">Engineering</text>
+<rect x="889.8" y="2460.0" width="22" height="12" fill="#8a8f9c" stroke="#0b111b"/>
+<text x="919.8" y="2470.0" font-size="12" fill="#a6b3c4">Public</text>
+<rect x="979.4" y="2460.0" width="22" height="12" fill="url(#caution)" stroke="#0b111b" transform="translate(0 0)"/>
+<text x="1009.4" y="2470.0" font-size="12" fill="#a6b3c4">Maintenance tunnel door</text>
+<rect x="1181.2" y="2460.0" width="22" height="12" fill="#5d6e86" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1211.2" y="2470.0" font-size="12" fill="#a6b3c4">Hallway or tube</text>
+<rect x="1330.2" y="2460.0" width="22" height="12" fill="#2e2520" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1360.2" y="2470.0" font-size="12" fill="#a6b3c4">Maintenance tunnels</text>
+<rect x="1505.6" y="2460.0" width="22" height="12" fill="#7fc4ea" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1535.6" y="2470.0" font-size="12" fill="#a6b3c4">Window</text>
+<rect x="1595.2" y="2460.0" width="22" height="12" fill="#9fb6c9" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="1625.2" y="2470.0" font-size="12" fill="#a6b3c4">Ice yard</text>
+<rect x="24.0" y="2484.0" width="22" height="12" fill="#58d68d" stroke="#7d8aa0" stroke-width=".8"/>
+<text x="54.0" y="2494.0" font-size="12" fill="#a6b3c4">Power panel</text>
+<g transform="translate(149.6 2482.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
+<text x="176.6" y="2494.0" font-size="12" fill="#a6b3c4">Stairs</text>
+<g transform="translate(239.2 2482.0)"><rect width="16" height="16" rx="3" fill="#5fd0e8" stroke="#0b111b"/><path d="M8 2l4 5H4zM8 14l4-5H4z" fill="#0b111b"/></g>
+<text x="266.2" y="2494.0" font-size="12" fill="#a6b3c4">Lift (a cart lift to every deck)</text>
+<g transform="translate(500.4 2482.0)"><rect width="16" height="16" rx="8" fill="#c0703a" stroke="#0b111b"/><path d="M4 11l3-6 2 6 3-6" fill="none" stroke="#0b111b" stroke-width="1.6"/></g>
+<text x="527.4" y="2494.0" font-size="12" fill="#a6b3c4">Cable riser</text>
+<rect x="622.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="631.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">REQ</text>
+<text x="650.0" y="2494.0" font-size="12" fill="#a6b3c4">Request console</text>
+<rect x="771.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="780.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ORD</text>
+<text x="799.0" y="2494.0" font-size="12" fill="#a6b3c4">Order console</text>
+<rect x="907.3" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="915.8" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PAD</text>
+<text x="934.8" y="2494.0" font-size="12" fill="#a6b3c4">Delivery pad</text>
+<rect x="1036.5" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1045.0" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">FIL</text>
+<text x="1064.0" y="2494.0" font-size="12" fill="#a6b3c4">Filing cabinet</text>
+<rect x="1179.0" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1187.4" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CRW</text>
+<text x="1206.4" y="2494.0" font-size="12" fill="#a6b3c4">Crew monitor</text>
+<rect x="1308.2" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1316.6" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PWR</text>
+<text x="1335.6" y="2494.0" font-size="12" fill="#a6b3c4">Power monitor</text>
+<rect x="1444.0" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1452.4" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ATM</text>
+<text x="1471.4" y="2494.0" font-size="12" fill="#a6b3c4">Atmos console</text>
+<rect x="1579.8" y="2485.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1588.2" y="2492.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">RAT</text>
+<text x="1607.2" y="2494.0" font-size="12" fill="#a6b3c4">Ration dispenser</text>
+<rect x="26.6" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="35.0" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">JOB</text>
+<text x="54.0" y="2518.0" font-size="12" fill="#a6b3c4">Job board</text>
+<rect x="136.0" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="144.4" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TAC</text>
+<text x="163.4" y="2518.0" font-size="12" fill="#a6b3c4">Tactical table</text>
+<rect x="280.5" y="2509.0" width="12.6" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="286.8" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ID</text>
+<text x="305.8" y="2518.0" font-size="12" fill="#a6b3c4">ID console</text>
+<rect x="394.3" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="402.8" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">GEN</text>
+<text x="421.8" y="2518.0" font-size="12" fill="#a6b3c4">Generator</text>
+<rect x="503.7" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="512.2" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PRS</text>
+<text x="531.2" y="2518.0" font-size="12" fill="#a6b3c4">Scrap press</text>
+<rect x="626.3" y="2509.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="634.8" y="2516.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
+<text x="653.8" y="2518.0" font-size="12" fill="#a6b3c4">Hull survey board</text>
+</svg>
