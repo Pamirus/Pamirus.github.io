@@ -173,6 +173,7 @@
 <rect x="1441.5" y="945.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1450.0" y="952.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TNK</text>
 <rect x="1321.5" y="1145.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1330.0" y="1152.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PRS</text>
 <rect x="1361.5" y="1145.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1370.0" y="1152.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
+<rect x="701.5" y="905.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="710.0" y="912.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">LDG</text>
 <rect x="481.6" y="1125.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="490.0" y="1132.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ARR</text>
 <rect x="521.5" y="1125.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="530.0" y="1132.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">BAT</text>
 <rect x="601.5" y="1125.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="610.0" y="1132.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">INV</text>
@@ -280,6 +281,7 @@
 <rect x="1067" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="707" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1101.5" y="445.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1110.0" y="452.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">GEO</text>
+<rect x="1341.5" y="85.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1350.0" y="92.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">THM</text>
 <g transform="translate(602.0 262.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
 <text x="623.0" y="273.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#e6c45c" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Stairs S0, up to Surface</text>
 <g transform="translate(1322.0 262.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
@@ -363,24 +365,28 @@
 <text x="564.2" y="2718.0" font-size="12" fill="#a6b3c4">Scrap press</text>
 <rect x="659.3" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="667.8" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
 <text x="686.8" y="2718.0" font-size="12" fill="#a6b3c4">Hull survey board</text>
-<rect x="821.5" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="830.0" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ARR</text>
-<text x="849.0" y="2718.0" font-size="12" fill="#a6b3c4">Array console</text>
-<rect x="957.3" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="965.8" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">BAT</text>
-<text x="984.8" y="2718.0" font-size="12" fill="#a6b3c4">Battery console</text>
-<rect x="1106.3" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1114.8" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">INV</text>
-<text x="1133.8" y="2718.0" font-size="12" fill="#a6b3c4">Inverter console</text>
-<rect x="1261.9" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1270.4" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TRF</text>
-<text x="1289.4" y="2718.0" font-size="12" fill="#a6b3c4">Transformer</text>
-<rect x="1384.5" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1393.0" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SWG</text>
-<text x="1412.0" y="2718.0" font-size="12" fill="#a6b3c4">Switchgear</text>
-<rect x="1500.5" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1509.0" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CRN</text>
-<text x="1528.0" y="2718.0" font-size="12" fill="#a6b3c4">Gantry crane</text>
-<rect x="26.6" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="35.0" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CTL</text>
-<text x="54.0" y="2742.0" font-size="12" fill="#a6b3c4">Charge controller</text>
-<rect x="188.8" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="197.2" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CEL</text>
-<text x="216.2" y="2742.0" font-size="12" fill="#a6b3c4">Battery cell</text>
-<rect x="317.9" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="326.4" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">MOD</text>
-<text x="345.4" y="2742.0" font-size="12" fill="#a6b3c4">Inverter module</text>
-<rect x="466.9" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="475.4" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">BRK</text>
-<text x="494.4" y="2742.0" font-size="12" fill="#a6b3c4">Breaker</text>
+<rect x="821.5" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="830.0" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">LDG</text>
+<text x="849.0" y="2718.0" font-size="12" fill="#a6b3c4">Cold-chain ledger</text>
+<rect x="983.8" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="992.2" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">THM</text>
+<text x="1011.2" y="2718.0" font-size="12" fill="#a6b3c4">Thermometer board</text>
+<rect x="1146.0" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1154.4" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ARR</text>
+<text x="1173.4" y="2718.0" font-size="12" fill="#a6b3c4">Array console</text>
+<rect x="1281.8" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1290.2" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">BAT</text>
+<text x="1309.2" y="2718.0" font-size="12" fill="#a6b3c4">Battery console</text>
+<rect x="1430.8" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1439.2" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">INV</text>
+<text x="1458.2" y="2718.0" font-size="12" fill="#a6b3c4">Inverter console</text>
+<rect x="1586.3" y="2709.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1594.8" y="2716.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">TRF</text>
+<text x="1613.8" y="2718.0" font-size="12" fill="#a6b3c4">Transformer</text>
+<rect x="26.6" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="35.0" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SWG</text>
+<text x="54.0" y="2742.0" font-size="12" fill="#a6b3c4">Switchgear</text>
+<rect x="142.6" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="151.0" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CRN</text>
+<text x="170.0" y="2742.0" font-size="12" fill="#a6b3c4">Gantry crane</text>
+<rect x="271.8" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="280.2" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CTL</text>
+<text x="299.2" y="2742.0" font-size="12" fill="#a6b3c4">Charge controller</text>
+<rect x="433.9" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="442.4" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">CEL</text>
+<text x="461.4" y="2742.0" font-size="12" fill="#a6b3c4">Battery cell</text>
+<rect x="563.1" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="571.6" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">MOD</text>
+<text x="590.6" y="2742.0" font-size="12" fill="#a6b3c4">Inverter module</text>
+<rect x="712.1" y="2733.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="720.6" y="2740.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">BRK</text>
+<text x="739.6" y="2742.0" font-size="12" fill="#a6b3c4">Breaker</text>
 </svg>
