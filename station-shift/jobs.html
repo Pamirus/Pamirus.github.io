@@ -15,7 +15,7 @@
 <meta property="og:image" content="https://pamirus.github.io/station-shift/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Millrace Station seen from the sea: a stacked, rusting arcology on the drowned shelf under grey-green water, its window rows sodium yellow, floodlight cones in the murk, rotor frames on the seabed below, and in the distance the tops of drowned city towers breaking the surface in the rain.">
+<meta property="og:image:alt" content="Millrace Station seen from the sea: a low, rusting arcology of three decks on the drowned shelf under grey-green water, its window rows sodium yellow, floodlight cones in the murk, lit cabins and rotor frames on the seabed beside it, and in the distance the tops of drowned city towers breaking the surface in the rain.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Jobs · Station Shift">
 <meta name="twitter:description" content="A short-shift station crew game for phones. The sea rose, the Tidal Directorate keeps the stations running, and somebody has to be aboard.">
@@ -359,8 +359,8 @@
 <li>Cook the biggest meals first: they fill the most.</li>
 <li>The hat and apron show on your sprite: spares are in the cabinet.</li>
 </ul>
-<h3 id="chef-dishes">Dishes and drinks</h3>
-<p>The Chef cooks at the stove and picks a dish from one list that shows the ingredients still missing; the Bartender mixes at the bar's mixer. A dish fills the hunger meter by the percentage shown.</p>
+<h3 id="chef-dishes">Dishes</h3>
+<p>The Chef cooks at the stove and picks a dish from one list that shows the ingredients still missing. A dish fills the hunger meter by the percentage shown. The mixer's recipes are in the <a href="#bartender-drinks">Bartender's drink list</a>.</p>
 <div class="tablewrap"><table>
 <thead><tr><th scope="col">Makes</th><th scope="col">At</th><th scope="col">Ingredients</th><th scope="col">Fills</th><th scope="col">Takes</th></tr></thead>
 <tbody>
@@ -380,15 +380,12 @@
 <tr><th scope="row">Carrot salad</th><td>Stove</td><td>2 carrots</td><td>25%</td><td>6 s</td></tr>
 <tr><th scope="row">Onion broth</th><td>Stove</td><td>2 onions</td><td>26%</td><td>7 s</td></tr>
 <tr><th scope="row">Baked potato</th><td>Stove</td><td>potatoes</td><td>28%</td><td>10 s</td></tr>
-<tr><th scope="row">Tomato fizz</th><td>Bar mixer</td><td>tomatoes</td><td>6%</td><td>3 s</td></tr>
-<tr><th scope="row">Malt tea</th><td>Bar mixer</td><td>wheat</td><td>5%</td><td>3 s</td></tr>
-<tr><th scope="row">Beet sugar</th><td>Bar mixer</td><td>sugar beets</td><td>—</td><td>3 s</td></tr>
 </tbody></table></div>
 <figure class="inline"><a href="img/shots/recipe_list.png"><img src="img/shots/recipe_list.png" width="1280" height="720" alt="A list of dishes with their ingredients at the stove." loading="lazy"></a><figcaption>The Chef's list shows what is still missing.</figcaption></figure>
 </section>
 <section class="card job" id="bartender" aria-labelledby="h-bartender">
 <h2 id="h-bartender"><img class="spr jobicon" src="img/jobs/bartender.png" width="40" height="40" alt="Bartender icon"> Bartender <img class="spr crew" src="img/jobs/bartender-crew.png" width="48" height="80" alt="Bartender in uniform" loading="lazy"></h2>
-<p>The Bartender mixes drinks at the bar. Drinks are mild: a little food, no drunkenness.</p>
+<p>The Bartender mixes drinks at the bar. Drinks are mild: a little food, and several cocktails in a few minutes make the drinker tipsy.</p>
 <h3>You start with</h3><ul class="kit">
 <li><b>In your hands</b>: nothing</li>
 <li><b>Backpack</b>: <span class="chip"><img class="spr" src="img/items/backpack.png" width="24" height="24" alt="" loading="lazy"> Backpack</span> holding <span class="chip"><img class="spr" src="img/items/shaker.png" width="24" height="24" alt="" loading="lazy"> Shaker</span></li>
@@ -408,6 +405,15 @@
 <h3>Tips</h3><ul>
 <li>Nothing else depends on the bar: use quiet time to help elsewhere.</li>
 </ul>
+<h3 id="bartender-drinks">Mixer recipes</h3>
+<p>The Bartender mixes at the bar's mixer and picks from one list that shows the ingredients still missing. What fills the hunger meter shows its percentage.</p>
+<div class="tablewrap"><table>
+<thead><tr><th scope="col">Makes</th><th scope="col">At</th><th scope="col">Ingredients</th><th scope="col">Fills</th><th scope="col">Takes</th></tr></thead>
+<tbody>
+<tr><th scope="row">Tomato fizz</th><td>Bar mixer</td><td>tomatoes</td><td>6%</td><td>3 s</td></tr>
+<tr><th scope="row">Malt tea</th><td>Bar mixer</td><td>wheat</td><td>5%</td><td>3 s</td></tr>
+<tr><th scope="row">Beet sugar</th><td>Bar mixer</td><td>sugar beets</td><td>—</td><td>3 s</td></tr>
+</tbody></table></div>
 </section>
 <section class="card job" id="miner" aria-labelledby="h-miner">
 <h2 id="h-miner"><img class="spr jobicon" src="img/jobs/miner.png" width="40" height="40" alt="Miner icon"> Miner <img class="spr crew" src="img/jobs/miner-crew.png" width="48" height="80" alt="Miner in uniform" loading="lazy"></h2>
@@ -425,7 +431,7 @@
 <li>Put on a suit, helmet and tank from the Mining Dock's rack, and board the mining shuttle (call it at the dock console, sit, press the panel).</li>
 <li>Drill ore from the deposits into the ore bag on the Miner belt's hook: each holds only two or three digs and none grows back, and the rich ones lie far from the landing.</li>
 <li>Refill the tank at the cabin's filler (six refills a trip), call the shuttle home from the console on the landing, then load the hopper at the refinery and smelt: plates from iron ore, copper bars from copper ore, both from a crystal.</li>
-<li>On Millrace take a dive suit and a tank from the Moon Pool Bay's rack and ride the Mining Sub to the seabed site.</li>
+<li>On Millrace take a dive suit and a tank from the Mining Dock's rack and ride the Mining Sub to the seabed site.</li>
 <li>Hand plates to the Station Engineer.</li>
 <li><b>Twice as fast</b> at: drill ore from the asteroid and smelt ore.</li>
 </ul>
@@ -491,7 +497,7 @@
 <h3>Works with</h3><p>The Medical Doctor (the hurt) and the whole crew.</p>
 <h3>Tips</h3><ul>
 <li>A blessing can be given every 15 seconds, a service every 3 minutes: no need to hurry.</li>
-<li>The Chapel is on Heron beside the hub and on Millrace's Crown deck.</li>
+<li>The Chapel is on Heron beside the hub and on Millrace's Dock.</li>
 </ul>
 <figure class="inline"><a href="img/shots/service_chapel_blessing.png"><img src="img/shots/service_chapel_blessing.png" width="1280" height="720" alt="A Chaplain beside a crew member in a chapel, a golden ring round them." loading="lazy"></a><figcaption>The Chaplain blesses a crew member in the Chapel: a golden ring rises.</figcaption></figure>
 <figure class="inline"><a href="img/shots/service_chapel_service.png"><img src="img/shots/service_chapel_service.png" width="1280" height="720" alt="A chapel with lit candles on the altar and a golden ring over the crew." loading="lazy"></a><figcaption>A service in the Chapel with the candles lit.</figcaption></figure>
@@ -522,6 +528,6 @@
 </section>
 <p>The public rooms, which every ID card opens, are: Central Hub, North Transit Tube, East Transit Tube, South Transit Tube, West Transit Tube, Science Transit Tube, Watch Transit Tube, Power Transit Tube, Quarters Transit Tube, Infirmary Reception, Advocate's Chambers, Stores Entrance, Main Airlock and Docking Port, Engineering Hall, Crew Quarters, Restroom, Library, Chapel, Crew-Transfer Shuttle.</p>
 </main>
-<footer><div class="foot"><svg class="seal" viewBox="-52 -52 104 104" width="26" height="26" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round"><g class="ghost" transform="translate(3.5 2.5)"><circle r="44" stroke-width="6"/><circle r="30" stroke-width="2.4"/><path d="M-18 -6q4.5-9 9 0t9 0t9 0t9 0" stroke-width="4"/><circle cx="-13" cy="13" r="5.5" stroke-width="3.2"/><path d="M-7.5 13h25m-7 0v-7m7 7v-7" stroke-width="3.2"/></g><g class="inkmark"><circle r="44" stroke-width="6"/><circle r="30" stroke-width="2.4"/><path d="M-18 -6q4.5-9 9 0t9 0t9 0t9 0" stroke-width="4"/><circle cx="-13" cy="13" r="5.5" stroke-width="3.2"/><path d="M-7.5 13h25m-7 0v-7m7 7v-7" stroke-width="3.2"/></g></svg><span>Station Shift 0.79.0 · made from the game's own rules and art on 2026-11-25 · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></span></div></footer>
+<footer><div class="foot"><svg class="seal" viewBox="-52 -52 104 104" width="26" height="26" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round"><g class="ghost" transform="translate(3.5 2.5)"><circle r="44" stroke-width="6"/><circle r="30" stroke-width="2.4"/><path d="M-18 -6q4.5-9 9 0t9 0t9 0t9 0" stroke-width="4"/><circle cx="-13" cy="13" r="5.5" stroke-width="3.2"/><path d="M-7.5 13h25m-7 0v-7m7 7v-7" stroke-width="3.2"/></g><g class="inkmark"><circle r="44" stroke-width="6"/><circle r="30" stroke-width="2.4"/><path d="M-18 -6q4.5-9 9 0t9 0t9 0t9 0" stroke-width="4"/><circle cx="-13" cy="13" r="5.5" stroke-width="3.2"/><path d="M-7.5 13h25m-7 0v-7m7 7v-7" stroke-width="3.2"/></g></svg><span>Station Shift 0.80.0 · made from the game's own rules and art on 2026-11-25 · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></span></div></footer>
 </body>
 </html>
