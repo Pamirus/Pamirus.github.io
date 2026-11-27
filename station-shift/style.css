@@ -114,6 +114,21 @@ nav a:hover { color: var(--bar-text); border-bottom-color: #34545b; }
 nav a[aria-current="page"] { color: var(--bar-text); border-bottom-color: #f2a33a; font-weight: 600; }
 nav a:focus-visible, .brand:focus-visible { outline-color: #ffd277; }
 
+/* The EN | TR switch: the page's own language is plain text with the amber rule, the other is a link to the twin page. On a phone it sits
+   beside the name and the menu takes its own row. */
+.lang { display: inline-flex; align-items: center; margin-left: auto; order: 2; font-size: 15px; font-weight: 700; letter-spacing: 0.06em; color: var(--bar-muted); }
+.lang a, .lang [aria-current] { padding: 9px 9px 6px; border-bottom: 3px solid transparent; text-decoration: none; }
+.lang a { color: var(--bar-muted); }
+.lang a:hover { color: var(--bar-text); border-bottom-color: #34545b; }
+.lang a:focus-visible { outline-color: #ffd277; }
+.lang [aria-current] { color: var(--bar-text); border-bottom-color: #f2a33a; }
+.lang [aria-hidden] { opacity: 0.5; }
+header nav { order: 3; flex: 1 1 100%; }
+@media (min-width: 900px) {
+  header nav { order: 2; flex: 1 1 0; min-width: 0; }
+  .lang { order: 3; margin-left: 0; }
+}
+
 main { max-width: 960px; margin: 0 auto; padding: 8px 16px 44px; }
 
 /* Stamped headings: a condensed heavy face in capitals, the red ink a little off register. */
@@ -138,7 +153,8 @@ h1 {
 }
 h2 { font-size: 25px; margin: 36px 0 8px; }
 h3 { font-size: 17px; margin: 18px 0 4px; color: var(--accent); font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase; }
-h2[id], h3[id], section[id] { scroll-margin-top: 12px; }
+h4 { font-size: 16px; margin: 14px 0 2px; font-weight: 800; letter-spacing: 0.02em; }
+h2[id], h3[id], h4[id], section[id] { scroll-margin-top: 12px; }
 /* The water line between sections: a thin wave in Greywater teal. */
 main > h2::before, main > section > h2::before, .station > h2::before {
   content: "";

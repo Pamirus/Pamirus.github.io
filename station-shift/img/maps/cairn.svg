@@ -170,6 +170,8 @@
 <rect x="901.5" y="805.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="910.0" y="812.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PRS</text>
 <rect x="901.5" y="865.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="910.0" y="872.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">SRV</text>
 <rect x="1101.5" y="865.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1110.0" y="872.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">LDG</text>
+<rect x="1081.5" y="885.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1090.0" y="892.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">COL</text>
+<rect x="1101.5" y="885.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1110.0" y="892.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">RCY</text>
 <rect x="561.5" y="805.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="570.0" y="812.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ARR</text>
 <rect x="601.5" y="805.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="610.0" y="812.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">BAT</text>
 <rect x="681.5" y="805.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="690.0" y="812.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">INV</text>
@@ -218,11 +220,11 @@
 <g transform="translate(24 1340)">
 <g transform="scale(20)">
 <g shape-rendering="crispEdges">
-<path fill="#7d8aa0" d="M12 1h47v1h-47zM12 2h1v23h-1zM58 2h1v23h-1zM14 3h43v1h-43zM14 4h1v9h-1zM24 4h1v8h-1zM36 4h1v8h-1zM45 4h1v8h-1zM52 4h1v3h-1zM56 4h1v9h-1zM52 8h1v4h-1zM15 11h4v1h-4zM20 11h4v1h-4zM25 11h7v1h-7zM33 11h3v1h-3zM37 11h2v1h-2zM40 11h5v1h-5zM46 11h2v1h-2zM49 11h3v1h-3zM53 11h3v1h-3zM14 14h1v9h-1zM56 14h1v9h-1zM15 15h3v1h-3zM19 15h5v1h-5zM25 15h8v1h-8zM34 15h6v1h-6zM41 15h5v1h-5zM47 15h9v1h-9zM20 16h1v1h-1zM30 16h1v7h-1zM37 16h1v7h-1zM44 16h1v7h-1zM49 16h1v3h-1zM20 18h1v5h-1zM49 20h1v3h-1zM15 22h5v1h-5zM21 22h9v1h-9zM31 22h6v1h-6zM38 22h6v1h-6zM45 22h4v1h-4zM50 22h6v1h-6zM13 24h45v1h-45z"/>
+<path fill="#7d8aa0" d="M12 1h47v1h-47zM12 2h1v23h-1zM58 2h1v23h-1zM14 3h43v1h-43zM14 4h1v9h-1zM24 4h1v8h-1zM36 4h1v8h-1zM45 4h1v8h-1zM52 4h1v3h-1zM56 4h1v9h-1zM52 8h1v4h-1zM15 11h4v1h-4zM20 11h4v1h-4zM25 11h7v1h-7zM33 11h3v1h-3zM37 11h2v1h-2zM40 11h5v1h-5zM46 11h2v1h-2zM49 11h3v1h-3zM53 11h3v1h-3zM14 14h1v9h-1zM56 14h1v9h-1zM15 15h1v1h-1zM17 15h1v1h-1zM19 15h5v1h-5zM25 15h8v1h-8zM34 15h6v1h-6zM41 15h5v1h-5zM47 15h9v1h-9zM20 16h1v1h-1zM30 16h1v7h-1zM37 16h1v7h-1zM44 16h1v7h-1zM49 16h1v3h-1zM20 18h1v5h-1zM49 20h1v3h-1zM15 22h5v1h-5zM21 22h9v1h-9zM31 22h6v1h-6zM38 22h6v1h-6zM45 22h4v1h-4zM50 22h6v1h-6zM13 24h45v1h-45z"/>
 <path fill="#2e2520" d="M13 2h45v1h-45zM13 3h1v21h-1zM57 3h1v21h-1zM14 23h43v1h-43z"/>
 <path fill="#52417c" d="M15 4h9v7h-9zM25 4h11v7h-11zM37 4h8v7h-8z"/>
 <path fill="#757e87" d="M46 4h6v7h-6zM53 4h3v7h-3z"/>
-<path fill="#5d6e86" d="M15 12h41v3h-41z"/>
+<path fill="#5d6e86" d="M15 12h41v3h-41zM16 15h1v1h-1z"/>
 <path fill="#22303f" d="M15 16h5v6h-5zM45 16h4v6h-4z"/>
 <path fill="#716b37" d="M21 16h9v6h-9z"/>
 <path fill="#745434" d="M31 16h6v6h-6zM38 16h6v6h-6z"/>
@@ -241,7 +243,7 @@
 <text x="610.0" y="155.2" font-size="15.0" stroke-width="4.5">Core Library</text>
 <text x="820.0" y="155.2" font-size="15.0" stroke-width="4.5">Cold Vault</text>
 <text x="980.0" y="155.2" font-size="15.0" stroke-width="4.5">Cold Cellar</text>
-<text font-size="15.0" stroke-width="4.5"><title>Disposal Plant</title><tspan x="360.0" y="377.0">Disposal</tspan><tspan x="360.0" y="393.5">Plant</tspan></text>
+<text x="350.0" y="375.2" font-size="15.0" stroke-width="4.5">Refinery</text>
 <text font-size="15.0" stroke-width="4.5"><title>Drill Dock</title><tspan x="510.0" y="377.0">Drill</tspan><tspan x="510.0" y="393.5">Dock</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Geothermal Tap</title><tspan x="680.0" y="397.0">Geothermal</tspan><tspan x="680.0" y="413.5">Tap</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Fuel Store</title><tspan x="820.0" y="377.0">Fuel</tspan><tspan x="820.0" y="393.5">Store</tspan></text>
@@ -272,8 +274,6 @@
 <rect x="1007" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="701.5" y="365.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="710.0" y="372.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">GEO</text>
 <rect x="1021.5" y="85.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="1030.0" y="92.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">THM</text>
-<rect x="301.6" y="365.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="310.0" y="372.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">COL</text>
-<rect x="301.6" y="385.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="310.0" y="392.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">RCY</text>
 <g transform="translate(542.0 282.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
 <text x="563.0" y="293.0" font-size="7.5" font-weight="700" text-anchor="start" fill="#e6c45c" stroke="#0b111b" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">Stairs S0, up to Surface</text>
 <g transform="translate(1022.0 282.0)"><rect width="16" height="16" rx="3" fill="#e6c45c" stroke="#0b111b"/><path d="M3 13h4v-4h4v-4h3" fill="none" stroke="#0b111b" stroke-width="1.9"/></g>
