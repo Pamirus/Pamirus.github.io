@@ -67,7 +67,7 @@
 <text font-size="15.0" stroke-width="4.5"><title>Station Master's Office</title><tspan x="730.0" y="197.0">Station</tspan><tspan x="730.0" y="213.5">Master's Office</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Registrar's Office</title><tspan x="970.0" y="297.0">Registrar's</tspan><tspan x="970.0" y="313.5">Office</tspan></text>
 <text font-size="12.0" stroke-width="3.6"><title>Registrar's Berth</title><tspan x="1080.0" y="277.6">Registrar's</tspan><tspan x="1080.0" y="290.8">Berth</tspan></text>
-<text font-size="11.0" stroke-width="3.3"><title>Infirmary Reception</title><tspan x="1310.0" y="657.8">Infirmary</tspan><tspan x="1310.0" y="669.9">Reception</tspan></text>
+<text font-size="11.0" stroke-width="3.3"><title>Infirmary Reception</title><tspan x="1310.0" y="677.8">Infirmary</tspan><tspan x="1310.0" y="689.9">Reception</tspan></text>
 <text x="1420.0" y="575.2" font-size="15.0" stroke-width="4.5">Infirmary</text>
 <text x="1400.0" y="815.2" font-size="15.0" stroke-width="4.5">Surgery</text>
 <text x="1410.0" y="695.2" font-size="15.0" stroke-width="4.5">Chemistry</text>
@@ -89,15 +89,15 @@
 <text font-size="15.0" stroke-width="4.5"><title>Electrical Workshop</title><tspan x="280.0" y="777.0">Electrical</tspan><tspan x="280.0" y="793.5">Workshop</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Construction Workshop</title><tspan x="420.0" y="797.0">Construction</tspan><tspan x="420.0" y="813.5">Workshop</tspan></text>
 <text x="400.0" y="115.2" font-size="15.0" stroke-width="4.5">Battery Room</text>
-<text font-size="12.4" stroke-width="3.7"><title>Inverter Room</title><tspan x="530.0" y="177.5">Inverter</tspan><tspan x="530.0" y="191.1">Room</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Inverter Room</title><tspan x="520.0" y="137.0">Inverter</tspan><tspan x="520.0" y="153.5">Room</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Transformer Room</title><tspan x="510.0" y="277.0">Transformer</tspan><tspan x="510.0" y="293.5">Room</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Solar Control</title><tspan x="280.0" y="157.0">Solar</tspan><tspan x="280.0" y="173.5">Control</tspan></text>
 <text x="270.0" y="295.2" font-size="15.0" stroke-width="4.5">EVA Airlock</text>
 <text font-size="15.0" stroke-width="4.5"><title>Crew Quarters</title><tspan x="450.0" y="1117.0">Crew</tspan><tspan x="450.0" y="1133.5">Quarters</tspan></text>
 <text x="300.0" y="1015.2" font-size="15.0" stroke-width="4.5">Restroom</text>
-<text x="270.0" y="1115.2" font-size="15.0" stroke-width="4.5">Library</text>
+<text x="270.0" y="1095.2" font-size="15.0" stroke-width="4.5">Library</text>
 <text x="270.0" y="1195.2" font-size="15.0" stroke-width="4.5">Chapel</text>
-<text font-size="15.0" stroke-width="4.5"><title>Crawlways by Robotics</title><tspan x="1230.0" y="57.0">Crawlways</tspan><tspan x="1230.0" y="73.5">by Robotics</tspan></text>
+<text font-size="15.0" stroke-width="4.5"><title>Crawlways by Robotics</title><tspan x="1250.0" y="57.0">Crawlways</tspan><tspan x="1250.0" y="73.5">by Robotics</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Crew-Transfer Shuttle</title><tspan x="920.0" y="1357.0">Crew-Transfer</tspan><tspan x="920.0" y="1373.5">Shuttle</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Cell 1</title><tspan x="1310.0" y="1177.0">Cell</tspan><tspan x="1310.0" y="1193.5">1</tspan></text>
 <text x="770.0" y="815.2" font-size="15.0" stroke-width="4.5">Kitchen</text>
@@ -111,7 +111,7 @@
 <text font-size="15.0" stroke-width="4.5"><title>Crawlways by Solar Control</title><tspan x="260.0" y="77.0">Crawlways by</tspan><tspan x="260.0" y="93.5">Solar Control</tspan></text>
 <text font-size="15.0" stroke-width="4.5"><title>Crawlways by Station Master Berth</title><tspan x="750.0" y="357.0">Crawlways by</tspan><tspan x="750.0" y="373.5">Station Master Berth</tspan></text>
 <text x="970.0" y="392.3" font-size="6.5" stroke-width="1.9" transform="rotate(-90 970.0 390.0)">Crawlways by Registrar Office</text>
-<text font-size="15.0" stroke-width="4.5"><title>Crawlways by EVA Airlock 2</title><tspan x="360.0" y="377.0">Crawlways by</tspan><tspan x="360.0" y="393.5">EVA Airlock 2</tspan></text>
+<text x="360.0" y="394.4" font-size="12.7" stroke-width="3.8">Crawlways by EVA Airlock 2</text>
 <text x="1370.0" y="424.3" font-size="12.4" stroke-width="3.7" transform="rotate(-90 1370.0 420.0)">Crawlways by R&amp;D</text>
 <text x="320.0" y="455.2" font-size="15.0" stroke-width="4.5">Crawlways by Air Works</text>
 <text x="1450.0" y="754.0" font-size="11.4" stroke-width="3.4">Crawlways by Med Reception</text>
@@ -150,28 +150,28 @@
 <g class="sign"><title>MAINT TUNNEL</title><rect x="1220" y="25" width="60" height="10" rx="1" fill="#e6c45c" stroke="#0b111b" stroke-width=".6"/><text x="1250" y="32" font-size="7" font-weight="700" text-anchor="middle" fill="#151515" textLength="57" lengthAdjust="spacingAndGlyphs">MAINT TUNNEL</text></g>
 <g class="sign"><title>HIGH VOLTAGE</title><rect x="320" y="205" width="100" height="10" rx="1" fill="#e6c45c" stroke="#0b111b" stroke-width=".6"/><text x="370" y="212" font-size="7" font-weight="700" text-anchor="middle" fill="#151515" textLength="97" lengthAdjust="spacingAndGlyphs">HIGH VOLTAGE</text></g>
 <g class="sign"><title>HIGH VOLTAGE</title><rect x="440" y="205" width="60" height="10" rx="1" fill="#e6c45c" stroke="#0b111b" stroke-width=".6"/><text x="470" y="212" font-size="7" font-weight="700" text-anchor="middle" fill="#151515" textLength="57" lengthAdjust="spacingAndGlyphs">HIGH VOLTAGE</text></g>
-<rect x="967" y="767" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="967" y="747" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="827" y="727" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="707" y="967" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="847" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1247" y="647" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="967" y="947" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="627" y="687" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="1367" y="427" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="587" y="687" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1367" y="387" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1247" y="947" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="467" y="387" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="467" y="927" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="827" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="747" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="747" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="967" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1107" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="1287" y="607" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="1387" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1287" y="647" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1187" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1387" y="747" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1367" y="747" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1387" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="1327" y="67" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="1447" y="67" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1367" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1487" y="47" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1247" y="1007" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1527" y="1087" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1507" y="1127" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
@@ -181,30 +181,30 @@
 <rect x="847" y="1227" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="987" y="967" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1067" y="1147" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="547" y="747" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="247" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="547" y="707" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="247" y="427" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="467" y="667" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="227" y="807" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="207" y="467" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="427" y="867" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="307" y="87" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="527" y="107" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="307" y="67" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="547" y="187" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="467" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="267" y="87" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="287" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="227" y="87" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="327" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="447" y="967" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="227" y="1027" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="227" y="1087" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="227" y="1207" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="307" y="1127" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="427" y="967" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="687" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1507" y="1167" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="747" y="967" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="1487" y="747" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="267" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="187" y="267" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="207" y="407" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="427" y="367" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="707" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="647" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="787" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
-<rect x="1187" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
+<rect x="1227" y="347" width="6" height="6" rx="1" fill="#58d68d" stroke="#0b111b" stroke-width=".8"/>
 <rect x="861.5" y="1025.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="870.0" y="1032.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">REQ</text>
 <rect x="721.5" y="1025.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="730.0" y="1032.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">ORD</text>
 <rect x="801.5" y="1165.0" width="16.9" height="10" rx="2" fill="#f2a33a" stroke="#0b111b" stroke-width=".8"/><text x="810.0" y="1172.4" font-size="6.6" font-weight="700" text-anchor="middle" fill="#0b111b">PAD</text>
